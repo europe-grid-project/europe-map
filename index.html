@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive European Energy Grid Connection Map</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --border: #d1d5db;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: white;
+      padding: 22px 28px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.18);
+    }
+
+    header h1 {
+      margin: 0 0 6px 0;
+      font-size: 1.55rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin: 0;
+      opacity: 0.92;
+      max-width: 980px;
+      line-height: 1.45;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 380px;
+      min-height: calc(100vh - 94px);
+    }
+
+    #map {
+      width: 100%;
+      height: calc(100vh - 94px);
+      background: #cfd8dc;
+    }
+
+    aside {
+      background: var(--panel);
+      border-left: 1px solid var(--border);
+      padding: 22px;
+      overflow-y: auto;
+      height: calc(100vh - 94px);
+    }
+
+    .panel-title {
+      margin: 0 0 8px 0;
+      font-size: 1.35rem;
+      color: #111827;
+    }
+
+    .panel-subtitle {
+      margin: 0 0 18px 0;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .section {
+      margin-top: 18px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+
+    .section h3 {
+      margin: 0 0 8px 0;
+      font-size: 1rem;
+      color: #111827;
+    }
+
+    .section p {
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    ul {
+      margin: 8px 0 0 18px;
+      padding: 0;
+      line-height: 1.55;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .country-label {
+      font-weight: 700;
+      color: #111827;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 8px;
+      margin: 0 6px 6px 0;
+      border-radius: 999px;
+      background: #e0ecff;
+      color: #1e3a8a;
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+
+    .small-note {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.45;
+    }
+
+    .leaflet-popup-content {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.45;
+    }
+
+    .popup-title {
+      font-weight: 700;
+      font-size: 1.05rem;
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 900px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      #map {
+        height: 58vh;
+      }
+
+      aside {
+        height: auto;
+        border-left: none;
+        border-top: 1px solid var(--border);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Interactive European Energy Grid Connection Map</h1>
+    <p>
+      Click on a country to view information about grid connection procedures, regulatory context,
+      responsible institutions and sources. Country information can be edited in <strong>data/countries.json</strong>.
+    </p>
+  </header>
+
+  <main>
+    <div id="map"></div>
+
+    <aside id="info-panel">
+      <h2 class="panel-title">Select a country</h2>
+      <p class="panel-subtitle">
+        Click a country on the map. The available information will appear here.
+      </p>
+
+      <div class="section">
+        <h3>How to edit this website</h3>
+        <p>
+          Open <strong>data/countries.json</strong> and change the text fields for each country.
+          Then upload the updated file to GitHub. The public website will update after deployment.
+        </p>
+      </div>
+
+      <p class="small-note">
+        This website is designed for international project presentations and GitHub Pages hosting.
+      </p>
+    </aside>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <script>
+    const map = L.map("map", {
+      minZoom: 3,
+      maxZoom: 8
+    }).setView([54, 15], 4);
+
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", {
+      attribution: "&copy; OpenStreetMap contributors &copy; CARTO"
+    }).addTo(map);
+
+    const countryColors = [
+      "#f87171", "#60a5fa", "#34d399", "#fbbf24", "#a78bfa",
+      "#fb923c", "#22d3ee", "#f472b6", "#84cc16", "#c084fc",
+      "#2dd4bf", "#facc15"
+    ];
+
+    function hashCode(str) {
+      let hash = 0;
+      for (let i = 0; i < str.length; i++) {
+        hash = ((hash << 5) - hash) + str.charCodeAt(i);
+        hash |= 0;
+      }
+      return Math.abs(hash);
+    }
+
+    function countryName(feature) {
+      return feature.properties.ADMIN || feature.properties.NAME || feature.properties.name || "Unknown country";
+    }
+
+    function styleCountry(feature) {
+      const name = countryName(feature);
+      const color = countryColors[hashCode(name) % countryColors.length];
+
+      return {
+        color: "#ffffff",
+        weight: 1,
+        fillColor: color,
+        fillOpacity: 0.78
+      };
+    }
+
+    function highlightCountry(e) {
+      e.target.setStyle({
+        weight: 2.5,
+        color: "#111827",
+        fillOpacity: 0.92
+      });
+      e.target.bringToFront();
+    }
+
+    function resetCountry(e) {
+      geojsonLayer.resetStyle(e.target);
+    }
+
+    function safe(value, fallback = "Not specified yet.") {
+      return value && value.length ? value : fallback;
+    }
+
+    function listHtml(items) {
+      if (!items || !items.length) return "<p>Not specified yet.</p>";
+      return "<ul>" + items.map(item => `<li>${item}</li>`).join("") + "</ul>";
+    }
+
+    function sourcesHtml(sources) {
+      if (!sources || !sources.length) return "<p>No sources added yet.</p>";
+      return "<ul>" + sources.map(source => {
+        if (source.url) {
+          return `<li><a href="${source.url}" target="_blank" rel="noopener">${source.name}</a></li>`;
+        }
+        return `<li>${source.name}</li>`;
+      }).join("") + "</ul>";
+    }
+
+    function renderInfoPanel(name, data) {
+      const panel = document.getElementById("info-panel");
+      const title = data?.title || name;
+
+      panel.innerHTML = `
+        <h2 class="panel-title">${title}</h2>
+        <p class="panel-subtitle">${safe(data?.summary)}</p>
+
+        <div class="section">
+          <h3>Grid connection procedure</h3>
+          <p>${safe(data?.gridConnectionProcedure)}</p>
+        </div>
+
+        <div class="section">
+          <h3>Regulatory framework</h3>
+          ${listHtml(data?.regulatoryFramework)}
+        </div>
+
+        <div class="section">
+          <h3>Responsible institutions</h3>
+          ${listHtml(data?.responsibleInstitutions)}
+        </div>
+
+        <div class="section">
+          <h3>Practical implementation examples</h3>
+          ${listHtml(data?.implementationExamples)}
+        </div>
+
+        <div class="section">
+          <h3>Sources</h3>
+          ${sourcesHtml(data?.sources)}
+        </div>
+
+        <p class="small-note">
+          Tip: Edit this country entry in <strong>data/countries.json</strong>.
+        </p>
+      `;
+    }
+
+    let countryData = {};
+    let geojsonLayer;
+
+    async function loadMap() {
+      const [countriesResponse, geoResponse] = await Promise.all([
+        fetch("data/countries.json"),
+        fetch("https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson")
+      ]);
+
+      countryData = await countriesResponse.json();
+      const geoData = await geoResponse.json();
+
+      const europeanCountries = [
+        "Albania", "Andorra", "Austria", "Belarus", "Belgium", "Bosnia and Herzegovina",
+        "Bulgaria", "Croatia", "Cyprus", "Czechia", "Denmark", "Estonia", "Finland",
+        "France", "Germany", "Greece", "Hungary", "Iceland", "Ireland", "Italy",
+        "Kosovo", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta",
+        "Moldova", "Monaco", "Montenegro", "Netherlands", "North Macedonia", "Norway",
+        "Poland", "Portugal", "Romania", "Russia", "San Marino", "Serbia", "Slovakia",
+        "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey", "Ukraine",
+        "United Kingdom", "Vatican"
+      ];
+
+      const filtered = {
+        type: "FeatureCollection",
+        features: geoData.features.filter(feature => europeanCountries.includes(countryName(feature)))
+      };
+
+      geojsonLayer = L.geoJSON(filtered, {
+        style: styleCountry,
+        onEachFeature: function(feature, layer) {
+          const name = countryName(feature);
+          const data = countryData[name];
+
+          layer.bindTooltip(name, { sticky: true });
+
+          layer.bindPopup(`
+            <div class="popup-title">${data?.title || name}</div>
+            <div>${safe(data?.summary, "Click for more information.")}</div>
+          `);
+
+          layer.on({
+            mouseover: highlightCountry,
+            mouseout: resetCountry,
+            click: function() {
+              renderInfoPanel(name, data || { title: name });
+            }
+          });
+        }
+      }).addTo(map);
+
+      map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+    }
+
+    loadMap().catch(error => {
+      document.getElementById("info-panel").innerHTML = `
+        <h2 class="panel-title">Loading error</h2>
+        <p class="panel-subtitle">
+          The map data could not be loaded. Please check your internet connection and make sure
+          <strong>data/countries.json</strong> exists in the correct folder.
+        </p>
+      `;
+      console.error(error);
+    });
+  </script>
+</body>
+</html>
