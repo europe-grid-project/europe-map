@@ -438,7 +438,12 @@ function formatList(items) {
           <h3>Grid connection procedure</h3>
           <p>${safe(data?.gridConnectionProcedure)}</p>
         </div>
-
+        
+        <div class="section">
+          <h3>Strategies to reduce and influence grid load volatility</h3>
+          <p>${safe(data?.Strategiestoreduceandinfluencegridloadvolatility)}</p>
+        </div>
+        
         <div class="section">
           <h3>Regulatory framework</h3>
           ${listHtml(data?.regulatoryFramework)}
@@ -449,6 +454,11 @@ function formatList(items) {
           ${listHtml(data?.responsibleInstitutions)}
         </div>
 
+        <div class="section">
+          <h3>New consumers and flexible loads</h3>
+          ${listHtml(data?.Newconsumersandflexibleloads)}
+        </div>
+        
         <div class="section">
           <h3>Practical implementation examples</h3>
           ${listHtml(data?.implementationExamples)}
