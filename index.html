@@ -347,8 +347,8 @@ function openComparisonModal() {
       <td>${data.gridConnectionProcedure || "Not specified yet."}</td>
       <td>${formatList(data.regulatoryFramework)}</td>
       <td>${formatList(data.implementationExamples)}</td>
-      <td>${formatList(data.Strategiestoreduceandinfluencegridloadvolatility)}</td>
-      <td>${formatList(data.Newconsumersandflexibleloads)}</td>
+      <td>${formatList(data.strategiesvolatility)}</td>
+      <td>${formatList(data.newconsumersandflexibleloads)}</td>
     `;
 
     tableBody.appendChild(row);
@@ -441,7 +441,7 @@ function formatList(items) {
         
         <div class="section">
           <h3>Strategies to reduce and influence grid load volatility</h3>
-          <p>${safe(data?.Strategiestoreduceandinfluencegridloadvolatility)}</p>
+          <p>${safe(data?.strategiesvolatility)}</p>
         </div>
         
         <div class="section">
@@ -456,7 +456,7 @@ function formatList(items) {
 
         <div class="section">
           <h3>New consumers and flexible loads</h3>
-          ${listHtml(data?.Newconsumersandflexibleloads)}
+          ${listHtml(data?.newconsumersandflexibleloads)}
         </div>
         
         <div class="section">
