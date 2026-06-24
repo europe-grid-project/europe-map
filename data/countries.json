@@ -1,100 +1,205 @@
-{
-  "Germany": {
-    "title": "Germany",
-    "summary": "Example entry for Germany. Replace or expand this text with your project findings.",
-    "gridConnectionProcedure": "Grid connection procedures are shaped by national energy law, technical network codes and the requirements of the responsible network operator. Add your detailed analysis here.",
- 
-    "strategiesvolatility": [
-      "djnwjwnevdkc"
-    ],
-    
-    "regulatoryFramework": [
-      "Energy Industry Act (EnWG)",
-      "Renewable Energy Sources Act (EEG)",
-      "Technical connection rules of the relevant grid operator"
-    ],
-    "gridOperators": [
-      "Federal Network Agency (Bundesnetzagentur)",
-      "Transmission system operators: 50Hertz, Amprion, TenneT, TransnetBW",
-      "Distribution system operators"
-    ],
-    "implementationExamples": [
-      "Connection requests for renewable generation projects are processed by the relevant network operator.",
-      "Grid expansion planning is coordinated through national network development planning."
-    ],
-    "newconsumersandflexibleloads": [
-      "snxncsncjkcnncs"
-    ],
-    "sources": [
-      {
-        "name": "German Energy Industry Act (EnWG)",
-        "url": "https://www.gesetze-im-internet.de/enwg_2005/"
-      },
-      {
-        "name": "Bundesnetzagentur",
-        "url": "https://www.bundesnetzagentur.de/"
-      }
-    ]
-  },
-  "Portugal": {
-    "title": "Portugal",
-    "summary": "Example entry for Portugal. Replace or expand this text with your project findings.",
-    "gridConnectionProcedure": "Grid connection is influenced by Portuguese energy regulation, network operator requirements and licensing procedures. Add your detailed analysis here.",
-    "regulatoryFramework": [
-      "Portuguese electricity sector regulation",
-      "Network access and connection rules",
-      "Regulatory decisions by ERSE"
-    ],
-    "responsibleInstitutions": [
-      "ERSE – Energy Services Regulatory Authority",
-      "DGEG – Directorate-General for Energy and Geology",
-      "REN – Transmission system operator",
-      "E-REDES – Distribution network operator"
-    ],
-    "implementationExamples": [
-      "Renewable energy projects require technical assessment and connection capacity evaluation.",
-      "Network access procedures are linked to regulatory and licensing requirements."
-    ],
-    "sources": [
-      {
-        "name": "ERSE",
-        "url": "https://www.erse.pt/"
-      },
-      {
-        "name": "DGEG",
-        "url": "https://www.dgeg.gov.pt/"
-      },
-      {
-        "name": "REN",
-        "url": "https://www.ren.pt/"
-      }
-    ]
-  },
+"Germany": {
+  "title": "Germany",
+  "summary": "Example entry for Germany. Replace or expand this text with your project findings.",
+  "gridConnectionProcedure": "Grid connection procedures are shaped by national energy law, technical network codes and the requirements of the responsible network operator. Add your detailed analysis here.",
+
+  "strategiesvolatility": [
+    "djnwjwnevdkc"
+  ],
+
+  "regulatoryFramework": [
+    "Energy Industry Act (EnWG)",
+    "Renewable Energy Sources Act (EEG)",
+    "Technical connection rules of the relevant grid operator"
+  ],
+
+  "responsibleInstitutions": [
+    "Federal Network Agency (Bundesnetzagentur)"
+  ],
+
+  "gridOperators": [
+    "50Hertz",
+    "Amprion",
+    "TenneT",
+    "TransnetBW",
+    "Distribution system operators"
+  ],
+
+  "implementationExamples": [
+    "Connection requests for renewable generation projects are processed by the relevant network operator.",
+    "Grid expansion planning is coordinated through national network development planning."
+  ],
+
+  "newconsumersandflexibleloads": [
+    "snxncsncjkcnncs"
+  ],
+
+  "sources": [
+    {
+      "name": "German Energy Industry Act (EnWG)",
+      "url": "https://www.gesetze-im-internet.de/enwg_2005/"
+    },
+    {
+      "name": "Bundesnetzagentur",
+      "url": "https://www.bundesnetzagentur.de/"
+    }
+  ]
+},
+"Austria": {
+  "title": "Austria",
+  "summary": "Add country-specific information here.",
+  "gridConnectionProcedure": "",
+  "strategiesvolatility": [],
+  "regulatoryFramework": [],
+  "responsibleInstitutions": [],
+  "gridOperators": [],
+  "implementationExamples": [],
+  "newconsumersandflexibleloads": [],
+  "sources": []
+},
+
+"Turkey": {
+  "title": "Turkey",
+  "summary": "Add country-specific information here.",
+  "gridConnectionProcedure": "",
+  "strategiesvolatility": [],
+  "regulatoryFramework": [],
+  "responsibleInstitutions": [],
+  "gridOperators": [],
+  "implementationExamples": [],
+  "newconsumersandflexibleloads": [],
+  "sources": []
+},
   "France": {
     "title": "France",
     "summary": "Add country-specific information here.",
     "gridConnectionProcedure": "",
+    "strategiesvolatility": [],
     "regulatoryFramework": [],
     "responsibleInstitutions": [],
+    "gridOperators": [],
     "implementationExamples": [],
+    "newconsumersandflexibleloads": [],
     "sources": []
   },
   "Spain": {
-    "title": "Spain",
     "summary": "Add country-specific information here.",
     "gridConnectionProcedure": "",
+    "strategiesvolatility": [],
     "regulatoryFramework": [],
     "responsibleInstitutions": [],
+    "gridOperators": [],
     "implementationExamples": [],
+    "newconsumersandflexibleloads": [],
     "sources": []
   },
   "Italy": {
     "title": "Italy",
     "summary": "Add country-specific information here.",
     "gridConnectionProcedure": "",
+    "strategiesvolatility": [],
     "regulatoryFramework": [],
     "responsibleInstitutions": [],
+    "gridOperators": [],
     "implementationExamples": [],
+    "newconsumersandflexibleloads": [],
+    "sources": []
+  },
+  "Netherlands": {
+    "title": "Netherlands",
+    "summary": "Add country-specific information here.",
+    "gridConnectionProcedure": "",
+    "strategiesvolatility": [],
+    "regulatoryFramework": [],
+    "responsibleInstitutions": [],
+    "gridOperators": [],
+    "implementationExamples": [],
+    "newconsumersandflexibleloads": [],
+    "sources": []
+  },
+  "Denmark": {
+    "title": "Denkark",
+    "summary": "Add country-specific information here.",
+    "gridConnectionProcedure": "",
+    "strategiesvolatility": [],
+    "regulatoryFramework": [],
+    "responsibleInstitutions": [],
+    "gridOperators": [],
+    "implementationExamples": [],
+    "newconsumersandflexibleloads": [],
+    "sources": []
+  },
+  "Norway": {
+    "title": "Norway",
+    "summary": "Add country-specific information here.",
+    "gridConnectionProcedure": "",
+    "strategiesvolatility": [],
+    "regulatoryFramework": [],
+    "responsibleInstitutions": [],
+    "gridOperators": [],
+    "implementationExamples": [],
+    "newconsumersandflexibleloads": [],
+    "sources": []
+  },
+  "Sweden": {
+    "title": "Sweden",
+    "summary": "Add country-specific information here.",
+    "gridConnectionProcedure": "",
+    "strategiesvolatility": [],
+    "regulatoryFramework": [],
+    "responsibleInstitutions": [],
+    "gridOperators": [],
+    "implementationExamples": [],
+    "newconsumersandflexibleloads": [],
+    "sources": []
+  },
+  "Finland": {
+    "title": "Finland",
+    "summary": "Add country-specific information here.",
+    "gridConnectionProcedure": "",
+    "strategiesvolatility": [],
+    "regulatoryFramework": [],
+    "responsibleInstitutions": [],
+    "gridOperators": [],
+    "implementationExamples": [],
+    "newconsumersandflexibleloads": [],
+    "sources": []
+  },
+  "United Kingdom": {
+    "title": "United Kingdom",
+    "summary": "Add country-specific information here.",
+    "gridConnectionProcedure": "",
+    "strategiesvolatility": [],
+    "regulatoryFramework": [],
+    "responsibleInstitutions": [],
+    "gridOperators": [],
+    "implementationExamples": [],
+    "newconsumersandflexibleloads": [],
+    "sources": []
+  },
+  "Belgium": {
+    "title": "Belgium",
+    "summary": "Add country-specific information here.",
+    "gridConnectionProcedure": "",
+    "strategiesvolatility": [],
+    "regulatoryFramework": [],
+    "responsibleInstitutions": [],
+    "gridOperators": [],
+    "implementationExamples": [],
+    "newconsumersandflexibleloads": [],
+    "sources": []
+  },
+  "Switzerland": {
+    "title": "Switzerland",
+    "summary": "Add country-specific information here.",
+    "gridConnectionProcedure": "",
+    "strategiesvolatility": [],
+    "regulatoryFramework": [],
+    "responsibleInstitutions": [],
+    "gridOperators": [],
+    "implementationExamples": [],
+    "newconsumersandflexibleloads": [],
     "sources": []
   }
-}
+ 
+
