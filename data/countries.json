@@ -43,7 +43,7 @@
     {
       "name": "Bundesnetzagentur",
       "url": "https://www.bundesnetzagentur.de/"
-    },
+    }
   ]
 },
 "Austria": {
@@ -96,7 +96,7 @@
     "sources": []
   },
   "Spain": {
-    "title": "Spain"
+    "title": "Spain",
     "summary": "Add country-specific information here.",
     "gridConnectionProcedure": "",
     "strategiesvolatility": [],
@@ -216,4 +216,3 @@
     "sources": []
   }
 }
-
