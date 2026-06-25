@@ -163,8 +163,15 @@
         border-top: 1px solid var(--border);
       }
     }
-    #comparison-button {
+  .header-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
   margin-top: 16px;
+}
+
+#comparison-button,
+#sources-button {
   padding: 10px 16px;
   border: none;
   border-radius: 8px;
@@ -175,10 +182,10 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.18);
 }
 
-#comparison-button:hover {
+#comparison-button:hover,
+#sources-button:hover {
   background: #eef4ff;
 }
-
 .modal {
   display: none;
   position: fixed;
@@ -273,9 +280,15 @@ tr:nth-child(even) {
         regulatory frameworks and implementation practices.
       </p>
 
-      <button id="comparison-button" onclick="openComparisonModal()">
-        Compare key project countries
-      </button>
+      <div class="header-buttons">
+        <button id="comparison-button" onclick="openComparisonModal()">
+          Compare key project countries
+        </button>
+
+        <button id="sources-button" onclick="openSourcesModal()">
+          Sources and links
+        </button>
+      </div>
     </div>
 
     <div class="header-logo">
@@ -354,7 +367,57 @@ function openComparisonModal() {
 function closeComparisonModal() {
   document.getElementById("comparison-modal").style.display = "none";
 }
+    
+function openSourcesModal() {
+  const sourcesList = document.getElementById("sources-list");
+  sourcesList.innerHTML = "";
 
+  const countries = Object.keys(countryData).sort();
+
+  let hasSources = false;
+
+  countries.forEach(country => {
+    const data = countryData[country];
+    const sources = data.sources || [];
+
+    if (sources.length > 0) {
+      hasSources = true;
+
+      const countryBlock = document.createElement("div");
+      countryBlock.className = "section";
+
+      const title = data.title || country;
+
+      countryBlock.innerHTML = `
+        <h3>${title}</h3>
+        <ul>
+          ${sources.map(source => {
+            if (source.url) {
+              return `<li><a href="${source.url}" target="_blank" rel="noopener">${source.name}</a></li>`;
+            } else {
+              return `<li>${source.name}</li>`;
+            }
+          }).join("")}
+        </ul>
+      `;
+
+      sourcesList.appendChild(countryBlock);
+    }
+  });
+
+  if (!hasSources) {
+    sourcesList.innerHTML = `
+      <p>No sources have been added yet.</p>
+    `;
+  }
+
+  document.getElementById("sources-modal").style.display = "block";
+}
+
+function closeSourcesModal() {
+  document.getElementById("sources-modal").style.display = "none";
+}
+    
 function formatList(items) {
   if (!items || items.length === 0) {
     return "Not specified yet.";
@@ -608,6 +671,18 @@ function styleCountry(feature) {
         </tbody>
       </table>
     </div>
+  </div>
+</div>
+  <div id="sources-modal" class="modal">
+  <div class="modal-content">
+    <button class="close-button" onclick="closeSourcesModal()">×</button>
+
+    <h2>Sources and Links by Country</h2>
+    <p class="modal-subtitle">
+      All links are loaded automatically from the sources section in data/countries.json.
+    </p>
+
+    <div id="sources-list"></div>
   </div>
 </div>
 </body>
