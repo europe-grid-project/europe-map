@@ -62,32 +62,7 @@ Suche diesen Block:
   visibility: hidden;
 }
 
-Ersetze ihn durch:
 
-#splash-screen {
-  position: fixed;
-  inset: 0;
-  z-index: 99999;
-  background: #0f172a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: splashFadeOut 0.8s ease 2.5s forwards;
-}
-
-#splash-screen img {
-  max-width: 80vw;
-  max-height: 80vh;
-  object-fit: contain;
-}
-
-@keyframes splashFadeOut {
-  to {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-  }
-}
     header {
      background: linear-gradient(135deg, #0f172a, #1e293b);
      color: white;
@@ -328,10 +303,40 @@ tr:nth-child(even) {
 </head>
 
 <body>
-  
-  <div id="splash-screen">
-  <img src="assets/logo.png" alt="Project Start Screen">
+  <div id="splash-screen" style="
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999999;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+">
+  <img src="assets/logo.png" alt="Project Start Screen" style="
+    max-width: 70vw;
+    max-height: 70vh;
+    object-fit: contain;
+  ">
 </div>
+
+<script>
+  setTimeout(function () {
+    const splashScreen = document.getElementById("splash-screen");
+
+    if (splashScreen) {
+      splashScreen.style.opacity = "0";
+      splashScreen.style.transition = "opacity 0.8s ease";
+
+      setTimeout(function () {
+        splashScreen.remove();
+      }, 800);
+    }
+  }, 2500);
+</script>
+ 
   
   <header>
   <div class="header-container">
