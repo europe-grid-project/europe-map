@@ -30,7 +30,27 @@
       background: var(--bg);
       color: var(--text);
     }
+#splash-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.8s ease, visibility 0.8s ease;
+}
 
+#splash-screen img {
+  max-width: 80vw;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+#splash-screen.fade-out {
+  opacity: 0;
+  visibility: hidden;
+}
     header {
      background: linear-gradient(135deg, #0f172a, #1e293b);
      color: white;
@@ -266,10 +286,28 @@ tr:nth-child(even) {
   width: auto;
   object-fit: contain;
 }
+    window.addEventListener("load", function () {
+  setTimeout(function () {
+    const splashScreen = document.getElementById("splash-screen");
+
+    if (splashScreen) {
+      splashScreen.classList.add("fade-out");
+
+      setTimeout(function () {
+        splashScreen.remove();
+      }, 800);
+    }
+  }, 2500);
+});
   </style>
 </head>
 
 <body>
+  
+  <div id="splash-screen">
+  <img src="assets/startscreen.png" alt="Project Start Screen">
+</div>
+  
   <header>
   <div class="header-container">
 
