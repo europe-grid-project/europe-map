@@ -1,48 +1,42 @@
 {
   "Germany": {
   "title": "Germany",
-  "summary": "Example entry for Germany. Replace or expand this text with your project findings.",
+  "summary": "Deutschland",
   "gridConnectionProcedure": [
-    "Renewable energy plants have a statutory right to prompt grid connection under the Renewable Energy Sources Act, especially Section 8 EEG. Grid operators are required to connect renewable installations at the technically and economically suitable grid connection point.",
-    "For low-voltage installations, the practical connection process is shaped by the Low Voltage Connection Ordinance, the technical connection rules and the requirements of the local distribution system operator.",
-    "Distributed generation units connected to the low-voltage grid must comply with VDE-AR-N 4105, which includes requirements for dynamic grid support, reactive power provision and stable behaviour during voltage disturbances."
+    "Renewable energy plants have a statutory right to prompt grid connection under the Renewable Energy Sources Act, especially Section 8 EEG. Grid operators are required to connect renewable installations at the technically and economically suitable grid connection point",
+    "For low-voltage installations, the practical connection process is shaped by the Low Voltage Connection Ordinance, the technical connection rules and the requirements of the local distribution system operator",
+    "Distributed generation units connected to the low-voltage grid must comply with VDE-AR-N 4105, which includes requirements for dynamic grid support, reactive power provision and stable behaviour during voltage disturbances"
   ],
   "strategiesvolatility": [
-    "Germany has introduced a highly relevant mechanism through Section 14a EnWG, allowing distribution system operators to temporarily reduce the power of controllable consumption devices during imminent grid congestion.",
-    "The mechanism applies particularly to heat pumps, private EV charging points, battery storage systems and air-conditioning units. In return, consumers receive reduced network charges.",
-    "Grid-supporting inverter behaviour under VDE-AR-N 4105 helps to stabilise voltage in low-voltage networks with high photovoltaic penetration."
+    "Germany has introduced a highly relevant mechanism through Section 14a EnWG, allowing distribution system operators to temporarily reduce the power of controllable consumption devices during imminent grid congestion",
+    "The mechanism applies particularly to heat pumps, private EV charging points, battery storage systems and air-conditioning units. In return, consumers receive reduced network charges",
+    "Grid-supporting inverter behaviour under VDE-AR-N 4105 helps to stabilise voltage in low-voltage networks with high photovoltaic penetration"
   ],
 
   "regulatoryFramework": [
-    "Energy Industry Act: EnWG, especially Section 14a.",
-    "Renewable Energy Sources Act: EEG, especially Sections 8 ff.",
-    "Low Voltage Connection Ordinance: NAV.",
-    "Metering Point Operation Act: MsbG.",
-    "Technical rules: VDE-AR-N 4100 and VDE-AR-N 4105."
+    "Energy Industry Act: EnWG, especially Section 14a",
+    "Renewable Energy Sources Act: EEG, especially Sections 8 ff",
+    "Low Voltage Connection Ordinance: NAV",
+    "Metering Point Operation Act: MsbG",
+    "Technical rules: VDE-AR-N 4100 and VDE-AR-N 4105"
   ],
 
   "responsibleInstitutions": [
-    "Bundesnetzagentur: national regulatory authority.",
-    "Local distribution system operators: e.g. Westnetz, Bayernwerk, Netze BW, E.DIS.",
-    "VDE FNN: technical connection rules."
+    "Bundesnetzagentur: national regulatory authority",
+    "Local distribution system operators: e.g. Westnetz, Bayernwerk, Netze BW, E.DIS",
+    "VDE FNN: technical connection rules"
   ],
 
-  "gridOperators": [
-    "50Hertz",
-    "Amprion",
-    "TenneT",
-    "TransnetBW",
-    "Distribution system operators"
-  ],
+  "gridOperators": [],
 
   "implementationExamples": [
-   "From 2024 onwards, new controllable devices cannot generally be refused connection merely because of potential congestion; instead, the DSO may temporarily limit consumption during critical grid situations.",
-   "EV chargers or heat pumps may be reduced to a lower operating level rather than disconnected completely.",
-   "Reduced network charges create a financial incentive for consumers to provide flexibility."
+   "From 2024 onwards, new controllable devices cannot generally be refused connection merely because of potential congestion; instead, the DSO may temporarily limit consumption during critical grid situations",
+   "EV chargers or heat pumps may be reduced to a lower operating level rather than disconnected completely",
+   "Reduced network charges create a financial incentive for consumers to provide flexibility"
   ],
 
   "newconsumersandflexibleloads": [
-    "Electric vehicles, heat pumps, battery storage systems and air-conditioning units are explicitly treated as controllable consumption devices under the new Section 14a framework."
+    "Electric vehicles, heat pumps, battery storage systems and air-conditioning units are explicitly treated as controllable consumption devices under the new Section 14a framework"
   ],
 
   "sources": [
@@ -86,7 +80,7 @@
 },
 "Austria": {
   "title": "Austria",
-  "summary": "Add country-specific information here.",
+  "summary": "Österreich",
   "gridConnectionProcedure": "",
   "strategiesvolatility": [],
   "regulatoryFramework": [],
@@ -106,7 +100,7 @@
 
 "Turkey": {
   "title": "Turkey",
-  "summary": "Add country-specific information here.",
+  "summary": "Türkiye",
   "gridConnectionProcedure": "",
   "strategiesvolatility": [],
   "regulatoryFramework": [],
@@ -125,7 +119,7 @@
 },
   "Portugal": {
   "title": "Portugal",
-  "summary": "",
+  "summary": "Portugal",
   "gridConnectionProcedure": [
     "Portugal’s electricity system is governed by Decree-Law No. 15/2022, which establishes the organisation and functioning of the national electricity system, the Sistema Elétrico Nacional.",
     "Self-consumption installations, known as UPAC, are registered and operated under the Portuguese self-consumption framework.",
@@ -201,7 +195,7 @@
 },
   "France": {
     "title": "France",
-    "summary": "Add country-specific information here.",
+    "summary": "France",
     "gridConnectionProcedure": "",
     "strategiesvolatility": [],
     "regulatoryFramework": [],
@@ -213,7 +207,7 @@
   },
   "Spain": {
     "title": "Spain",
-    "summary": "Add country-specific information here.",
+    "summary": "España",
     "gridConnectionProcedure": "",
     "strategiesvolatility": [],
     "regulatoryFramework": [],
@@ -226,7 +220,7 @@
   },
   "Italy": {
     "title": "Italy",
-    "summary": "Add country-specific information here.",
+    "summary": "Italia",
     "gridConnectionProcedure": "",
     "strategiesvolatility": [],
     "regulatoryFramework": [],
@@ -245,7 +239,7 @@
   },
   "Netherlands": {
     "title": "Netherlands",
-    "summary": "",
+    "summary": "Nederland",
     "gridConnectionProcedure": [
       "The Dutch electricity system is regulated through the Netcode Elektriciteit, which sets rules for network operation, grid connection and electricity transport.",
       "Due to severe grid congestion, grid connection is no longer only a technical procedure but increasingly a capacity allocation problem.",
@@ -322,7 +316,7 @@
   },
   "Denmark": {
     "title": "Denmark",
-    "summary": "",
+    "summary": "Danmark",
     "gridConnectionProcedure": [
       "Danish grid connection is coordinated through Energinet, distribution companies and technical rules for production and demand installations. Energinet publishes rules, conditions and methods for grid connection and system operation.",
       "Renewable generators must comply with national requirements and European network codes, including requirements for wind turbines, photovoltaic plants and other renewable technologies.",
@@ -390,7 +384,7 @@
   },
   "Norway": {
     "title": "Norway",
-    "summary": "",
+    "summary": "Norge",
     "gridConnectionProcedure": [
       "Norway applies grid connection codes for generators, demand connections and HVDC systems as part of Norwegian energy regulation",
       "The Norwegian energy system is regulated by NVE/RME, with the Energy Act forming the main legal framework for electricity market regulation",
@@ -455,7 +449,7 @@
   },
   "Sweden": {
     "title": "Sweden",
-    "summary": "Add country-specific information here.",
+    "summary": "Sverige",
     "gridConnectionProcedure": "",
     "strategiesvolatility": [],
     "regulatoryFramework": [],
@@ -467,7 +461,7 @@
   },
   "Finland": {
     "title": "Finland",
-    "summary": "Add country-specific information here.",
+    "summary": "Suomi",
     "gridConnectionProcedure": "",
     "strategiesvolatility": [],
     "regulatoryFramework": [],
@@ -479,7 +473,7 @@
   },
   "United Kingdom": {
     "title": "United Kingdom",
-    "summary": "Add country-specific information here.",
+    "summary": "United Kingdom",
     "gridConnectionProcedure": "",
     "strategiesvolatility": [],
     "regulatoryFramework": [],
@@ -491,7 +485,7 @@
   },
   "Belgium": {
     "title": "Belgium",
-    "summary": "Add country-specific information here.",
+    "summary": "Belgique/ België / Belgien",
     "gridConnectionProcedure": "",
     "strategiesvolatility": [],
     "regulatoryFramework": [],
@@ -503,7 +497,7 @@
   },
   "Switzerland": {
     "title": "Switzerland",
-    "summary": "Add country-specific information here.",
+    "summary": "Schweiz / Suisse / Svizzera / Svizra",
     "gridConnectionProcedure": "",
     "strategiesvolatility": [],
     "regulatoryFramework": [],
