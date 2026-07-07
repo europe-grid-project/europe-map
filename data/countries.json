@@ -74,7 +74,15 @@
       "name": "VDE FNN (Forum Netztechnik/Netzbetrieb)",
       "url": "https://www.vde.com/de/fnn"
     }
-  ]
+  ],
+     "comparison": {
+      "regulatoryAuthority": "Bundesnetzagentur",
+      "gridOperators": "TSOs: 50Hertz, Amprion, TenneT, TransnetBW; DSOs: local network operators",
+      "connectionProcedure": "Application to DSO → technical assessment → compliance with TAB/VDE rules → metering/control equipment → grid connection",
+      "legalBasis": "EnWG, EEG, NAV, MsbG, §14a EnWG, VDE-AR-N 4105",
+      "implementationExample": "Controllable EV chargers, heat pumps and batteries may be temporarily limited during grid congestion in exchange for reduced grid fees"
+     }
+  
 },
 "Austria": {
   "title": "Austria",
@@ -86,7 +94,14 @@
   "gridOperators": [],
   "implementationExamples": [],
   "newconsumersandflexibleloads": [],
-  "sources": []
+  "sources": [],
+   "comparison": {
+      "regulatoryAuthority": "E-Control",
+      "gridOperators": "Austrian Power Grid (APG); regional DSOs (e.g. Netz NÖ, Netz OÖ, Wiener Netze)",
+      "connectionProcedure": "Connection request → grid capacity assessment → technical approval → installation according to TOR → commissioning",
+      "legalBasis": "Elektrizitätswirtschafts- und -organisationsgesetz (ElWOG), Erneuerbaren-Ausbau-Gesetz (EAG), TOR Technical Rules",
+      "implementationExample": "Smart Grids Austria projects integrate PV, heat pumps and e-mobility through digital distribution networks and flexibility management."
+     }
 },
 
 "Turkey": {
@@ -99,7 +114,14 @@
   "gridOperators": [],
   "implementationExamples": [],
   "newconsumersandflexibleloads": [],
-  "sources": []
+  "sources": [],
+   "comparison": {
+      "regulatoryAuthority": "Energy Market Regulatory Authority (EMRA/EPDK)",
+      "gridOperators": "TEİAŞ; regional distribution companies (e.g. Başkent EDAŞ, AYEDAŞ, Toroslar EDAŞ)",
+      "connectionProcedure": "Connection application → capacity evaluation → technical compliance → connection agreement → commissioning",
+      "legalBasis": "Electricity Market Law No. 6446, Electricity Market Connection and System Use Regulation, Distributed Generation Regulation",
+      "implementationExample": "Rapid expansion of rooftop PV and distributed generation supported by simplified licensing and connection procedures for renewable installations"
+     }
 },
   "Portugal": {
   "title": "Portugal",
@@ -167,7 +189,15 @@
       "name": "Electric Mobility Regulation",
       "url": "https://www.erse.pt/en/activities/regulation-electric-mobility/"
       }
-  ]
+  ],
+     "comparison": {
+      "regulatoryAuthority": "ERSE; DGEG (licensing)",
+      "gridOperators": "REN; E-REDES",
+      "connectionProcedure": "Registration/licensing → technical verification → connection to RESP → metering and settlement",
+      "legalBasis": "Decree-Law No. 15/2022, ERSE Regulation No. 2/2023 (Self-Consumption), Electric Mobility Regulation",
+      "implementationExample": "Collective self-consumption (UPAC) and Renewable Energy Communities (CER) share locally generated renewable electricity."
+     }
+  
 },
   "France": {
     "title": "France",
@@ -192,6 +222,7 @@
     "implementationExamples": [],
     "newconsumersandflexibleloads": [],
     "sources": []
+    
   },
   "Italy": {
     "title": "Italy",
@@ -203,7 +234,14 @@
     "gridOperators": [],
     "implementationExamples": [],
     "newconsumersandflexibleloads": [],
-    "sources": []
+    "sources": [],
+     "comparison": {
+      "regulatoryAuthority": "ARERA",
+      "gridOperators": "Terna; e-distribuzione and other DSOs",
+      "connectionProcedure": "Connection application → network study → compliance with CEI standards → metering → grid connection",
+      "legalBasis": "Legislative Decree 199/2021, ARERA resolutions, CEI 0-21 (LV), CEI 0-16 (MV)",
+      "implementationExample": "Nationwide deployment of second-generation smart meters (Open Meter) and extensive PV integration into low-voltage networks"
+     }
   },
   "Netherlands": {
     "title": "Netherlands",
@@ -280,6 +318,7 @@
     "url": "https://www.stedin.net"
   }
     ]
+    
   },
   "Denmark": {
     "title": "Denmark",
