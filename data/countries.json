@@ -101,14 +101,55 @@
 "Turkey": {
   "title": "Turkey",
   "summary": "Türkiye",
-  "gridConnectionProcedure": "",
-  "strategiesvolatility": [],
-  "regulatoryFramework": [],
-  "responsibleInstitutions": [],
+  "gridConnectionProcedure": [
+    "The process comprises six steps: proof of an active electricity subscription, technical application to the regional distribution system operator (EDAŞ), a 30-day evaluation by the energy authority (EİGM), physical installation, smart meter installation, and finally the transition to grid-connected operation."
+  ],
+  "strategiesvolatility": [
+    "Turkey statically caps the installable PV capacity at twice the contracted connection capacity",
+    "Furthermore, to dampen midday peaks, monthly net metering was abolished and replaced by an hourly settlement to force prosumers into simultaneous self-consumption"
+  ],
+  "regulatoryFramework": [
+    "The central regulatory framework is the Regulation on Unlicensed Electricity Generation (Lisanssız Elektrik Üretimi)",
+    "For large-scale projects, a mandatory coupling applies where grid connection capacities are only granted in a 1:1 ratio with the installation of battery storage systems"
+  ],
+  "responsibleInstitutions": [
+    "The regulatory authority is the EPDK",
+    "The transmission grid is centrally operated by TEİAŞ",
+    "The distribution grid is divided into 21 regional monopoly areas (EDAŞ)"
+  ],
   "gridOperators": [],
-  "implementationExamples": [],
-  "newconsumersandflexibleloads": [],
-  "sources": [],
+  "implementationExamples": [
+    "To avoid prolonged load peaks and blockages at grid nodes, an automated curtailment applies to DC fast-charging stations: charging processes can be hard-disconnected by the grid once an 85% state of charge is reached"
+  ],
+  "newconsumersandflexibleloads": [
+    "Battery storage is voluntarily permitted for private households",
+    "To prevent grey electricity arbitrage, electricity fed back into the grid from storage systems is unremunerated and flows into the state YEKDEM funding pool",
+    "EV charging infrastructure operators require a direct license from the EPDK"
+  ],
+  "sources": [
+    {
+      "name": "EPDK (Energy Market Regulatory Authority)",
+      "url": "https://www.epdk.gov.tr/"
+      },
+    {
+      "name": "EİGM (Energy authority)",
+      "url": "https://enerji.gov.tr/homepage"
+      },
+     {
+      "name": "TEİAŞ (Transmission Grid Operator)",
+      "url": "https://www.teias.gov.tr/en-US"
+      },
+      {
+      "name": "National Energy Plan of Turkey",
+      "url": "https://enerji.gov.tr/Media/Dizin/EIGM/tr/Raporlar/TUEP/T%C3%BCrkiye_National_Energy_Plan.pdf"
+      },
+    
+     {
+      "name": "ACER (Agency for the Cooperation of Energy Regulators)",
+      "url": "https://www.acer.europa.eu/"
+      },
+    
+  ],
    "comparison": {
       "regulatoryAuthority": "Energy Market Regulatory Authority (EMRA/EPDK)",
       "gridOperators": "TEİAŞ; regional distribution companies (e.g. Başkent EDAŞ, AYEDAŞ, Toroslar EDAŞ)",
@@ -196,14 +237,48 @@
   "France": {
     "title": "France",
     "summary": "France",
-    "gridConnectionProcedure": "",
-    "strategiesvolatility": [],
-    "regulatoryFramework": [],
-    "responsibleInstitutions": [],
+    "gridConnectionProcedure": [
+      "The process runs digitally via the Enedis Connect portal. After the application is submitted, a connection offer is provided within 6 weeks. Before commissioning and activating the Linky smart meter, a safety certificate from the independent authority CONSUEL must be presented."
+    ],
+    "strategiesvolatility": [
+      "France uses a nationally standardized tariff signal control system (Heures Pleines / Heures Creuses or Tempo tariff)",
+      "The smart meters receive price signals and fully automatically activate or block large thermal consumers depending on grid utilization"
+    ],
+    "regulatoryFramework": [
+      "The system is based on surplus feed-in with state-guaranteed purchase tariffs (Obligation d'achat) by EDF",
+      "Pure net metering does not exist"
+    ],
+    "responsibleInstitutions": [
+      "The Commission de Régulation de l'Énergie (CRE) acts as the NRA",
+      "RTE controls the transmission grid, while Enedis holds a de facto monopoly in the distribution grid with a market share of around 95%"
+    ],
     "gridOperators": [],
-    "implementationExamples": [],
-    "newconsumersandflexibleloads": [],
-    "sources": []
+    "implementationExamples": [
+      "The concept of Autoconsommation collective allows several households within a 2-kilometer radius in the low-voltage grid to balance their generation and consumption data hourly without having to lay direct physical cables."
+    ],
+    "newconsumersandflexibleloads": [
+      "Battery storage plays a minor role in the residential sector due to stable feed-in tariffs",
+      "Private wallboxes must be controllable by the grid ex-works",
+      "Vehicle-to-Grid (V2G) technologies are being introduced commercially on a broad scale"
+    ],
+    "sources": [
+       {
+    "name": "CRE (Commission de Régulation de l'Énergie)",
+    "url": "https://www.cre.fr/"
+  },
+       {
+    "name": "RTE (Transmission Grid Control",
+    "url": "https://www.rte-france.com/"
+  },
+       {
+    "name": "Enedis network codes",
+    "url": "https://www.enedis.fr/new-electric-france-2027-and-2032-enedis-publishes-preliminary-document-its-future-network"
+  },
+       {
+    "name": "French Energy and Climate Plan",
+    "url": "https://climate-laws.org/document/france-s-integrated-energy-and-climate-plan_6f6b"
+  },
+    ]
   },
   "Spain": {
     "title": "Spain",
@@ -462,13 +537,29 @@
   "Finland": {
     "title": "Finland",
     "summary": "Suomi",
-    "gridConnectionProcedure": "",
-    "strategiesvolatility": [],
-    "regulatoryFramework": [],
-    "responsibleInstitutions": [],
+    "gridConnectionProcedure": [
+      "The registration depends on the system capacity. Under 16 amps per phase (Form G98), the Fit & Inform principle applies (installation and subsequent notification within 28 days). Larger systems (G99) require a 45-day prior assessment by the grid operator"
+    ],
+    "strategiesvolatility": [
+      "The introduction of Market-wide Half-Hourly Settlement (MHHS) forces the entire market into a strict 30-minute billing grid, which incentivizes end customers to significantly shift their load via highly dynamic tariffs"
+    ],
+    "regulatoryFramework": [
+      "The Smart Export Guarantee (SEG) system obliges large suppliers to offer feed-in tariffs",
+      "These tariffs are not fixed by the state but are subject to free market competition"
+    ],
+    "responsibleInstitutions": [
+      "The market is regulated by Ofgem",
+      "The transmission grid is managed by the National Energy System Operator (NESO)",
+      "The distribution grid is divided into 14 regions controlled by 6 large DNO (Distribution Network Operator) conglomerates"
+    ],
     "gridOperators": [],
-    "implementationExamples": [],
-    "newconsumersandflexibleloads": [],
+    "implementationExamples": [
+      "The Electric Vehicles Smart Charge Points Regulations mandate by law that new private wallboxes must be configured by default to block charging processes during peak grid hours (8-11 AM and 4-7 PM)"
+    ],
+    "newconsumersandflexibleloads": [
+      "The UK is a leader in local flexibility markets",
+      "DNOs regularly tender Flexibility Services, where aggregators bundle the capacity of private storage systems and heat pumps and use them for local grid stabilization in exchange for remuneration",
+    ],
     "sources": []
   },
   "United Kingdom": {
