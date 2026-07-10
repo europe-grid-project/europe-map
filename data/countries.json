@@ -147,7 +147,7 @@
      {
       "name": "ACER (Agency for the Cooperation of Energy Regulators)",
       "url": "https://www.acer.europa.eu/"
-      },
+      }
     
   ],
    "comparison": {
@@ -277,7 +277,7 @@
        {
     "name": "French Energy and Climate Plan",
     "url": "https://climate-laws.org/document/france-s-integrated-energy-and-climate-plan_6f6b"
-  },
+  }
     ]
   },
   "Spain": {
@@ -561,7 +561,7 @@
       "DNOs regularly tender Flexibility Services, where aggregators bundle the capacity of private storage systems and heat pumps and use them for local grid stabilization in exchange for remuneration",
     ],
     "sources": []
-  },
+  }
   "United Kingdom": {
     "title": "United Kingdom",
     "summary": "United Kingdom",
@@ -589,7 +589,7 @@
       "DNOs regularly tender "Flexibility Services," where aggregators bundle the capacity of private storage systems and heat pumps and use them for local grid stabilization in exchange for remuneration"
     ],
     "sources": [
-      {
+         {
     "name": "Market Regulation (Ofgem)",
     "url": "https://www.ofgem.gov.uk/"
   }
@@ -635,7 +635,7 @@
       "Battery storage systems record extremely high installation rates due to the capacity tariff, as they function as the primary peak-shaving unit in the home"
     ],
     "sources": [
-          {
+                {
     "name": "Flemish Utilities Regulator (VREG)",
     "url": "https://www.vlaamsenutsregulator.be/"
   }
