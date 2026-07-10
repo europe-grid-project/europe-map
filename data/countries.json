@@ -565,26 +565,98 @@
   "United Kingdom": {
     "title": "United Kingdom",
     "summary": "United Kingdom",
-    "gridConnectionProcedure": "",
-    "strategiesvolatility": [],
-    "regulatoryFramework": [],
-    "responsibleInstitutions": [],
+    "gridConnectionProcedure": [
+      "The registration depends on the system capacity. Under 16 amps per phase (Form G98), the Fit & Inform principle applies (installation and subsequent notification within 28 days). Larger systems (G99) require a 45-day prior assessment by the grid operator."
+    ],
+    "strategiesvolatility": [
+      "The introduction of Market-wide Half-Hourly Settlement (MHHS) forces the entire market into a strict 30-minute billing grid, which incentivizes end customers to significantly shift their load via highly dynamic tariffs"
+    ],
+    "regulatoryFramework": [
+      "The Smart Export Guarantee (SEG) system obliges large suppliers to offer feed-in tariffs",
+      "These tariffs are not fixed by the state but are subject to free market competition"
+    ],
+    "responsibleInstitutions": [
+      "The market is regulated by Ofgem",
+      "The transmission grid is managed by the National Energy System Operator (NESO)",
+      "The distribution grid is divided into 14 regions controlled by 6 large DNO (Distribution Network Operator) conglomerates"
+    ],
     "gridOperators": [],
-    "implementationExamples": [],
-    "newconsumersandflexibleloads": [],
-    "sources": []
+    "implementationExamples": [
+      "The Electric Vehicles Smart Charge Points Regulations mandate by law that new private wallboxes must be configured by default to block charging processes during peak grid hours (8-11 AM and 4-7 PM)"
+    ],
+    "newconsumersandflexibleloads": [
+      "The UK is a leader in local flexibility markets",
+      "DNOs regularly tender "Flexibility Services," where aggregators bundle the capacity of private storage systems and heat pumps and use them for local grid stabilization in exchange for remuneration"
+    ],
+    "sources": [
+      {
+    "name": "Market Regulation (Ofgem)",
+    "url": "https://www.ofgem.gov.uk/"
+  }
+         {
+    "name": "National Energy System Operator (NESO)",
+    "url": "https://www.neso.energy/"
+  }
+         {
+    "name": "Energy Networks Association (ENA) Guidelines G98/ G99",
+    "url": "https://www.energynetworks.org/publications/all-g98-g99-forms"
+  }
+         {
+    "name": "UK Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero"
+  }
+      https://www.ofgem.gov.uk/
+    ]
   },
   "Belgium": {
-    "title": "Belgium",
+    "title": "Belgium (Flanders)",
     "summary": "Belgique/ België / Belgien",
-    "gridConnectionProcedure": "",
-    "strategiesvolatility": [],
-    "regulatoryFramework": [],
-    "responsibleInstitutions": [],
+    "gridConnectionProcedure": "The process strictly requires hardware conformity with the Belgian Synergrid list (C10/11). After installation, a physical safety inspection (AREI) by a control body must take place. Upon approval, a digital meter is installed as a priority",
+    "strategiesvolatility": [
+      "Flanders has completely abolished net metering and primarily combats volatility via grid fees",
+      "Instead of billed kilowatt-hours, a large part of the grid costs is calculated based on the highest measured 15-minute power peak (kW) of the month"
+    ],
+    "regulatoryFramework": [
+      "The regulatory environment is highly fragmented and dictated regionally",
+      "While Wallonia and Brussels partly still rely on classic systems, Flanders forces extreme local load smoothing through the pure surplus model"
+    ],
+    "responsibleInstitutions": [
+      "Alongside the federal CREG",
+      "the regionals VREG (Flanders)",
+      "CWaPE (Wallonia)",
+      "BRUGEL (Brussels)",
+      "In Flanders, the large corporation Fluvius dominates the distribution grid as a monopolist"
+    ],
     "gridOperators": [],
-    "implementationExamples": [],
-    "newconsumersandflexibleloads": [],
-    "sources": []
+    "implementationExamples": [
+      "Intelligent Home Energy Management Systems (HEMS) actively throttle the wallbox to a minimum in Flanders as soon as the heat pump or stove is activated in the household, so that the power peak does not rise above the minimum capacity tariff threshold of 2.5 kW"
+    ],
+    "newconsumersandflexibleloads": [
+      "Battery storage systems record extremely high installation rates due to the capacity tariff, as they function as the primary peak-shaving unit in the home"
+    ],
+    "sources": [
+          {
+    "name": "Flemish Utilities Regulator (VREG)",
+    "url": "https://www.vlaamsenutsregulator.be/"
+  }
+                {
+    "name": "Belgian Federal Commission for Electricity and Gas Regulation (CREG)",
+    "url": "https://www.creg.be/en"
+  }
+                {
+    "name": "Walloon Commission of Energy",
+    "url": "https://www.cwape.be/de"
+  }
+                {
+    "name": "Brussels regulatory authority for electricity, gas and water price control",
+    "url": "https://brugel.brussels/"
+  }
+                {
+    "name": "Synergrid (Network codes C10/11)",
+    "url": "https://www.synergrid.be/images/downloads/technical-prescription-c10-11-ed2-2-20210315-tekst-en.pdf"
+  }
+    
+    ]
   },
   "Switzerland": {
     "title": "Switzerland",
