@@ -561,7 +561,7 @@
       "DNOs regularly tender Flexibility Services, where aggregators bundle the capacity of private storage systems and heat pumps and use them for local grid stabilization in exchange for remuneration"
     ],
     "sources": []
-  }
+  },
   "United Kingdom": {
     "title": "United Kingdom",
     "summary": "United Kingdom",
@@ -592,15 +592,15 @@
          {
     "name": "Market Regulation (Ofgem)",
     "url": "https://www.ofgem.gov.uk/"
-  }
+  },
          {
     "name": "National Energy System Operator (NESO)",
     "url": "https://www.neso.energy/"
-  }
+  },
          {
     "name": "Energy Networks Association (ENA) Guidelines G98/ G99",
     "url": "https://www.energynetworks.org/publications/all-g98-g99-forms"
-  }
+  },
          {
     "name": "UK Department for Energy Security and Net Zero",
     "url": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero"
@@ -638,19 +638,19 @@
                 {
     "name": "Flemish Utilities Regulator (VREG)",
     "url": "https://www.vlaamsenutsregulator.be/"
-  }
+  },
                 {
     "name": "Belgian Federal Commission for Electricity and Gas Regulation (CREG)",
     "url": "https://www.creg.be/en"
-  }
+  },
                 {
     "name": "Walloon Commission of Energy",
     "url": "https://www.cwape.be/de"
-  }
+  },
                 {
     "name": "Brussels regulatory authority for electricity, gas and water price control",
     "url": "https://brugel.brussels/"
-  }
+  },
                 {
     "name": "Synergrid (Network codes C10/11)",
     "url": "https://www.synergrid.be/images/downloads/technical-prescription-c10-11-ed2-2-20210315-tekst-en.pdf"
