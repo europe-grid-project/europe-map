@@ -558,7 +558,7 @@
     ],
     "newconsumersandflexibleloads": [
       "The UK is a leader in local flexibility markets",
-      "DNOs regularly tender Flexibility Services, where aggregators bundle the capacity of private storage systems and heat pumps and use them for local grid stabilization in exchange for remuneration",
+      "DNOs regularly tender Flexibility Services, where aggregators bundle the capacity of private storage systems and heat pumps and use them for local grid stabilization in exchange for remuneration"
     ],
     "sources": []
   }
@@ -586,7 +586,7 @@
     ],
     "newconsumersandflexibleloads": [
       "The UK is a leader in local flexibility markets",
-      "DNOs regularly tender "Flexibility Services," where aggregators bundle the capacity of private storage systems and heat pumps and use them for local grid stabilization in exchange for remuneration"
+      "DNOs regularly tender Flexibility Services, where aggregators bundle the capacity of private storage systems and heat pumps and use them for local grid stabilization in exchange for remuneration"
     ],
     "sources": [
          {
@@ -605,7 +605,7 @@
     "name": "UK Department for Energy Security and Net Zero",
     "url": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero"
   }
-      https://www.ofgem.gov.uk/
+    
     ]
   },
   "Belgium": {
