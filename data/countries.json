@@ -614,14 +614,41 @@
   "Sweden": {
     "title": "Sweden",
     "summary": "Sverige",
-    "gridConnectionProcedure": "",
-    "strategiesvolatility": [],
-    "regulatoryFramework": [],
-    "responsibleInstitutions": [],
+    "gridConnectionProcedure": "New generation facilities are connected through local and regional grid operators. Svenska kraftnät states that project developers must first contact the local distribution system operator, which determines the appropriate voltage level and technical connection possibilities. This is particularly relevant because renewable generation is not always located where electricity demand exists. Northern Sweden hosts many hydropower and wind resources, while much of the demand is concentrated in the south. This creates bottlenecks that require both transmission grid expansion and more efficient use of existing networks.",
+    "strategiesvolatility": [
+      "Sweden’s most important natural source of flexibility is hydropower, which can offset fluctuations from wind and solar generation. In addition, smart meters, dynamic electricity tariffs, demand response, local flexibility solutions, and smart grids are becoming increasingly important. The regulator views smart grids as a tool for better integrating renewable energy, improving energy efficiency, and increasing grid reliability."
+    ],
+    "regulatoryFramework": [
+      "Sweden’s most important natural source of flexibility is hydropower, which can offset fluctuations from wind and solar generation. In addition, smart meters, dynamic electricity tariffs, demand response, local flexibility solutions, and smart grids are becoming increasingly important. The regulator views smart grids as a tool for better integrating renewable energy, improving energy efficiency, and increasing grid reliability."
+    ],
+    "responsibleInstitutions": [
+      "The main institutions are the Swedish Energy Markets Inspectorate (Ei) as the national regulatory authority, Svenska kraftnät as the transmission system operator and system manager, local and regional distribution system operators responsible for grid connections, and the Swedish Energy Agency (Energimyndigheten) for energy policy programs and research. At the European level, ACER and ENTSO-E are also relevant."
+    ],
     "gridOperators": [],
-    "implementationExamples": [],
-    "newconsumersandflexibleloads": [],
-    "sources": []
+    "implementationExamples": [
+      "Sweden demonstrates how an electricity system with a high share of renewable generation can be stabilized through controllable hydropower and digital flexibility. For Germany, smart meters, dynamic tariffs, demand response, and local flexibility markets are particularly transferable. The high availability of hydropower cannot be transferred directly, but Germany can learn from Sweden’s digital and regulatory approaches, particularly regarding controllable consumers under Section 14a of the German Energy Industry Act (EnWG)."
+    ],
+    "newconsumersandflexibleloads": [
+      "In Sweden, new consumers are not only additional loads but also potential sources of flexibility. Electric vehicles can shift charging times, heat pumps can be combined with thermal storage, and industrial processes can partially respond to electricity prices or grid conditions. The Swedish Energy Markets Inspectorate (Ei) has identified demand-side flexibility as an important tool for an electricity system with a high share of variable generation. For low-voltage grids, this means controllable consumers must increasingly become part of grid planning."
+    ],
+    "sources": [
+        {
+    "name": "Swedish Energy Markets Inspectorate (Ei)",
+    "url": "https://ei.se/ei-in-english"
+  },
+             {
+    "name": "Transmission System Operator (Svenska kraftnät)",
+    "url": "https://www.svk.se/en/"
+  },
+             {
+    "name": "Swedish Energy Agency (Energimyndigheten)",
+    "url": "https://www.energimyndigheten.se/en/"
+  },
+             {
+    "name": "Metering as an Enabler for Consumer-Focused Flexibility in Sweden",
+    "url": "https://www.iea-isgan.org/wp-content/uploads/2022/06/WG9-Metering-as-Enabler-for-Flexibility.pdf"
+  }
+    ]
   },
   "Finland": {
     "title": "Finland",
