@@ -798,13 +798,36 @@
   "Switzerland": {
     "title": "Switzerland",
     "summary": "Schweiz / Suisse / Svizzera / Svizra",
-    "gridConnectionProcedure": "",
-    "strategiesvolatility": [],
-    "regulatoryFramework": [],
-    "responsibleInstitutions": [],
+    "gridConnectionProcedure": "A standardized Technical Connection Request (TAG) is submitted. Following approval and installation by a licensed company, a safety certificate (SiNa) must be provided before the grid operator installs the smart meter and approves the system.",
+    "strategiesvolatility": [
+      "Switzerland promotes self-consumption communities (ZEV) to bundle locally generated energy directly behind the connection point and relieve the public grid. Furthermore, a mandatory smart meter rollout of 80% by the end of 2027 applies."
+    ],
+    "regulatoryFramework": [
+      "A classic surplus feed-in system is in place. However, a massive structural difference is that the feed-in remuneration is not nationally fixed but is calculated individually by each grid operator based on their own generation costs or market prices."
+    ],
+    "responsibleInstitutions": [
+      "The Federal Electricity Commission (ElCom) is the national regulatory authority. Swissgrid operates the transmission grid, while the distribution grid is fragmented into over 600 extremely small and independent distribution system operators (VNB)."
+    ],
     "gridOperators": [],
-    "implementationExamples": [],
-    "newconsumersandflexibleloads": [],
-    "sources": []
+    "implementationExamples": [
+      "Since digitalization is partly still being implemented, many local grid operators continue to use hard ripple control. Here, private heat pumps and electric boilers are physically disconnected from the grid via signal for up to two hours during the midday peak."
+    ],
+    "newconsumersandflexibleloads": [
+       "Due to the sometimes very low feed-in tariffs locally, homeowners strongly drive the installation of heat pumps and home storage systems to maximize self-consumption."
+    ],
+    "sources": [
+                   {
+    "name": "Federal Electricity Commission (ElCom)",
+    "url": "https://www.elcom.admin.ch/de"
+  },
+                       {
+    "name": "Technical Rules NA-EEA",
+    "url": "https://www.energieuri.ch/wp-content/uploads/2021/02/NA_EEA-NE7-%E2%80%93-CH-2020_neu.pdf"
+  },
+                       {
+    "name": "Swiss Electricity Supply Act (StromVG)",
+    "url": "https://www.bfe.admin.ch/bfe/en/home/supply/electricity-supply/federal-electricity-supply-act.html"
+  }
+    ]
   }
 }
