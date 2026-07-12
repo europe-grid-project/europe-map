@@ -676,7 +676,28 @@
       "The UK is a leader in local flexibility markets",
       "DNOs regularly tender Flexibility Services, where aggregators bundle the capacity of private storage systems and heat pumps and use them for local grid stabilization in exchange for remuneration"
     ],
-    "sources": []
+    "sources": [
+             {
+    "name": "National Report on electricity and gas markets in Finland in 2024 (Energiavirasto 2025)",
+    "url": "https://energiavirasto.fi/documents/11120570/13026619/National%20Report%20on%20electricity%20and%20gas%20markets%20in%202024%20in%20Finland.pdf"
+  },
+                {
+    "name": "Grid Code Specifications (Fingrid)",
+    "url": "https://www.fingrid.fi/en/grid/grid-connection-agreement-phases/grid-code-specifications/"
+  },
+                {
+    "name": "Demand-side flexibility (Fingrid)",
+    "url": "https://www.fingrid.fi/en/electricity-market/market-integration/electricity-market-development-projects/demand-side-management/"
+  },
+                {
+    "name": "Electricity system of Finland (Fingrid)",
+    "url": "https://www.fingrid.fi/en/grid/development/electricity-system-of-finland/"
+  },
+                {
+    "name": "Smart metering based demand response in Finland (VTT)",
+    "url": "https://cris.vtt.fi/en/publications/smart-metering-based-demand-response-in-finland/"
+  }
+    ]
   },
   "United Kingdom": {
     "title": "United Kingdom",
