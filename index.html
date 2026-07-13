@@ -566,13 +566,24 @@ function formatTableValue(value) {
 
 function styleCountry(feature) {
   const name = countryName(feature);
-  const color = countryColorMap[name] || "#cccccc";
+
+  // Prüft, ob das Land in countries.json vorhanden ist
+  const hasCountryData = Object.prototype.hasOwnProperty.call(
+    countryData,
+    name
+  );
 
   return {
     color: "#ffffff",
     weight: 1.2,
-    fillColor: color,
-    fillOpacity: 0.82
+
+    // Länder mit Daten bekommen ihre eigene Farbe,
+    // alle anderen Länder werden grau dargestellt
+    fillColor: hasCountryData
+      ? (countryColorMap[name] || "#64748b")
+      : "#c7cbd1",
+
+    fillOpacity: hasCountryData ? 0.82 : 0.65
   };
 }
     function highlightCountry(e) {
