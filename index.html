@@ -195,7 +195,8 @@
 }
 
 #comparison-button,
-#sources-button {
+#sources-button,
+#legal-button {
   padding: 10px 16px;
   border: none;
   border-radius: 8px;
@@ -203,11 +204,12 @@
   color: #1e3a8a;
   font-weight: 700;
   cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
 }
 
 #comparison-button:hover,
-#sources-button:hover {
+#sources-button:hover,
+#legal-button:hover {
   background: #eef4ff;
 }
 .modal {
@@ -290,7 +292,45 @@ tr:nth-child(even) {
   width: auto;
   object-fit: contain;
 }
+.legal-content {
+  line-height: 1.6;
+}
 
+.legal-content h2 {
+  margin-top: 0;
+}
+
+.legal-content h3 {
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+.legal-content h4 {
+  margin-top: 18px;
+  margin-bottom: 6px;
+}
+
+.legal-content p {
+  margin: 6px 0 12px;
+}
+
+.legal-content address {
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.legal-warning {
+  padding: 14px;
+  margin: 16px 0;
+  background: #fff7ed;
+  border-left: 4px solid #f97316;
+  border-radius: 4px;
+}
+
+.legal-content a {
+  overflow-wrap: anywhere;
+}
   </style>
 </head>
 
@@ -347,6 +387,10 @@ tr:nth-child(even) {
 
         <button id="sources-button" onclick="openSourcesModal()">
           Sources and links
+        </button>
+        
+        <button id="legal-button" onclick="openLegalModal()">
+          Legal & Privacy
         </button>
       </div>
     </div>
@@ -428,7 +472,15 @@ function openComparisonModal() {
 function closeComparisonModal() {
   document.getElementById("comparison-modal").style.display = "none";
 }
-    
+    function openLegalModal() {
+  document.getElementById("legal-modal").style.display = "block";
+  document.body.style.overflow = "hidden";
+}
+
+function closeLegalModal() {
+  document.getElementById("legal-modal").style.display = "none";
+  document.body.style.overflow = "";
+}
 function openSourcesModal() {
   const sourcesList = document.getElementById("sources-list");
   sourcesList.innerHTML = "";
@@ -770,6 +822,294 @@ function styleCountry(feature) {
     </p>
 
     <div id="sources-list"></div>
+  </div>
+</div>
+  <div id="legal-modal" class="modal">
+  <div class="modal-content legal-content">
+    <button
+      class="close-button"
+      onclick="closeLegalModal()"
+      aria-label="Close legal information"
+    >
+      ×
+    </button>
+
+    <h2>Legal Notice & Privacy Policy</h2>
+
+    <div class="legal-warning">
+      Replace every entry in square brackets with the correct information
+      before publishing this website.
+    </div>
+
+    <!-- LEGAL NOTICE -->
+    <section>
+      <h3>1. Legal Notice</h3>
+
+      <p>
+        Information pursuant to Section 5 of the German Digital Services Act
+        (Digitale-Dienste-Gesetz – DDG), where applicable.
+      </p>
+
+      <h4>Project</h4>
+      <p>
+        European Grid Connection Frameworks<br>
+        Non-commercial university project
+      </p>
+
+      <h4>Website provider</h4>
+      <address>
+        [Gerrit Luengen, Lukas Burstaedt, Felix Puehmeyer]<br>
+        [Interaktion 1]<br>
+        [33619 Bielefeld]<br>
+        [GERMANY]
+      </address>
+
+      <h4>Project team</h4>
+      <p>
+        Gerrit Luengen<br>
+        Lukas Burstaedt<br>
+        Felix Puehmeyer
+      </p>
+
+      <h4>University affiliation</h4>
+      <address>
+        [Hochschule Bielefeld - University of Applied Sciences and Arts]<br>
+        [Ingineuerswissenschaften und Mathematik]<br>
+        [Projekt 1]<br>
+        [Interaktion 1]<br>
+        [33619 Bielefeld]<br>
+        [GERMANY]
+      </address>
+
+      <h4>Contact</h4>
+      <p>
+        Email:
+        <a href="mailto:[PROJECT-EMAIL@EXAMPLE.COM]">
+          [gerrit.luengen@hsbi.de]
+        </a>
+      </p>
+
+      <h4>Responsible for the content</h4>
+      <address>
+        [Gerrit Luengen, Lukas Burstaedt, Felix Puehmeyer]<br>
+        [Interaktion 1]<br>
+        [33619 Bielefeld]<br>
+        [GERMANY]
+      </address>
+
+      <p>
+        This website was created exclusively for educational and scientific
+        purposes as part of a university project. It does not pursue a
+        commercial purpose.
+      </p>
+    </section>
+
+    <!-- PRIVACY -->
+    <section>
+      <h3>2. Privacy Policy</h3>
+
+      <h4>Controller</h4>
+      <address>
+        [Gerrit Luengen, Lukas Burstaedt, Felix Puehmeyer]<br>
+        [Interaktion 1]<br>
+        [33619 Bielefeld]<br>
+        [GERMANY]<br>
+        Email:
+        <a href="mailto:[PRIVACY-EMAIL@EXAMPLE.COM]">
+          [gerrit.luengen@hsbi.de]
+        </a>
+      </address>
+
+      <h4>Hosting through GitHub Pages</h4>
+      <p>
+        This website is hosted using GitHub Pages, a service provided by
+        GitHub. When the website is accessed, technical connection data may be
+        processed by GitHub. This may include the visitor’s IP address,
+        browser information, date and time of access, requested files and
+        other technical log information required to provide and secure the
+        service.
+      </p>
+
+      <p>
+        Further information is available in the
+        <a
+          href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub General Privacy Statement
+        </a>.
+      </p>
+
+      <h4>External map services and technical resources</h4>
+      <p>
+        The website loads technical resources and map content from external
+        providers. When these resources are loaded, the visitor’s browser
+        connects directly to the respective provider. The provider may
+        receive technical information, including the visitor’s IP address,
+        browser information, requested resource and time of access.
+      </p>
+
+      <ul>
+        <li>
+          Leaflet files are loaded through the unpkg content delivery network.
+        </li>
+        <li>
+          The map background is loaded from CARTO basemap servers.
+        </li>
+        <li>
+          Geographic country data is loaded from a GitHub-hosted GeoJSON file.
+        </li>
+        <li>
+          The basemap contains data based on OpenStreetMap contributors.
+        </li>
+      </ul>
+
+      <h4>Cookies and local storage</h4>
+      <p>
+        This project website does not intentionally set its own analytics,
+        advertising or tracking cookies. However, external hosting or content
+        providers may process technical data in accordance with their own
+        policies.
+      </p>
+
+      <h4>Contact by email</h4>
+      <p>
+        If you contact the project team by email, the information you provide
+        will be processed for the purpose of responding to your request. The
+        information will not be used for unrelated purposes without a legal
+        basis.
+      </p>
+
+      <h4>Your data protection rights</h4>
+      <p>
+        Subject to the applicable legal requirements, data subjects may have
+        rights of access, rectification, erasure, restriction of processing,
+        objection and data portability. Data subjects may also have the right
+        to lodge a complaint with a competent data protection supervisory
+        authority.
+      </p>
+    </section>
+
+    <!-- COPYRIGHT -->
+    <section>
+      <h3>3. Copyright Notice</h3>
+
+      <p>
+        © 2026 Gerrit Luengen, Lukas Burstaedt and Felix Puehmeyer.
+      </p>
+
+      <p>
+        Unless otherwise stated, original texts, analyses, tables, layouts and
+        graphics created by the project team are protected by applicable
+        copyright law. Reproduction, editing, distribution or commercial use
+        beyond the limits permitted by law requires the prior permission of
+        the respective rights holder.
+      </p>
+
+      <p>
+        Third-party content, images, logos, datasets and software remain the
+        property of their respective rights holders and are used subject to
+        their applicable licences and terms. Where required, the respective
+        authors, sources and licences are identified.
+      </p>
+    </section>
+
+    <!-- DISCLAIMER -->
+    <section>
+      <h3>4. Disclaimer</h3>
+
+      <h4>Information on this website</h4>
+      <p>
+        The content of this website has been prepared with care and is
+        intended for educational and scientific purposes. No guarantee is
+        given that the information is complete, accurate, current or suitable
+        for a particular purpose. The content does not constitute legal,
+        regulatory, technical or investment advice.
+      </p>
+
+      <h4>External links</h4>
+      <p>
+        This website contains links to external websites. The respective
+        external provider is responsible for its content. Links are provided
+        for informational and research purposes. If the project team becomes
+        aware of unlawful or clearly inappropriate linked content, the
+        relevant link will be reviewed and, where appropriate, removed.
+      </p>
+    </section>
+
+    <!-- ATTRIBUTION -->
+    <section>
+      <h3>5. Open-Source Software, Map Data and Attributions</h3>
+
+      <ul>
+        <li>
+          <strong>Leaflet:</strong>
+          open-source JavaScript library used for the interactive map.
+          <a
+            href="https://leafletjs.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Leaflet website
+          </a>
+        </li>
+
+        <li>
+          <strong>OpenStreetMap:</strong>
+          map data © OpenStreetMap contributors.
+          <a
+            href="https://www.openstreetmap.org/copyright"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Copyright and licence information
+          </a>
+        </li>
+
+        <li>
+          <strong>CARTO:</strong>
+          basemap tiles supplied through CARTO.
+          <a
+            href="https://carto.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CARTO website
+          </a>
+        </li>
+
+        <li>
+          <strong>Geo Countries Dataset:</strong>
+          geographic country boundaries loaded from the
+          datasets/geo-countries repository.
+          <a
+            href="https://github.com/datasets/geo-countries"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dataset repository
+          </a>
+        </li>
+
+        <li>
+          <strong>GitHub Pages:</strong>
+          website hosting.
+          <a
+            href="https://docs.github.com/en/pages"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub Pages documentation
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>6. Last Updated</h3>
+      <p>Last updated: [14.07.2026]</p>
+    </section>
   </div>
 </div>
 </body>
