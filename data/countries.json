@@ -3,9 +3,7 @@
   "title": "Germany",
   "summary": "Deutschland",
   "gridConnectionProcedure": [
-    "Renewable energy plants have a statutory right to prompt grid connection under the Renewable Energy Sources Act, especially Section 8 EEG.",
-    "Grid operators are required to connect renewable installations at the technically and economically suitable grid connection point. For low-voltage installations, the practical connection process is shaped by the Low Voltage Connection Ordinance, the technical connection rules and the requirements of the local distribution system operator.",
-    "Distributed generation units connected to the low-voltage grid must comply with VDE-AR-N 4105, which includes requirements for dynamic grid support, reactive power provision and stable behaviour during voltage disturbances."
+    "Renewable energy plants have a statutory right to prompt grid connection under the Renewable Energy Sources Act, especially Section 8 EEG. Grid operators are required to connect renewable installations at the technically and economically suitable grid connection point. For low-voltage installations, the practical connection process is shaped by the Low Voltage Connection Ordinance, the technical connection rules and the requirements of the local distribution system operator. Distributed generation units connected to the low-voltage grid must comply with VDE-AR-N 4105, which includes requirements for dynamic grid support, reactive power provision and stable behaviour during voltage disturbances."
   ],
   "strategiesvolatility": [
     "Germany has introduced a highly relevant mechanism through Section 14a EnWG, allowing distribution system operators to temporarily reduce the power of controllable consumption devices during imminent grid congestion",
@@ -83,20 +81,36 @@
   "summary": "Österreich",
   "gridConnectionProcedure": "Renewable energy installations are connected to the grid in Austria through the responsible grid operators. The rapid expansion of small and medium-sized PV systems, in particular, is creating new requirements in low-voltage networks: feed-in peaks, voltage increases, bidirectional power flows, and a growing need for grid reinforcement. E-Control has therefore highlighted measures to accelerate grid connections and ensure the transparent handling of connection requests. For the project, Austria is particularly interesting because grid connection is being further developed not only technically but also organizationally and regulatorily.",
   "strategiesvolatility": [
-    "Austria combines several flexibility options: hydropower and pumped-storage plants, smart meters, battery storage systems, smart grids, demand-side management, and energy communities. Smart Grids Austria and APG particularly emphasize the importance of intelligent grids for integrating renewable energy. At the distribution network level, intelligent local substations, grid monitoring, and controllable consumers are important technical solutions"
+    "Austria combines several flexibility options:",
+    "hydropower and pumped-storage plants, smart meters, battery storage systems, smart grids, demand-side management, and energy communities",
+    "Smart Grids Austria and APG particularly emphasize the importance of intelligent grids for integrating renewable energy.",
+    "At the distribution network level, intelligent local substations, grid monitoring, and controllable consumers are important technical solutions"
   ],
   "regulatoryFramework": [
-    "Key legal foundations include the Renewable Expansion Act (EAG), the Electricity Industry and Organization Act 2010 (ElWOG 2010), EU Directive 2018/2001 on renewable energy, and EU Directive 2019/944 on the internal electricity market. The EAG is particularly important because it provides the legal basis for energy communities and support mechanisms. ElWOG regulates market organization, grid operation, market roles, and security of supply."
+    "Key legal foundations include the Renewable Expansion Act (EAG)",
+    "the Electricity Industry and Organization Act 2010 (ElWOG 2010)",
+    "EU Directive 2018/2001 on renewable energy",
+    "EU Directive 2019/944 on the internal electricity market",
+    "The EAG is particularly important because it provides the legal basis for energy communities and support mechanisms",
+    "ElWOG regulates market organization, grid operation, market roles, and security of supply"
 ],
   "responsibleInstitutions": [
-    "E-Control is the national regulatory authority supervising the electricity and gas markets. The Federal Ministry for Climate Action (BMK) is responsible for energy policy. Austrian Power Grid (APG) is the transmission system operator and system manager. Distribution system operators are responsible for local grid connections. The Austrian Coordination Office for Energy Communities supports practical implementation."
+    "E-Control is the national regulatory authority supervising the electricity and gas markets",
+    "The Federal Ministry for Climate Action (BMK) is responsible for energy policy",
+    "Austrian Power Grid (APG) is the transmission system operator and system manager",
+    "Distribution system operators are responsible for local grid connections",
+    "The Austrian Coordination Office for Energy Communities supports practical implementation."
   ],
   "gridOperators": [],
   "implementationExamples": [
-    "Energy communities play a particularly important role in Austria. The Renewable Expansion Act (EAG) enables Renewable Energy Communities and Citizen Energy Communities. This allows citizens, municipalities, small and medium-sized enterprises, and public institutions to jointly generate, consume, store, and sell electricity. The primary benefit is to use locally generated PV electricity as locally as possible. This can reduce grid losses, increase public acceptance of renewable energy, and create new business models for neighborhoods, municipalities, and regional cooperations."
+    "Energy communities play a particularly important role in Austria",
+    "The Renewable Expansion Act (EAG) enables Renewable Energy Communities and Citizen Energy Communities. This allows citizens, municipalities, small and medium-sized enterprises, and public institutions to jointly generate, consume, store, and sell electricity.",
+    "The primary benefit is to use locally generated PV electricity as locally as possible. This can reduce grid losses, increase public acceptance of renewable energy, and create new business models for neighborhoods, municipalities, and regional cooperations."
   ],
   "newconsumersandflexibleloads": [
-    "New consumers mainly include heat pumps, EV charging stations (wallboxes), battery storage systems, and prosumer households. These increase the local grid load but can also support the grid through intelligent control. Heat pumps can use thermal storage, electric vehicles can shift charging times, and battery storage systems can reduce PV feed-in peaks. As a result, flexibility in distribution grids has become a key component of Austria’s energy transition."
+    "New consumers mainly include heat pumps, EV charging stations (wallboxes), battery storage systems, and prosumer households. These increase the local grid load but can also support the grid through intelligent control",
+    "Heat pumps can use thermal storage, electric vehicles can shift charging times, and battery storage systems can reduce PV feed-in peaks",
+    "As a result, flexibility in distribution grids has become a key component of Austria’s energy transition."
   ],
   "sources": [
        {
