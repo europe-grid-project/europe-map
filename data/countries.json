@@ -382,10 +382,16 @@
     "summary": "Italia",
     "gridConnectionProcedure": "Renewable energy installations are connected through the responsible grid operators. Large installations are often connected to Terna's transmission network, while rooftop PV systems, prosumers, and battery storage systems are primarily connected to the distribution grid. The key challenge lies in the geographical distribution: renewable generation is often located where grid capacity is limited, whereas major consumption centers are situated in other regions. Terna addresses this development in its National Grid Development Plan, which outlines the expansion of the national transmission infrastructure and the integration of renewable energy.",
     "strategiesvolatility": [
-      "Italy places a strong emphasis on digitalization. Second-generation smart meters not only provide more accurate consumption data but also serve as sensors for grid quality monitoring, fault detection, and decentralized generation. ARERA considers the further development of smart metering and flexibility services for distribution networks to be a strategic priority. In addition, battery storage, demand response, aggregators, and grid expansion are important instruments for limiting volatility."
+      "Italy places a strong emphasis on digitalization",
+      "Second-generation smart meters not only provide more accurate consumption data but also serve as sensors for grid quality monitoring, fault detection, and decentralized generation",
+      "ARERA considers the further development of smart metering and flexibility services for distribution networks to be a strategic priority",
+      "In addition, battery storage, demand response, aggregators, and grid expansion are important instruments for limiting volatility"
 ],
     "regulatoryFramework": [
-      "Key legal foundations include Legislative Decree 199/2021 implementing the Renewable Energy Directive, Legislative Decree 210/2021 implementing the EU Electricity Market Directive, ARERA regulations on smart metering, tariff regulation, and flexibility services, as well as the technical grid connection rules established by network operators. The Italian system is strongly regulation-driven because smart meters, consumer protection, grid services, and flexibility are closely interconnected."
+      "Key legal foundations include Legislative Decree 199/2021 implementing the Renewable Energy Directive",
+      "Legislative Decree 210/2021 implementing the EU Electricity Market Directive",
+      "ARERA regulations on smart metering, tariff regulation, and flexibility services, as well as the technical grid connection rules established by network operators",
+      "The Italian system is strongly regulation-driven because smart meters, consumer protection, grid services, and flexibility are closely interconnected."
     ],
     "responsibleInstitutions": [
       "ARERA is the national regulatory authority for energy, networks, and consumer protection. Terna is the transmission system operator and system manager. GSE is responsible for renewable energy support and settlement mechanisms. MASE is the responsible Ministry of Energy. Distribution system operators such as e-distribuzione and Areti implement smart metering and local grid connections in practice."
