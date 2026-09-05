@@ -865,7 +865,9 @@
     ],
     "regulatoryFramework": [
       "A classic surplus feed-in system is in place",
-      "But a massive structural difference is that the feed-in remuneration is not nationally fixed but is calculated individually by each grid operator based on their own generation costs or market prices"
+      "Feed-in system runs on reference market prices whiche are set quarterly by the Federal office of energy (BFE):",
+      "6 Rp./kWh up to 30 kW and 1,2 Rp./kWh 30-149 kW",
+      "change to hour system in 2027"
     ],
     "responsibleInstitutions": [
       "The Federal Electricity Commission (ElCom) is the national regulatory authority",
