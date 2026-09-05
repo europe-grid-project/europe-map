@@ -700,27 +700,37 @@
     "title": "Finland",
     "summary": "Suomi",
     "gridConnectionProcedure": [
-      "The registration depends on the system capacity. Under 16 amps per phase (Form G98), the Fit & Inform principle applies (installation and subsequent notification within 28 days). Larger systems (G99) require a 45-day prior assessment by the grid operator"
+      "The expansion of wind power has significantly transformed Finland’s electricity system in recent years. Fingrid defines technical connection requirements through its Grid Code Specifications. These specify the technical and operational requirements that power plants must meet to reliably withstand voltage fluctuations, frequency deviations, and system disturbances. This is particularly important for renewable energy installations, as a high share of weather-dependent generation can only be integrated reliably if installations respond in a grid-supportive manner and exchange data with grid operators."
     ],
     "strategiesvolatility": [
-      "The introduction of Market-wide Half-Hourly Settlement (MHHS) forces the entire market into a strict 30-minute billing grid, which incentivizes end customers to significantly shift their load via highly dynamic tariffs"
+      "Smart meters enable near real-time recording of electricity consumption and generation",
+      "variable tariffs, balancing and load management"
     ],
     "regulatoryFramework": [
-      "The Smart Export Guarantee (SEG) system obliges large suppliers to offer feed-in tariffs",
-      "These tariffs are not fixed by the state but are subject to free market competition"
+      "legal basis includes:",
+      "the Finnish Electricity Market Act,",
+      "EU internal electricity market legislation,",
+      "national grid connection rules,",
+      "and Fingrid’s technical connection requirements",
+      "",
+      "Energiavirasto supervises the market and the network operators",
+      "Fingrid defines the technical requirements for connection to the transmission grid"
     ],
     "responsibleInstitutions": [
-      "The market is regulated by Ofgem",
-      "The transmission grid is managed by the National Energy System Operator (NESO)",
-      "The distribution grid is divided into 14 regions controlled by 6 large DNO (Distribution Network Operator) conglomerates"
+      "Energy and market regulatory authority (Energiavirasto)",
+      "Transmission system operator and system operator (Fingrid)",
+      "Finnish Energy and VTT provide industry expertise and research contributions",
+      "ACER and ENTSO-E provide European reference frameworks for comparison"
     ],
     "gridOperators": [],
     "implementationExamples": [
-      "The Electric Vehicles Smart Charge Points Regulations mandate by law that new private wallboxes must be configured by default to block charging processes during peak grid hours (8-11 AM and 4-7 PM)"
+      "Finland demonstrates that digital metering infrastructure is not only used for billing but also serves as a key instrument for grid integration, flexibility, and overall system operation. This can be used to operate all flexible loads"
     ],
     "newconsumersandflexibleloads": [
-      "The UK is a leader in local flexibility markets",
-      "DNOs regularly tender Flexibility Services, where aggregators bundle the capacity of private storage systems and heat pumps and use them for local grid stabilization in exchange for remuneration"
+      "Primarily created through the electrification of heating, transport, and industry",
+      "Heat pumps are most important because of the cold climate",
+      "Electric vehicles and industrial loads can be used as flexible consumers",
+      "Demand-side flexibility as an element of the Finnish reserve and balancing markets"
     ],
     "sources": [
              {
