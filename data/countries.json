@@ -96,7 +96,7 @@
 ],
   "responsibleInstitutions": [
     "E-Control is the national regulatory authority supervising the electricity and gas markets",
-    "The Federal Ministry for Climate Action (BMK) is responsible for energy policy",
+    "Federal Ministry of Economy, Energy and Tourism (BMWET) is responsible for energy policy",
     "Austrian Power Grid (APG) is the transmission system operator and system manager",
     "Distribution system operators are responsible for local grid connections",
     "The Austrian Coordination Office for Energy Communities supports practical implementation."
@@ -116,6 +116,10 @@
        {
       "name": "E-Control: Energy Communities",
       "url": "https://www.e-control.at/energiegemeinschaften"
+    },
+           {
+      "name": "Federal Ministry of Economy, Energy and Tourism (BMWET)",
+      "url": "https://www.bmwet.gv.at/en.html"
     },
            {
       "name": "Renewable Expansion Act (EAG), Republic of Austria / RIS (2021)",
@@ -775,7 +779,7 @@
     ],
     "gridOperators": [],
     "implementationExamples": [
-      "The Electric Vehicles Smart Charge Points Regulations mandate by law that new private wallboxes must be configured by default to block charging processes during peak grid hours (8-11 AM and 4-7 PM)"
+      "The Electric Vehicles Smart Charge Points Regulations mandate by law that new private wallboxes must be configured by default to block charging processes during peak grid hours (8-11 AM and 4-10 PM). Up to a limit this blocking can be by-passed by users if nescessary."
     ],
     "newconsumersandflexibleloads": [
       "The UK is a leader in local flexibility markets",
