@@ -80,11 +80,11 @@
       min-height: calc(100vh - 94px);
     }
 
-    #map {
-      width: 100%;
-      height: calc(100vh - 94px);
-      background: #cfd8dc;
-    }
+  #map {
+  width: 100%;
+  height: calc(100vh - 94px);
+  background: #c7dcf5;
+}
 
     aside {
       background: var(--panel);
@@ -430,12 +430,8 @@ tr:nth-child(even) {
       maxZoom: 8
     }).setView([54, 15], 4);
 
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", {
-      attribution: "&copy; OpenStreetMap contributors &copy; CARTO"
-    }).addTo(map);
-
   
-
+  
     const comparisonCountries = [
   "Germany",
   "Austria",
@@ -553,14 +549,7 @@ function formatTableValue(value) {
 
   return value;
 }
-    function hashCode(str) {
-      let hash = 0;
-      for (let i = 0; i < str.length; i++) {
-        hash = ((hash << 5) - hash) + str.charCodeAt(i);
-        hash |= 0;
-      }
-      return Math.abs(hash);
-    }
+    
 
     function countryName(feature) {
       return feature.properties.ADMIN || feature.properties.NAME || feature.properties.name || "Unknown country";
@@ -616,36 +605,45 @@ function formatTableValue(value) {
   "Vatican": "#9370db"
 };
 
-function styleCountry(feature) {
+    function styleCountry(feature) {
   const name = countryName(feature);
+  const data = countryData[name];
 
-  // Prüft, ob das Land in countries.json vorhanden ist
-  const hasCountryData = Object.prototype.hasOwnProperty.call(
-    countryData,
-    name
-  );
+  const hasCountryData =
+    data &&
+    (
+      data.summary ||
+      data.gridConnectionProcedure ||
+      data.strategiesvolatility?.length ||
+      data.regulatoryFramework?.length ||
+      data.responsibleInstitutions?.length ||
+      data.gridOperators?.length ||
+      data.implementationExamples?.length ||
+      data.newconsumersandflexibleloads?.length ||
+      data.sources?.length
+    );
 
   return {
     color: "#ffffff",
-    weight: 1.2,
+    weight: 1.4,
 
-    // Länder mit Daten bekommen ihre eigene Farbe,
-    // alle anderen Länder werden grau dargestellt
     fillColor: hasCountryData
       ? (countryColorMap[name] || "#64748b")
-      : "#c7cbd1",
+      : "#b9bec5",
 
-    fillOpacity: hasCountryData ? 0.82 : 0.65
+    fillOpacity: hasCountryData ? 0.88 : 0.72
   };
 }
-    function highlightCountry(e) {
-      e.target.setStyle({
-        weight: 2.5,
-        color: "#111827",
-        fillOpacity: 0.92
-      });
-      e.target.bringToFront();
-    }
+
+ function highlightCountry(e) {
+  e.target.setStyle({
+    weight: 2.5,
+    color: "#334155",
+    fillOpacity: 1
+  });
+
+  e.target.bringToFront();
+}
 
     function resetCountry(e) {
       geojsonLayer.resetStyle(e.target);
