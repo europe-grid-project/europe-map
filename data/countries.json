@@ -88,7 +88,7 @@
   ],
   "regulatoryFramework": [
     "Key legal foundations include the Renewable Expansion Act (EAG)",
-    "the Electricity Industry and Organization Act 2010 (ElWOG 2010)",
+    "the Electricity Industry Act 2025 (ElWG 2010), replaces (ElWOG 2010) since 01/01/26",
     "EU Directive 2018/2001 on renewable energy",
     "EU Directive 2019/944 on the internal electricity market",
     "The EAG is particularly important because it provides the legal basis for energy communities and support mechanisms",
@@ -126,8 +126,8 @@
       "url": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_2021_1_150/ERV_2021_1_150.pdf"
     },
            {
-      "name": "E-Control: Electricity Act 2010 (ElWOG 2010)",
-      "url": "https://www.e-control.at/documents/1785851/1811597/ElWOG+2010,+Fassung+vom+04.03.2022_en.pdf/31a83e2e-12e6-b223-b38f-f2b7e6c181ec?t=1659711635542"
+      "name": "E-Control: Electricity Act 2025 (ElWOG 2010)",
+      "url": "https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2025_I_91/BGBLA_2025_I_91.html"
     },
            {
       "name": "Austrian Power Grid (APG)",
@@ -168,7 +168,7 @@
   ],
   "gridOperators": [],
   "implementationExamples": [
-    "To avoid prolonged load peaks and blockages at grid nodes, an automated curtailment applies to DC fast-charging stations: charging processes can be hard-disconnected by the grid once an 85% state of charge is reached"
+    "To avoid prolonged load peaks and blockages at grid nodes, an curtailment applies to DC fast-charging stations: operators are allowed to disconnect the charging process once an 85% state of charge is reached"
   ],
   "newconsumersandflexibleloads": [
     "Battery storage is voluntarily permitted for private households",
@@ -220,7 +220,7 @@
   ],
   "regulatoryFramework": [
    "Decree-Law No. 15/2022: general electricity system law",
-   "ERSE Regulation No. 2/2023: self-consumption regulation",
+   "Regulamento n.º 827/2023, Diário da República; (ERSE Regulation No. 2/2023): Commercial Relations Regulation",
    "ERSE rules on smart grids, metering and electric mobility"
   ],
   "responsibleInstitutions": [
@@ -301,12 +301,11 @@
     ],
     "gridOperators": [],
     "implementationExamples": [
-      "The concept of Autoconsommation collective allows several households within a 2-kilometer radius in the low-voltage grid to balance their generation and consumption data hourly without having to lay direct physical cables"
+      "The concept of Autoconsommation collective allows several households within a 2-kilometer radius in the low-voltage grid to balance their generation and consumption data in 15 minute stroke without having to lay direct physical cables"
     ],
     "newconsumersandflexibleloads": [
       "Battery storage plays a minor role in the residential sector due to stable feed-in tariffs",
-      "Private wallboxes must be controllable by the grid ex-works",
-      "Vehicle-to-Grid (V2G) technologies are being introduced commercially on a broad scale"
+      "Vehicle-to-Grid (V2G) technologies are being introduced commercially"
     ],
     "sources": [
        {
