@@ -25,7 +25,7 @@
     "VDE FNN: technical connection rules"
   ],
 
-  "gridOperators": [],
+  
 
   "implementationExamples": [
    "From 2024 onwards, new controllable devices cannot generally be refused connection merely because of potential congestion; instead, the DSO may temporarily limit consumption during critical grid situations.",
@@ -101,7 +101,7 @@
     "Distribution system operators are responsible for local grid connections",
     "The Austrian Coordination Office for Energy Communities supports practical implementation."
   ],
-  "gridOperators": [],
+ 
   "implementationExamples": [
     "Energy communities play a particularly important role in Austria",
     "The Renewable Expansion Act (EAG) enables Renewable Energy Communities and Citizen Energy Communities. This allows citizens, municipalities, small and medium-sized enterprises, and public institutions to jointly generate, consume, store, and sell electricity.",
@@ -166,7 +166,7 @@
     "The transmission grid is centrally operated by TEİAŞ",
     "The distribution grid is divided into 21 regional monopoly areas (EDAŞ)"
   ],
-  "gridOperators": [],
+  
   "implementationExamples": [
     "To avoid prolonged load peaks and blockages at grid nodes, an curtailment applies to DC fast-charging stations: operators are allowed to disconnect the charging process once an 85% state of charge is reached"
   ],
@@ -228,7 +228,7 @@
     "DGEG: Directorate-General for Energy and Geology, responsible for licensing and administrative energy procedures",
     "E-REDES: main distribution system operator"
   ],
-  "gridOperators": [],
+ 
   "implementationExamples": [
     "Collective self-consumption allows several consumers to share locally produced renewable electricity",
     "Renewable energy communities can use UPAC generation and distribute benefits among members",
@@ -299,7 +299,7 @@
       "The Commission de Régulation de l'Énergie (CRE) acts as the NRA",
       "RTE controls the transmission grid, while Enedis holds a de facto monopoly in the distribution grid with a market share of around 95%"
     ],
-    "gridOperators": [],
+  
     "implementationExamples": [
       "The concept of Autoconsommation collective allows several households within a 2-kilometer radius in the low-voltage grid to balance their generation and consumption data in 15 minute stroke without having to lay direct physical cables"
     ],
@@ -349,7 +349,7 @@
       "Red Eléctrica (REE) is the transmission system operator and system manager",
       "Regional authorities and distribution system operators play a key role in approval and grid connection processes"
     ],
-    "gridOperators": [],
+   
     "implementationExamples": [
       "Spain’s best practice lies in expanding PV self-consumption, collective self-consumption, and local energy communities",
       "For Germany, neighborhood models, shared PV use, storage integration, and simplified billing models are particularly relevant",
@@ -403,7 +403,7 @@
       "MASE is the responsible Ministry of Energy",
       "Distribution system operators such as e-distribuzione and Areti implement smart metering and local grid connections in practice"
 ],
-    "gridOperators": [],
+
     "implementationExamples": [
       "Italy's most significant best practice is its large-scale smart meter rollout",
       "For Germany, the most relevant aspect is how smart meters can be used not only for billing purposes but also to provide grid status data, demand management, flexibility services, and prosumer integration",
@@ -464,7 +464,7 @@
       "TenneT: transmission system operator",
       "Regional DSOs: Liander, Enexis, Stedin"
     ],
-    "gridOperators": [],
+  
     "implementationExamples": [
       "ACM has approved measures that financially reward large users for reducing consumption during peak periods",
       "TenneT has made more than 9 GW of capacity available through off-peak flexibility (TenneT 2025)",
@@ -544,7 +544,7 @@
       "Energinet: transmission system operator",
       "Distribution system operators such as N1 and Radius/Andel"
     ],
-    "gridOperators": [],
+  
     "implementationExamples": [
       "15-minute intraday trading and balancing market reforms allow market participants to adjust production and consumption closer to real time",
       "Tariff reform and digitalisation are being used to activate demand-side flexibility"
@@ -610,7 +610,7 @@
       "Statnett: transmission system operator",
       "Regional distribution system operators"
     ],
-    "gridOperators": [],
+ 
     "implementationExamples": [
       "Capacity-based network tariffs encourage households to avoid simultaneous high-power consumption",
       "Smart EV charging is used as a practical instrument to reduce local peak loads",
@@ -672,7 +672,7 @@
         "and the Swedish Energy Agency (Energimyndigheten) for energy policy programs and research",
         "At the European level, ACER and ENTSO-E are also relevant"
     ],
-    "gridOperators": [],
+  
     "implementationExamples": [
       "Sweden demonstrates how an electricity system with a high share of renewable generation can be stabilized through controllable hydropower and digital flexibility",
       "For Germany, smart meters, dynamic tariffs, demand response, and local flexibility markets are particularly transferable",
@@ -729,7 +729,7 @@
       "Finnish Energy and VTT provide industry expertise and research contributions",
       "ACER and ENTSO-E provide European reference frameworks for comparison"
     ],
-    "gridOperators": [],
+ 
     "implementationExamples": [
       "Finland demonstrates that digital metering infrastructure is not only used for billing but also serves as a key instrument for grid integration, flexibility, and overall system operation. This can be used to operate all flexible loads"
     ],
@@ -780,7 +780,7 @@
       "The transmission grid is managed by the National Energy System Operator (NESO)",
       "The distribution grid is divided into 14 regions controlled by 6 large DNO (Distribution Network Operator) conglomerates"
     ],
-    "gridOperators": [],
+
     "implementationExamples": [
       "The Electric Vehicles Smart Charge Points Regulations mandate by law that new private wallboxes must be configured by default to block charging processes during peak grid hours (8-11 AM and 4-10 PM). Up to a limit this blocking can be by-passed by users if nescessary."
     ],
@@ -827,7 +827,7 @@
       "BRUGEL (Brussels)",
       "In Flanders, the large corporation Fluvius dominates the distribution grid as a monopolist"
     ],
-    "gridOperators": [],
+
     "implementationExamples": [
       "Intelligent Home Energy Management Systems (HEMS) actively throttle the wallbox to a minimum in Flanders as soon as the heat pump or stove is activated in the household, so that the power peak does not rise above the minimum capacity tariff threshold of 2.5 kW"
     ],
@@ -877,7 +877,7 @@
       "Swissgrid operates the transmission grid",
       "The distribution grid is fragmented into over 600 extremely small and independent distribution system operators (VNB)"
     ],
-    "gridOperators": [],
+
     "implementationExamples": [
       "Since digitalization is partly still being implemented, many local grid operators continue to use hard ripple control",
       "Private heat pumps and electric boilers are physically disconnected from the grid via signal for up to two hours during the midday peak."
