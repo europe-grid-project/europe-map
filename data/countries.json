@@ -467,7 +467,7 @@
     "gridOperators": [],
     "implementationExamples": [
       "ACM has approved measures that financially reward large users for reducing consumption during peak periods",
-      "TenneT has made more than 9 GW of capacity available through off-peak flexible contracts",
+      "TenneT has made more than 9 GW of capacity available through off-peak flexibility (TenneT 2025)",
       "The Netherlands is therefore a strong reference country for flexibility before reinforcement"
     ],
     "newconsumersandflexibleloads": [
@@ -475,6 +475,10 @@
       "These loads are relevant because they intensify peak demand and contribute to congestion in both transmission and distribution grids"
     ],
     "sources": [
+       {
+    "name": "(TenneT 2025) TenneT Netherlands",
+    "url": "https://www.tennet.eu/nl-en/news/tennet-provides-9-gigawatts-capacity-high-voltage-grid-customers-waiting-list"
+  }
      {
     "name": "Authority for Consumers and Markets (ACM)",
     "url": "https://www.acm.nl/en"
