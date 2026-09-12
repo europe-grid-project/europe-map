@@ -103,6 +103,7 @@
   ],
  
   "implementationExamples": [
+    "Austria's Smart-Meter-Rollout reached nearly 100% (96,6%, 31.12.2024)",
     "Energy communities play a particularly important role in Austria",
     "The Renewable Expansion Act (EAG) enables Renewable Energy Communities and Citizen Energy Communities. This allows citizens, municipalities, small and medium-sized enterprises, and public institutions to jointly generate, consume, store, and sell electricity.",
     "The primary benefit is to use locally generated PV electricity as locally as possible. This can reduce grid losses, increase public acceptance of renewable energy, and create new business models for neighborhoods, municipalities, and regional cooperations."
@@ -110,7 +111,7 @@
   "newconsumersandflexibleloads": [
     "New consumers mainly include heat pumps, EV charging stations (wallboxes), battery storage systems, and prosumer households. These increase the local grid load but can also support the grid through intelligent control",
     "Heat pumps can use thermal storage, electric vehicles can shift charging times, and battery storage systems can reduce PV feed-in peaks",
-    "As a result, flexibility in distribution grids has become a key component of Austria’s energy transition."
+    "As a result, flexibility in distribution grids has become a key component of Austria’s energy transition"
   ],
   "sources": [
        {
@@ -142,7 +143,7 @@
       "regulatoryAuthority": "E-Control",
       "gridOperators": "Austrian Power Grid (APG); regional DSOs (e.g. Netz NÖ, Netz OÖ, Wiener Netze)",
       "connectionProcedure": "Connection request → grid capacity assessment → technical approval → installation according to TOR → commissioning",
-      "legalBasis": "Elektrizitätswirtschafts- und -organisationsgesetz (ElWOG), Erneuerbaren-Ausbau-Gesetz (EAG), TOR Technical Rules",
+      "legalBasis": "Elektrizitätswirtschafts- und -organisationsgesetz (ElWG), Erneuerbaren-Ausbau-Gesetz (EAG), TOR Technical Rules",
       "implementationExample": "Smart Grids Austria projects integrate PV, heat pumps and e-mobility through digital distribution networks and flexibility management."
      }
 },
