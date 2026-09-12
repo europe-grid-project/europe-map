@@ -227,7 +227,7 @@
   ],
   "responsibleInstitutions": [
     "ERSE: national regulatory authority for energy services",
-    "DGEG: Directorate-General for Energy and Geology, responsible for licensing and administrative energy procedures",
+    "DGEG: Directorate-General for Energy and Geology, responsible for energy policy, strategic framework and legislation",
     "E-REDES: main distribution system operator"
   ],
  
@@ -275,7 +275,7 @@
       }
   ],
      "comparison": {
-      "regulatoryAuthority": "ERSE; DGEG (licensing)",
+      "regulatoryAuthority": "ERSE; DGEG (energy policy)",
       "gridOperators": "REN; E-REDES",
       "connectionProcedure": "Registration/licensing → technical verification → connection to RESP → metering and settlement, Smart-Meter-Rollout 99% (01.07.2025)",
       "legalBasis": "Decree-Law No. 15/2022, ERSE Regulation No. 2/2023 (Self-Consumption), Electric Mobility Regulation",
