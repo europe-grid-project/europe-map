@@ -152,15 +152,15 @@
   "title": "Turkey",
   "summary": "Türkiye",
   "gridConnectionProcedure": [
-    "The process comprises six steps: proof of an active electricity subscription, technical application to the regional distribution system operator (EDAŞ), a 30-day evaluation by the energy authority (EİGM), physical installation, smart meter installation, and finally the transition to grid-connected operation."
+    "Applications for unlicensed renewable energy systems are submitted to the responsible distribution system operator. For solar and wind projects, the technical evaluation is carried out by EİGM and is generally completed within 30 days"
   ],
   "strategiesvolatility": [
-    "Turkey statically caps the installable PV capacity at twice the contracted connection capacity",
-    "Furthermore, to dampen midday peaks, monthly net metering was abolished and replaced by an hourly settlement to force prosumers into simultaneous self-consumption"
+    "For unlicensed generation, the mechanical installed capacity may be up to twice the electrical installed capacity",
+    "Monthly settlement is used for eligible unlicensed renewable energy installations to determine electricity consumption and surplus generation"
   ],
   "regulatoryFramework": [
     "The central regulatory framework is the Regulation on Unlicensed Electricity Generation (Lisanssız Elektrik Üretimi)",
-    "For large-scale projects, a mandatory coupling applies where grid connection capacities are only granted in a 1:1 ratio with the installation of battery storage systems"
+    "Battery storage systems are subject to specific grid connection and technical requirements defined by TEİAŞ. Updated connection and compatibility criteria were published in 2026"
   ],
   "responsibleInstitutions": [
     "The regulatory authority is the EPDK",
@@ -169,7 +169,7 @@
   ],
   
   "implementationExamples": [
-    "To avoid prolonged load peaks and blockages at grid nodes, a curtailment applies to DC fast-charging stations: operators are allowed to disconnect the charging process once an 85% state of charge is reached"
+    "At DC fast-charging stations, some charging network operators may terminate the charging service once the battery reaches 85% state of charge, provided that users are informed in advance. This is intended to improve the efficient use of fast-charging infrastructure"
   ],
   "newconsumersandflexibleloads": [
     "Battery storage is voluntarily permitted for private households",
