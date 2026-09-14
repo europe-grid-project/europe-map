@@ -8,6 +8,7 @@
   "strategiesvolatility": [
     "Germany has introduced a highly relevant mechanism through Section 14a EnWG, allowing distribution system operators to temporarily reduce the power of controllable consumption devices during imminent grid congestion",
     "The mechanism applies particularly to heat pumps, private EV charging points, battery storage systems and air-conditioning units. In return, consumers receive reduced network charges",
+    "Since 1 April 2025, distribution system operators must offer a time-variable network tariff (Module 3) for eligible controllable consumption devices",
     "Grid-supporting inverter behaviour under VDE-AR-N 4105 helps to stabilise voltage in low-voltage networks with high photovoltaic penetration"
   ],
 
@@ -83,12 +84,13 @@
   "strategiesvolatility": [
     "Austria combines several flexibility options:",
     "hydropower and pumped-storage plants, smart meters, battery storage systems, smart grids, demand-side management, and energy communities",
-    "Smart Grids Austria and APG particularly emphasize the importance of intelligent grids for integrating renewable energy.",
+    "Smart Grids Austria and APG particularly emphasize the importance of intelligent grids for integrating renewable energy",
+    "Since 1 April 2026, the nationwide SNAP summer low energy price reduces the volumetric network charge by 20% between 10:00 and 16:00 from April to September for eligible customers with quarter-hourly smart-meter data",
     "At the distribution network level, intelligent local substations, grid monitoring, and controllable consumers are important technical solutions"
   ],
   "regulatoryFramework": [
     "Key legal foundations include the Renewable Expansion Act (EAG)",
-    "the Electricity Industry Act 2025 (ElWG), replaces (ElWOG 2010) since 01/01/26",
+    "the Electricity Industry Act 2025 (ElWG), replacing (ElWOG 2010) since 01/01/26",
     "EU Directive 2018/2001 on renewable energy",
     "EU Directive 2019/944 on the internal electricity market",
     "The EAG is particularly important because it provides the legal basis for energy communities and support mechanisms",
