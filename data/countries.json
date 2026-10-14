@@ -3,10 +3,10 @@
   "title": "Germany",
   "summary": "Deutschland",
   "gridConnectionProcedure": [
-    "Renewable energy plants have a statutory right to prompt grid connection under the Renewable Energy Sources Act, especially Section 8 EEG. Grid operators are required to connect renewable installations at the technically and economically suitable grid connection point. For low-voltage installations, the practical connection process is shaped by the Low Voltage Connection Ordinance, the technical connection rules and the requirements of the local distribution system operator. Distributed generation units connected to the low-voltage grid must comply with VDE-AR-N 4105, which includes requirements for dynamic grid support, reactive power provision and stable behaviour during voltage disturbances."
+    "Renewable energy plants have a statutory right to prompt grid connection under the Renewable Energy Sources Act, especially Section 8 EEG. Under §8a EEG, operators can agree on flexible feed-in limits, enabling shared grid connections for renewable installations and battery storage systems (FCA). Grid operators are required to connect renewable installations at the technically and economically suitable grid connection point. For low-voltage installations, the practical connection process is shaped by the Low Voltage Connection Ordinance, the technical connection rules and the requirements of the local distribution system operator. Distributed generation units connected to the low-voltage grid must comply with VDE-AR-N 4105, which includes requirements for dynamic grid support, reactive power provision and stable behaviour during voltage disturbances."
   ],
   "strategiesvolatility": [
-    "Germany has introduced a highly relevant mechanism through Section 14a EnWG, allowing distribution system operators to temporarily reduce the power of controllable consumption devices during imminent grid congestion",
+    "Germany has introduced a highly relevant mechanism through Section 14a EnWG, allowing distribution system operators to temporarily reduce the power of controllable consumption devices (maximum reduction 4.2kW) during imminent grid congestion",
     "The mechanism applies particularly to heat pumps, private EV charging points, battery storage systems and air-conditioning units. In return, consumers receive reduced network charges",
     "Since 1 April 2025, distribution system operators must offer a time-variable network tariff (Module 3) for eligible controllable consumption devices",
     "Grid-supporting inverter behaviour under VDE-AR-N 4105 helps to stabilise voltage in low-voltage networks with high photovoltaic penetration"
@@ -31,11 +31,14 @@
   "implementationExamples": [
    "From 2024 onwards, new controllable devices cannot generally be refused connection merely because of potential congestion; instead, the DSO may temporarily limit consumption during critical grid situations.",
    "EV chargers or heat pumps may be reduced to a lower operating level rather than disconnected completely.",
-   "Reduced network charges create a financial incentive for consumers to provide flexibility."
+   "Reduced network charges create a financial incentive for consumers to provide flexibility.",
+   "AgNes (Electricity Network Tariff Reform): Germany plans to reform grid charges, potentially introducing generator contributions and stronger flexibility incentives. Final adoption is expected in late 2026, with implementation from 2029"
   ],
 
   "newconsumersandflexibleloads": [
-    "Electric vehicles, heat pumps, battery storage systems and air-conditioning units are explicitly treated as controllable consumption devices under the new Section 14a framework"
+    "Electric vehicles, heat pumps, battery storage systems and air-conditioning units are explicitly treated as controllable consumption devices under the new Section 14a framework",
+    "MiSpeL Regulation (October 2026): New rules allow batteries and bidirectional EV chargers to combine renewable and grid electricity while preserving EEG support for eligible renewable electricity exports",
+    "Two methods are introduced: precise electricity allocation (Abgrenzungsoption) and simplified accounting (Pauschaloption) for households with PV installations up to 30 kWp"
   ],
 
   "sources": [
