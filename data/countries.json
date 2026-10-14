@@ -83,7 +83,8 @@
 "Austria": {
   "title": "Austria",
   "summary": "Österreich",
-  "gridConnectionProcedure": "Renewable energy installations are connected to the grid in Austria through the responsible grid operators. The rapid expansion of small and medium-sized PV systems, in particular, is creating new requirements in low-voltage networks: feed-in peaks, voltage increases, bidirectional power flows, and a growing need for grid reinforcement. E-Control has therefore highlighted measures to accelerate grid connections and ensure the transparent handling of connection requests. For the project, Austria is particularly interesting because grid connection is being further developed not only technically but also organizationally and regulatorily.",
+  "gridConnectionProcedure": "Renewable energy installations in Austria are connected to the electricity grid through the responsible grid operators. The rapid expansion of small and medium-sized PV systems creates increasing challenges for low-voltage networks, including feed-in peaks, voltage rises, bidirectional power flows, and a growing need for grid reinforcement. To address these challenges, Austria is further developing its grid connection procedures through technical, organizational, and regulatory measures. E-Control emphasizes the importance of accelerating grid connections and ensuring transparent handling of connection requests. The ElWG also introduces revised capacity-based grid connection charges for renewable energy installations, with rates starting at €13/kW for installations up to 20 kW, subject to applicable exemptions, including the exemption for installations with a grid-effective feed-in capacity of up to 15 kW from 2027. Overall, Austria's approach combines technical grid modernization with organizational improvements and regulatory reforms to facilitate the continued integration of renewable energy.",
+
   "strategiesvolatility": [
     "Austria combines several flexibility options:",
     "hydropower and pumped-storage plants, smart meters, battery storage systems, smart grids, demand-side management, and energy communities",
@@ -116,7 +117,9 @@
   "newconsumersandflexibleloads": [
     "New consumers mainly include heat pumps, EV charging stations (wallboxes), battery storage systems, and prosumer households. These increase the local grid load but can also support the grid through intelligent control",
     "Heat pumps can use thermal storage, electric vehicles can shift charging times, and battery storage systems can reduce PV feed-in peaks",
-    "As a result, flexibility in distribution grids has become a key component of Austria’s energy transition"
+    "As a result, flexibility in distribution grids has become a key component of Austria’s energy transition",
+    "Peer-to-Peer Energy Sharing (ElWG §68): Since October 2026, active customers may share electricity through contractual arrangements, including peer-to-peer agreements, while retaining their existing electricity supply contracts",
+    "also since October 2026, active customers have explicit rights to generate, consume, store and sell electricity and participate in flexibility programmes (ElWG §65)"
   ],
   "sources": [
        {
