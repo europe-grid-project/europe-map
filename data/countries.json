@@ -237,7 +237,7 @@
   "title": "Portugal",
   "summary": "Portugal",
   "gridConnectionProcedure": [
-    "Portugal’s electricity system is governed by Decree-Law No. 15/2022, which establishes the organisation and functioning of the national electricity system, the Sistema Elétrico Nacional. Self-consumption installations, known as UPAC, are registered and operated under the Portuguese self-consumption framework. Connection to the public electricity grid, RESP, involves technical verification by the relevant network operator and regulatory compliance with ERSE rules."
+  "Portugal’s electricity system is governed by Decree-Law No. 15/2022, amended in 2026 by Decree-Law No. 130/2026 to further modernise electricity market regulations. Self-consumption installations (UPAC) benefit from simplified licensing procedures under Law No. 29/2026, including tacit approval when statutory deadlines expire. Connection to the public electricity grid (RESP) requires technical verification by the relevant network operator and compliance with ERSE regulations. Decree-Law No. 100/2026 introduces dynamic grid connection capacity management, while Decree-Law No. 130/2026 strengthens digital application procedures"
   ],
   "strategiesvolatility": [
    "Portugal strongly relies on self-consumption, collective self-consumption and renewable energy communities to balance generation and demand closer to the point of use",
@@ -250,6 +250,7 @@
    "Decree-Law No. 15/2022: general electricity system law (was enhanced by 100/2026 and 29/2026, and others)",
    "Regulamento n.º 827/2023, Commercial Relations Regulations for the Electricity and Gas Sectors",
    "(ERSE Regulation No. 2/2023): Self-Consumption Regulation",
+   "Updated Self-Consumtion: ERSE Regulation No. 8/2026",
    "ERSE rules on smart grids, metering and electric mobility"
   ],
   "responsibleInstitutions": [
