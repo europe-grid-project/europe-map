@@ -373,7 +373,7 @@
   "Spain": {
     "title": "Spain",
     "summary": "España",
-    "gridConnectionProcedure": "The connection of renewable energy installations is shaped by national and regional approval procedures, technical connection requirements, and grid capacity assessments. Large PV and wind projects are often connected to Red Eléctrica's transmission network, while self-consumption systems and community PV projects are mainly connected to distribution grids. The key challenge is balancing very high solar generation peaks with regional demand, available grid capacity, and storage.",
+    "gridConnectionProcedure": "National and regional approval procedures, technical connection requirements, and grid capacity assessments shape the connection of renewable energy installations. Large PV and wind projects are often connected to Red Eléctrica's transmission network, while self-consumption systems and community PV projects are mainly connected to distribution grids. The key challenge is balancing very high solar generation peaks with regional demand, available grid capacity, and storage.",
     "strategiesvolatility": [
       "Spain relies on grid expansion, energy storage, self-consumption, collective self-consumption, flexibility, and improved market integration of renewable energy",
       "PV self-consumption can reduce electricity fed into the public grid when generation and consumption coincide locally",
