@@ -248,9 +248,11 @@
    "Decree-Law No. 100/2026: establishes a complementary regime for the dynamic management of connection capacity to the Public Service Electricity Network (RESP)(22/05/2026)",
    "Law No. 29/2026 simplifies the licensing of renewable self-consumption installations (UPAC). Production and operating licences must generally be issued within 90 days, otherwise tacit approval may apply (23/06/2026)",
    "Decree-Law No. 15/2022: general electricity system law (was enhanced by 100/2026 and 29/2026, and others)",
+    "Decree-Law No. 130/2026 amends Decree-Law No. 15/2022, implementing additional European renewable energy and electricity market requirements (08/26)",
    "Regulamento n.º 827/2023, Commercial Relations Regulations for the Electricity and Gas Sectors",
    "(ERSE Regulation No. 2/2023): Self-Consumption Regulation",
    "Updated Self-Consumtion: ERSE Regulation No. 8/2026",
+    "ERSE Regulation No. 1218/2025 establishes the electricity tariff framework, with regulatory parameters covering 2026–2029",
    "ERSE rules on smart grids, metering and electric mobility"
   ],
   "responsibleInstitutions": [
@@ -266,7 +268,8 @@
   ],
   "newconsumersandflexibleloads": [
     "UPAC installations, battery storage, renewable energy communities, EV charging infrastructure and collective self-consumption schemes",
-    "Electric mobility is regulated through ERSE’s Electric Mobility Regulation, covering charging point operators, service providers, measurement, data provision and price supervision"
+    "Electric mobility is regulated through ERSE’s Electric Mobility Regulation, covering charging point operators, service providers, measurement, data provision and price supervision",
+    "Law No. 29/2026 introduces CAER contracts, allowing property owners to grant renewable energy utilisation rights for self-consumption installations up to 1 MW (06/26)"
   ],
   "sources": [
       {
@@ -303,7 +306,8 @@
       }
   ],
         "latestUpdates": [
-  
+          "ERSE introduces revised electricity tariff periods for mainland Portugal, starting April 2027 for higher-voltage customers and July–December 2027 for low-voltage residential customers",
+          "Portugal's regulated electricity tariff regime is currently scheduled to remain available until the end of 2027, with annual tariff reviews by ERSE"
 ],
      "comparison": {
       "regulatoryAuthority": "ERSE; DGEG (energy policy)",
