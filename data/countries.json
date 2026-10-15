@@ -153,6 +153,9 @@
     }
   ],
       "latestUpdates": [
+        "Generation Infrastructure Contribution (ElWG §75a): From January 2027, electricity generators must pay an annual infrastructure contribution. Installations with grid-effective capacity up to 15 kW are exempt",
+        "Wind Power Curtailment (ElWG §101): From January 2027, network operators may apply peak curtailment to qualifying wind installations, subject to statutory limits of annual energy reduction and maximum capacity",
+        "Transition from ElWOG 2010: Remaining provisions on network charges under §§51–58a ElWOG 2010 expire on 31 December 2026 as the new ElWG framework takes effect"
   
 ],
    "comparison": {
@@ -191,7 +194,8 @@
   "newconsumersandflexibleloads": [
     "Battery storage is voluntarily permitted for private households",
     "To prevent grey electricity arbitrage, electricity fed back into the grid from storage systems is unremunerated and flows into the state YEKDEM funding pool",
-    "EV charging infrastructure operators require a direct license from the EPDK"
+    "EV charging infrastructure operators require a direct license from the EPDK",
+    "TEİAŞ published updated announcements and participation arrangements for demand-side services, supporting the involvement of flexible electricity consumers in system operation"
   ],
   "sources": [
     {
@@ -218,7 +222,8 @@
     
   ],
       "latestUpdates": [
-  
+      "Balancing Market Reform (January 2027): Amendments to ancillary-service regulations enter into force on 1 January 2027, with TEİAŞ required to complete the necessary infrastructure preparations by 31 December 2026",
+      "2027 Capacity Mechanism: TEİAŞ published the application announcement for participation in the 2027 capacity mechanism in August 2026"
 ],
    "comparison": {
       "regulatoryAuthority": "Energy Market Regulatory Authority (EMRA/EPDK)",
