@@ -71,6 +71,9 @@
       "url": "https://www.vde.com/de/fnn"
     }
   ],
+    "latestUpdates": [
+  
+],
      "comparison": {
       "regulatoryAuthority": "Bundesnetzagentur",
       "gridOperators": "TSOs: 50Hertz, Amprion, TenneT, TransnetBW; DSOs: local network operators",
@@ -147,6 +150,9 @@
       "url": "https://www.iea.org/countries/austria"
     }
   ],
+      "latestUpdates": [
+  
+],
    "comparison": {
       "regulatoryAuthority": "E-Control",
       "gridOperators": "Austrian Power Grid (APG); regional DSOs (e.g. Netz NÖ, Netz OÖ, Wiener Netze)",
@@ -209,6 +215,9 @@
       }
     
   ],
+      "latestUpdates": [
+  
+],
    "comparison": {
       "regulatoryAuthority": "Energy Market Regulatory Authority (EMRA/EPDK)",
       "gridOperators": "TEİAŞ; regional distribution companies (e.g. Başkent EDAŞ, AYEDAŞ, Toroslar EDAŞ)",
@@ -285,6 +294,9 @@
       "url": "https://www.erse.pt/en/activities/regulation-electric-mobility/"
       }
   ],
+        "latestUpdates": [
+  
+],
      "comparison": {
       "regulatoryAuthority": "ERSE; DGEG (energy policy)",
       "gridOperators": "REN; E-REDES",
@@ -337,7 +349,10 @@
     "name": "French Energy and Climate Plan",
     "url": "https://climate-laws.org/document/france-s-integrated-energy-and-climate-plan_6f6b"
   }
-    ]
+    ],
+        "latestUpdates": [
+  
+]
   },
   "Spain": {
     "title": "Spain",
@@ -390,7 +405,10 @@
     "name": "Climate Change Laws of the World / BOE reference: Royal Decree 244/2019",
     "url": "https://climate-laws.org/document/royal-decree-244-2019-regulating-the-administrative-technical-and-economic-conditions-of-the-self-consumption-of-electric-energy_8775"
   }
-    ]
+    ],
+        "latestUpdates": [
+  
+]
     
   },
   "Italy": {
@@ -448,6 +466,9 @@
     "url": "https://www.iea.org/policies/13729-approval-the-rollout-of-2nd-generation-smart-meters-by-dsos"
   }
     ],
+        "latestUpdates": [
+  
+],
      "comparison": {
       "regulatoryAuthority": "ARERA",
       "gridOperators": "Terna; e-distribuzione and other DSOs",
@@ -532,7 +553,10 @@
     "name": "Stedin",
     "url": "https://www.stedin.net"
   }
-    ]
+    ],
+        "latestUpdates": [
+  
+]
     
   },
   "Denmark": {
@@ -599,7 +623,10 @@
     "name": "Renewable Energy Act (Lov om fremme af vedvarende energi)",
     "url": "https://www.retsinformation.dk"
   }
-    ]
+    ],
+        "latestUpdates": [
+  
+]
   },
   "Norway": {
     "title": "Norway",
@@ -662,7 +689,10 @@
     "name": "RME – Network Tariffs",
     "url": "https://www.nve.no/reguleringsmyndigheten/nettvirksomhet/nettleie/"
   }
-    ]
+    ],
+        "latestUpdates": [
+  
+]
   },
   "Sweden": {
     "title": "Sweden",
@@ -714,7 +744,10 @@
     "name": "Metering as an Enabler for Consumer-Focused Flexibility in Sweden",
     "url": "https://www.iea-isgan.org/wp-content/uploads/2022/06/WG9-Metering-as-Enabler-for-Flexibility.pdf"
   }
-    ]
+    ],
+        "latestUpdates": [
+  
+]
   },
   "Finland": {
     "title": "Finland",
@@ -773,7 +806,10 @@
     "name": "Smart metering based demand response in Finland (VTT)",
     "url": "https://cris.vtt.fi/en/publications/smart-metering-based-demand-response-in-finland/"
   }
-    ]
+    ],
+        "latestUpdates": [
+  
+]
   },
   "United Kingdom": {
     "title": "United Kingdom",
@@ -819,7 +855,10 @@
     "url": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero"
   }
     
-    ]
+    ],
+        "latestUpdates": [
+  
+]
   },
   "Belgium": {
     "title": "Belgium (Flanders)",
@@ -869,7 +908,10 @@
     "url": "https://www.synergrid.be/images/downloads/technical-prescription-c10-11-ed2-2-20210315-tekst-en.pdf"
   }
     
-    ]
+    ],
+        "latestUpdates": [
+  
+]
   },
   "Switzerland": {
     "title": "Switzerland",
@@ -911,6 +953,9 @@
     "name": "Swiss Electricity Supply Act (StromVG)",
     "url": "https://www.bfe.admin.ch/bfe/en/home/supply/electricity-supply/federal-electricity-supply-act.html"
   }
-    ]
+    ],
+        "latestUpdates": [
+  
+]
   }
 }
