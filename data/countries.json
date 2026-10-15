@@ -322,14 +322,16 @@
     "title": "France",
     "summary": "France",
     "gridConnectionProcedure": [
-      "The process runs digitally via the Enedis Connect portal. After the application is submitted, a connection offer is provided within 6 weeks. Before commissioning and activating the Linky smart meter, a safety certificate from the independent authority CONSUEL must be presented."
+      "The process runs digitally via the Enedis Connect portal, which has updated prices and simplified cost calculations that take effect on 28 October 2026. After the application is submitted, a connection offer is provided within 6 weeks. Before commissioning and activating the Linky smart meter, a safety certificate from the independent authority CONSUEL must be presented."
     ],
     "strategiesvolatility": [
       "France uses a nationally standardized tariff signal control system (Heures Pleines / Heures Creuses or Tempo tariff)",
-      "The smart meters receive price signals and fully automatically activate or block large thermal consumers depending on grid utilization"
+      "The smart meters receive price signals and fully automatically activate or block large thermal consumers depending on grid utilization",
+      "Distribution and Transmission Network Tariffs were updated for low-, medium-, and high-voltage users in August 2026"
     ],
     "regulatoryFramework": [
       "The system is based on surplus feed-in with state-guaranteed purchase tariffs (Obligation d'achat) by EDF",
+      "Collective Self-Consumption (Decree No. 2026-561)",
       "Pure net metering does not exist"
     ],
     "responsibleInstitutions": [
@@ -338,11 +340,13 @@
     ],
   
     "implementationExamples": [
-      "The concept of Autoconsommation collective allows several households within a 2-kilometer radius in the low-voltage grid to balance their generation and consumption data in 15 minute stroke without having to lay direct physical cables"
+      "The concept of Autoconsommation collective allows several households within a 2-kilometer radius in the low-voltage grid to balance their generation and consumption data in 15-minute strokes without having to lay direct physical cables"
     ],
     "newconsumersandflexibleloads": [
       "Battery storage plays a minor role in the residential sector due to stable feed-in tariffs",
-      "Vehicle-to-Grid (V2G) technologies are being introduced commercially"
+      "Vehicle-to-Grid (V2G) technologies are being introduced commercially",
+      "France amended its photovoltaic purchase framework for installations up to 500 kW, updating eligibility conditions and technical definitions under the October 2021 tariff order",
+      "Decree No. 2026-561 revises electricity allocation rules for collective self-consumption, promoting maximum local consumption and restricting changes to allocation after day-ahead market opening"
     ],
     "sources": [
        {
@@ -363,7 +367,7 @@
   }
     ],
         "latestUpdates": [
-  
+  "From 1 July 2027, additional provisions of Decree No. 2026-561 take effect, modifying electricity allocation arrangements within collective self-consumption projects"
 ]
   },
   "Spain": {
