@@ -719,12 +719,12 @@ function formatTableValue(value) {
           ${listHtml(data?.regulatoryFramework)}
         </div>
 
-        ${data?.latestUpdates?.length ? `
-        <div class="section latest-updates">
+         <div class="section latest-updates">
           <h3>Latest Regulatory Updates</h3>
-          ${listHtml(data.latestUpdates)}
-        </div>
-          ` : ""}
+          ${data?.latestUpdates?.length
+          ? listHtml(data.latestUpdates)
+          : "<p>No regulatory updates available yet.</p>"}
+         </div>
 
         <div class="section">
           <h3>Responsible institutions</h3>
