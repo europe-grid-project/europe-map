@@ -122,6 +122,34 @@
       margin: 0;
       line-height: 1.5;
     }
+    .latest-updates {
+  margin-top: 22px;
+  padding: 18px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+}
+
+.latest-updates h3 {
+  color: #1e3a8a;
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+}
+
+.latest-updates ul {
+  margin: 8px 0 0 18px;
+  padding: 0;
+}
+
+.latest-updates li {
+  margin-bottom: 10px;
+  line-height: 1.55;
+}
+
+.latest-updates li:last-child {
+  margin-bottom: 0;
+}
 
     ul {
       margin: 8px 0 0 18px;
@@ -690,6 +718,13 @@ function formatTableValue(value) {
           <h3>Regulatory framework</h3>
           ${listHtml(data?.regulatoryFramework)}
         </div>
+
+        ${data?.latestUpdates?.length ? `
+        <div class="section latest-updates">
+          <h3>Latest Regulatory Updates</h3>
+          ${listHtml(data.latestUpdates)}
+        </div>
+          ` : ""}
 
         <div class="section">
           <h3>Responsible institutions</h3>
