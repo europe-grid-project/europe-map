@@ -846,7 +846,9 @@
     ],
     "regulatoryFramework": [
       "The Smart Export Guarantee (SEG) system obliges large suppliers to offer feed-in tariffs",
-      "These tariffs are not fixed by the state but are subject to free market competition"
+      "These tariffs are not fixed by the state but are subject to free market competition",
+      "Ofgem launched consultations on improved connection transparency, customer protections, communication and delivery standards. These remain proposals rather than binding requirements (09/26)",
+      "It was proposed that new demand capacity registers, improved network reinforcement information, and consistent data standards to increase grid connection transparency"
     ],
     "responsibleInstitutions": [
       "The market is regulated by Ofgem",
@@ -881,7 +883,7 @@
     
     ],
         "latestUpdates": [
-  
+  "Connection Regulation Reform (Early 2027): Ofgem plans to develop new regulatory requirements for connection data and customer service following consultations closing on 6 November 2026. Final implementation remains subject to decisions"
 ]
   },
   "Belgium": {
@@ -934,7 +936,7 @@
     
     ],
         "latestUpdates": [
-  
+  "No important changes at the start of 2027"
 ]
   },
   "Switzerland": {
@@ -979,7 +981,7 @@
   }
     ],
         "latestUpdates": [
-  
+  "No important changes at the start of 2027"
 ]
   }
 }
