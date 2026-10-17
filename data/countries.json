@@ -391,7 +391,8 @@
       "IDAE supports programs, advisory services, and implementation of self-consumption and energy communities",
       "CNMC is the national regulatory authority for competition and markets",
       "Red Eléctrica (REE) is the transmission system operator and system manager",
-      "Regional authorities and distribution system operators play a key role in approval and grid connection processes"
+      "Regional authorities and distribution system operators play a key role in approval and grid connection processes",
+      "CNMC Resolution (July 2026): Four flexible demand connection permit types were approved, covering time-dependent consumption, conditional disconnection and actively controlled demand. The framework took effect on 1 September 2026"
     ],
    
     "implementationExamples": [
@@ -423,7 +424,8 @@
   }
     ],
         "latestUpdates": [
-  
+    "Flexible Connection Applications (March 2027): Applications for flexible access permits Types 0, 1 and 3 must become available within six months of 1 September 2026",
+    "Distribution Grid Flexibility (2028): Type 2 flexible access permits must become available by 1 January 2028, requiring network operators to establish appropriate monitoring and control capabilities"
 ]
     
   },
