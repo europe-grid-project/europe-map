@@ -485,7 +485,7 @@
   }
     ],
         "latestUpdates": [
-  
+  "No important changes at the start of 2027"
 ],
      "comparison": {
       "regulatoryAuthority": "ARERA",
@@ -573,7 +573,7 @@
   }
     ],
         "latestUpdates": [
-  
+      "ACM, network operators and consumer representatives agreed on a new regulatory methodology for network operators’ allowed revenues, intended to apply from 2027 through 2031"
 ]
     
   },
@@ -643,7 +643,7 @@
   }
     ],
         "latestUpdates": [
-  
+  "No important changes at the start of 2027"
 ]
   },
   "Norway": {
@@ -709,7 +709,7 @@
   }
     ],
         "latestUpdates": [
-  
+  "No important changes at the start of 2027"
 ]
   },
   "Sweden": {
@@ -724,7 +724,8 @@
     "regulatoryFramework": [
       "The legal framework is based on Swedish electricity legislation, the EU Clean Energy Package, and the EU Electricity Market Directive 2019/944",
       "Relevant aspects include grid connection requirements, network tariff regulation, requirements for smart metering systems, and rules governing the integration of flexibility",
-      "Smart meters and demand-side flexibility are regarded not as isolated technologies but as integral components of a more efficient electricity market"
+      "Smart meters and demand-side flexibility are regarded not as isolated technologies but as integral components of a more efficient electricity market",
+      "Network Tariff Regulation (2026): The Energy Markets Inspectorate repealed regulation EIFS 2022:1, removing the mandatory nationwide introduction of capacity-based network charges"
     ],
       "responsibleInstitutions": [
       "The main institutions are the Swedish Energy Markets Inspectorate (Ei) as the national regulatory authority",
@@ -764,7 +765,8 @@
   }
     ],
         "latestUpdates": [
-  
+     "Sweden abolished the requirement for all network operators to introduce capacity-based tariffs by January 2027. Operators may still apply compliant capacity charges",
+     "New regulations require electricity network operators to provide clearer information about network agreements, tariff structures and customer rights from 1 January 2027"
 ]
   },
   "Finland": {
@@ -785,7 +787,8 @@
       "and Fingrid’s technical connection requirements",
       "",
       "Energiavirasto supervises the market and the network operators",
-      "Fingrid defines the technical requirements for connection to the transmission grid"
+      "Fingrid defines the technical requirements for connection to the transmission grid",
+      "They introduced immediate technical requirements for large demand facilities directly connected to its transmission grid, supplementing the existing KJV2018 specifications (06/26)"
     ],
     "responsibleInstitutions": [
       "Energy and market regulatory authority (Energiavirasto)",
@@ -801,7 +804,8 @@
       "Primarily created through the electrification of heating, transport, and industry",
       "Heat pumps are most important because of the cold climate",
       "Electric vehicles and industrial loads can be used as flexible consumers",
-      "Demand-side flexibility as an element of the Finnish reserve and balancing markets"
+      "Demand-side flexibility as an element of the Finnish reserve and balancing markets",
+      "Fingrid reported approximately 1,050 MW of connected grid-scale energy storage in February 2026, supporting electricity system flexibility and balancing"
     ],
     "sources": [
              {
@@ -826,14 +830,16 @@
   }
     ],
         "latestUpdates": [
-  
+    "Fingrid continues restricting new grid-scale battery connections in southern Finland until 2029, prioritising available capacity for growing electricity demand and industrial projects",
+    "KJV2026 Grid Code (Planned March 2027): Fingrid proposes new technical requirements for large demand facilities, including disturbance tolerance and power limitation capabilities. Regulatory confirmation is targeted for March 2027",
+    "Transmission Network Fees (January 2027): Fingrid will increase main grid service fees by 4% from the beginning of 2027 to finance grid expansion and growing system costs"
 ]
   },
   "United Kingdom": {
     "title": "United Kingdom",
     "summary": "United Kingdom",
     "gridConnectionProcedure": [
-      "The registration depends on the system capacity. Under 16 amps per phase (Form G98), the Fit & Inform principle applies (installation and subsequent notification within 28 days). Larger systems (G99) require a 45-day prior assessment by the grid operator."
+      "This year Ofgem is developing reforms to remove non-viable projects from connection queues, accelerate viable applications and potentially prioritise strategically important electricity demand projects. The registration depends on the system capacity. Under 16 amps per phase (Form G98), the Fit & Inform principle applies (installation and subsequent notification within 28 days). Larger systems (G99) require a 45-day prior assessment by the grid operator."
     ],
     "strategiesvolatility": [
       "The introduction of Market-wide Half-Hourly Settlement (MHHS) forces the entire market into a strict 30-minute billing grid, which incentivizes end customers to significantly shift their load via highly dynamic tariffs"
