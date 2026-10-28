@@ -1,773 +1,948 @@
 {
   "Germany": {
-  "title": "Germany",
-  "summary": "Deutschland",
-  "gridConnectionProcedure": [
-    "Renewable energy plants have a statutory right to prompt grid connection under the Renewable Energy Sources Act, especially Section 8 EEG. Under §8a EEG, operators can agree on flexible feed-in limits, enabling shared grid connections for renewable installations and battery storage systems (FCA). Grid operators are required to connect renewable installations at the technically and economically suitable grid connection point. For low-voltage installations, the practical connection process is shaped by the Low Voltage Connection Ordinance, the technical connection rules and the requirements of the local distribution system operator. Distributed generation units connected to the low-voltage grid must comply with VDE-AR-N 4105, which includes requirements for dynamic grid support, reactive power provision and stable behaviour during voltage disturbances."
-  ],
-  "strategiesvolatility": [
-    "Germany has introduced a highly relevant mechanism through Section 14a EnWG, allowing distribution system operators to temporarily reduce the power of controllable consumption devices (maximum reduction 4.2kW) during imminent grid congestion",
-    "The mechanism applies particularly to heat pumps, private EV charging points, battery storage systems and air-conditioning units. In return, consumers receive reduced network charges",
-    "Since 1 April 2025, distribution system operators must offer a time-variable network tariff (Module 3) for eligible controllable consumption devices",
-    "Grid-supporting inverter behaviour under VDE-AR-N 4105 helps to stabilise voltage in low-voltage networks with high photovoltaic penetration"
-  ],
-
-  "regulatoryFramework": [
-    "Energy Industry Act: EnWG, especially Section 14a",
-    "Renewable Energy Sources Act: EEG, especially Sections 8 ff",
-    "Low Voltage Connection Ordinance: NAV",
-    "Metering Point Operation Act: MsbG",
-    "Technical rules: VDE-AR-N 4100 and VDE-AR-N 4105"
-  ],
-
-  "responsibleInstitutions": [
-    "Bundesnetzagentur: national regulatory authority",
-    "Local distribution system operators: e.g. Westnetz, Bayernwerk, Netze BW, E.DIS",
-    "VDE FNN: technical connection rules"
-  ],
-
-  
-
-  "implementationExamples": [
-   "From 2024 onwards, new controllable devices cannot generally be refused connection merely because of potential congestion; instead, the DSO may temporarily limit consumption during critical grid situations.",
-   "EV chargers or heat pumps may be reduced to a lower operating level rather than disconnected completely.",
-   "Reduced network charges create a financial incentive for consumers to provide flexibility.",
-   "AgNes (Electricity Network Tariff Reform): Germany plans to reform grid charges, potentially introducing generator contributions and stronger flexibility incentives. Final adoption is expected in late 2026, with implementation from 2029"
-  ],
-
-  "newconsumersandflexibleloads": [
-    "Electric vehicles, heat pumps, battery storage systems and air-conditioning units are explicitly treated as controllable consumption devices under the new Section 14a framework",
-    "MiSpeL Regulation (October 2026): New rules allow batteries and bidirectional EV chargers to combine renewable and grid electricity while preserving EEG support for eligible renewable electricity exports",
-    "Two methods are introduced: precise electricity allocation (Abgrenzungsoption) and simplified accounting (Pauschaloption) for households with PV installations up to 30 kWp"
-  ],
-
-  "sources": [
-    {
-      "name": "German Energy Industry Act (EnWG)",
-      "url": "https://www.gesetze-im-internet.de/enwg_2005/"
-    },
-    {
-      "name": "Renewable Energy Sources Act (EEG)",
-      "url": "https://www.gesetze-im-internet.de/eeg_2014/"
-    },
-    {
-      "name": "Federal Network Agency (Bundesnetzagentur – BNetzA)",
-      "url": "https://www.bundesnetzagentur.de/"
-    },
-    {
-      "name": "Federal Ministry for Economic Affairs and Energy (BMWE)",
-      "url": "https://www.bundeswirtschaftsministerium.de/Navigation/DE/Home/home.html"
-    },
-    {
-      "name": "Low Voltage Connection Ordinance (NAV)",
-      "url": "https://www.gesetze-im-internet.de/nav/"
-    },
-    {
-      "name": "Metering Point Operation Act (MsbG)",
-      "url": "https://www.gesetze-im-internet.de/messbg/"
-    },
-    {
-      "name": "VDE FNN (Forum Netztechnik/Netzbetrieb)",
-      "url": "https://www.vde.com/de/fnn"
-    }
-  ],
+    "title": "Germany",
+    "summary": "Deutschland",
+    "gridConnectionProcedure": [
+      "Renewable electricity installations have a priority connection right under Section 8 EEG. Section 8a permits agreed flexible connection limits. The applicable connection point is determined under the statutory technical and economic criteria. The NAV governs low-voltage electricity consumption connections; Section 1 excludes connections of renewable generation installations. Applicable technical connection rules, including VDE-AR-N 4105 for low-voltage generation, and the DSO’s requirements must also be observed."
+    ],
+    "strategiesvolatility": [
+      "Under the Section 14a EnWG framework, DSOs may temporarily limit grid imports by eligible controllable devices to address congestion. The basic minimum remaining power is 4.2 kW; this is not the maximum amount of a reduction. Different calculation rules apply to larger heat pumps and air-conditioning systems and to control through an energy management system.",
+      "The framework generally covers qualifying devices with a connection capacity above 4.2 kW commissioned from 1 January 2024 on low-voltage networks: private EV chargers, heat pumps, air-conditioning systems and storage when importing electricity. Participants receive reduced network charges.",
+      "Since 1 April 2025, eligible customers can combine the time-variable network tariff under Module 3 with Module 1, subject to the required metering arrangements.",
+      "Grid-supporting inverter behaviour under VDE-AR-N 4105 helps to stabilise voltage in low-voltage networks with high photovoltaic penetration."
+    ],
+    "regulatoryFramework": [
+      "Energy Industry Act: EnWG, especially Section 14a.",
+      "Renewable Energy Sources Act: EEG, especially Sections 8 ff.",
+      "Low Voltage Connection Ordinance: NAV.",
+      "Metering Point Operation Act: MsbG.",
+      "Technical rules: VDE-AR-N 4100 and VDE-AR-N 4105."
+    ],
+    "responsibleInstitutions": [
+      "Bundesnetzagentur: national regulatory authority.",
+      "Local distribution system operators: e.g. Westnetz, Bayernwerk, Netze BW, E.DIS.",
+      "VDE FNN: technical connection rules."
+    ],
+    "implementationExamples": [
+      "From 2024 onwards, new controllable devices cannot generally be refused connection merely because of potential congestion; instead, the DSO may temporarily limit consumption during critical grid situations.",
+      "EV chargers or heat pumps may be reduced to a lower operating level rather than disconnected completely.",
+      "Reduced network charges create a financial incentive for consumers to provide flexibility.",
+      "AgNes is an ongoing electricity network tariff reform. The Bundesnetzagentur’s 2026 timetable envisages a framework decision in late 2026 and implementation from 2029; proposed design elements must not be treated as final rules as of 28 October 2026."
+    ],
+    "newconsumersandflexibleloads": [
+      "Qualifying private EV chargers, heat pumps, storage importing electricity and air-conditioning systems are covered by the Section 14a framework, subject to its capacity, commissioning and connection criteria.",
+      "The Bundesnetzagentur’s MiSpeL determination of October 2026 provides accounting rules for mixed-use storage, including bidirectional charging, to preserve support for eligible renewable exports while allowing grid charging.",
+      "MiSpeL provides an allocation option (Abgrenzungsoption) and a simplified option (Pauschaloption) for eligible small PV configurations up to 30 kWp."
+    ],
+    "sources": [
+      {
+        "name": "German Energy Industry Act (EnWG)",
+        "url": "https://www.gesetze-im-internet.de/enwg_2005/"
+      },
+      {
+        "name": "Renewable Energy Sources Act (EEG)",
+        "url": "https://www.gesetze-im-internet.de/eeg_2014/"
+      },
+      {
+        "name": "Federal Network Agency (Bundesnetzagentur – BNetzA)",
+        "url": "https://www.bundesnetzagentur.de/"
+      },
+      {
+        "name": "Federal Ministry for Economic Affairs and Energy (BMWE)",
+        "url": "https://www.bundeswirtschaftsministerium.de/Navigation/DE/Home/home.html"
+      },
+      {
+        "name": "Low Voltage Connection Ordinance (NAV)",
+        "url": "https://www.gesetze-im-internet.de/nav/"
+      },
+      {
+        "name": "Metering Point Operation Act (MsbG)",
+        "url": "https://www.gesetze-im-internet.de/messbg/"
+      },
+      {
+        "name": "VDE FNN (Forum Netztechnik/Netzbetrieb)",
+        "url": "https://www.vde.com/de/fnn"
+      },
+      {
+        "name": "EEG § 8 – Anschluss",
+        "url": "https://www.gesetze-im-internet.de/eeg_2014/__8.html"
+      },
+      {
+        "name": "NAV § 1 – Anwendungsbereich",
+        "url": "https://www.gesetze-im-internet.de/nav/__1.html"
+      },
+      {
+        "name": "Bundesnetzagentur – steuerbare Verbrauchseinrichtungen",
+        "url": "https://www.bundesnetzagentur.de/DE/Vportal/Energie/SteuerbareVBE/artikel.html?nn=779422"
+      },
+      {
+        "name": "Bundesnetzagentur – Modul 3, Rundschreiben 3/2025",
+        "url": "https://www.bundesnetzagentur.de/DE/Beschlusskammern/BK08/BK8_04_InfoRundschr/41_Rundschr/Downloads/Rundschreiben_3_2025.pdf?__blob=publicationFile&v=2"
+      },
+      {
+        "name": "Bundesnetzagentur – MiSpeL, Oktober 2026",
+        "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/EN/2026/20261002_mispel.html"
+      },
+      {
+        "name": "Bundesnetzagentur – AgNes, 6. August 2026",
+        "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260806_Agnes.html"
+      },
+      {
+        "name": "Bundeswirtschaftsministerium – EEG-Novelle 2026",
+        "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Artikel/Service/Gesetzesvorhaben/2026/20260718-eeg-novelle.html"
+      },
+      {
+        "name": "Bundesnetzagentur – FAQ zum Smart-Meter-Rollout",
+        "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/NetzzugangMesswesen/Mess-undZaehlwesen/iMSys/_faq/faq_table.html"
+      }
+    ],
     "latestUpdates": [
-      "MiSpeL Implementation: A transitional period runs until September 2027. Early application requires agreement from grid and metering operators; the simplified option additionally requires European Commission state-aid approval",
-      "EEG Funding after 2026: Current EEG funding provisions apply through December 2026. Successor legislation for 2027 remains under parliamentary consideration; future remuneration rates are not yet confirmed",
-      "Network Tariff Reform (AgNes): The Federal Network Agency published a draft reform of electricity network charges in 2026. Final provisions and implementation dates remain subject to regulatory decisions"
-],
-     "comparison": {
-      "regulatoryAuthority": "Bundesnetzagentur",
-      "gridOperators": "TSOs: 50Hertz, Amprion, TenneT, TransnetBW; DSOs: local network operators",
-      "connectionProcedure": "Application to DSO → technical assessment → compliance with TAB/VDE rules → metering/control equipment → grid connection, Smart-Meter-Rollout 5,5% (27.03.2026)",
-      "legalBasis": "EnWG, EEG, NAV, MsbG, §14a EnWG, VDE-AR-N 4105",
-      "implementationExample": "Controllable EV chargers, heat pumps and batteries may be temporarily limited during grid congestion in exchange for reduced grid fees"
-     }
-  
-},
-"Austria": {
-  "title": "Austria",
-  "summary": "Österreich",
-  "gridConnectionProcedure": "Renewable energy installations in Austria are connected to the electricity grid through the responsible grid operators. The rapid expansion of small and medium-sized PV systems creates increasing challenges for low-voltage networks, including feed-in peaks, voltage rises, bidirectional power flows, and a growing need for grid reinforcement. To address these challenges, Austria is further developing its grid connection procedures through technical, organizational, and regulatory measures. E-Control emphasizes the importance of accelerating grid connections and ensuring transparent handling of connection requests. The ElWG also introduces revised capacity-based grid connection charges for renewable energy installations, with rates starting at €13/kW for installations up to 20 kW, subject to applicable exemptions, including the exemption for installations with a grid-effective feed-in capacity of up to 15 kW from 2027. Overall, Austria's approach combines technical grid modernization with organizational improvements and regulatory reforms to facilitate the continued integration of renewable energy.",
-
-  "strategiesvolatility": [
-    "Austria combines several flexibility options:",
-    "hydropower and pumped-storage plants, smart meters, battery storage systems, smart grids, demand-side management, and energy communities",
-    "Smart Grids Austria and APG particularly emphasize the importance of intelligent grids for integrating renewable energy",
-    "Since 1 April 2026, the nationwide SNAP summer low energy price reduces the volumetric network charge by 20% between 10:00 and 16:00 from April to September for eligible customers with quarter-hourly smart-meter data",
-    "At the distribution network level, intelligent local substations, grid monitoring, and controllable consumers are important technical solutions"
-  ],
-  "regulatoryFramework": [
-    "Key legal foundations include the Renewable Expansion Act (EAG)",
-    "the Electricity Industry Act 2025 (ElWG), replacing (ElWOG 2010) since 01/01/26",
-    "EU Directive 2018/2001 on renewable energy",
-    "EU Directive 2019/944 on the internal electricity market",
-    "The EAG is particularly important because it provides the legal basis for energy communities and support mechanisms",
-    "ElWG regulates market organization, grid operation, market roles, and security of supply"
-],
-  "responsibleInstitutions": [
-    "E-Control is the national regulatory authority supervising the electricity and gas markets",
-    "Federal Ministry of Economy, Energy and Tourism (BMWET) is responsible for energy policy",
-    "Austrian Power Grid (APG) is the transmission system operator and system manager",
-    "Distribution system operators are responsible for local grid connections",
-    "The Austrian Coordination Office for Energy Communities supports practical implementation."
-  ],
- 
-  "implementationExamples": [
-    "Austria's Smart-Meter-Rollout reached nearly 100% (96,6%, 31.12.2024)",
-    "Energy communities play a particularly important role in Austria",
-    "The Renewable Expansion Act (EAG) enables Renewable Energy Communities and Citizen Energy Communities. This allows citizens, municipalities, small and medium-sized enterprises, and public institutions to jointly generate, consume, store, and sell electricity.",
-    "The primary benefit is to use locally generated PV electricity as locally as possible. This can reduce grid losses, increase public acceptance of renewable energy, and create new business models for neighborhoods, municipalities, and regional cooperations."
-  ],
-  "newconsumersandflexibleloads": [
-    "New consumers mainly include heat pumps, EV charging stations (wallboxes), battery storage systems, and prosumer households. These increase the local grid load but can also support the grid through intelligent control",
-    "Heat pumps can use thermal storage, electric vehicles can shift charging times, and battery storage systems can reduce PV feed-in peaks",
-    "As a result, flexibility in distribution grids has become a key component of Austria’s energy transition",
-    "Peer-to-Peer Energy Sharing (ElWG §68): Since October 2026, active customers may share electricity through contractual arrangements, including peer-to-peer agreements, while retaining their existing electricity supply contracts",
-    "also since October 2026, active customers have explicit rights to generate, consume, store and sell electricity and participate in flexibility programmes (ElWG §65)"
-  ],
-  "sources": [
-       {
-      "name": "E-Control: Energy Communities",
-      "url": "https://www.e-control.at/energiegemeinschaften"
-    },
-           {
-      "name": "Federal Ministry of Economy, Energy and Tourism (BMWET)",
-      "url": "https://www.bmwet.gv.at/en.html"
-    },
-           {
-      "name": "Renewable Expansion Act (EAG), Republic of Austria / RIS (2021)",
-      "url": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_2021_1_150/ERV_2021_1_150.pdf"
-    },
-           {
-      "name": "E-Control: Electricity Act 2025 (ElWOG 2010)",
-      "url": "https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2025_I_91/BGBLA_2025_I_91.html"
-    },
-           {
-      "name": "Austrian Power Grid (APG)",
-      "url": "https://www.apg.at/en/power-grid/power-grid-austria/"
-    },
-           {
-      "name": "Energy System Overview (IEA Austria)",
-      "url": "https://www.iea.org/countries/austria"
+      "MiSpeL has a transition period until September 2027. Earlier application requires the relevant network and metering operators’ agreement; the simplified option also depends on European Commission state-aid approval.",
+      "The EEG reform for the period after 2026 remained a legislative process at the review date. The expiry of a state-aid approval period must not be confused with the automatic termination of existing installations’ EEG remuneration entitlements.",
+      "Network Tariff Reform (AgNes): The Federal Network Agency published a draft reform of electricity network charges in 2026. Final provisions and implementation dates remain subject to regulatory decisions."
+    ],
+    "comparison": {
+      "regulatoryAuthority": "Bundesnetzagentur.",
+      "gridOperators": "TSOs: 50Hertz, Amprion, TenneT, TransnetBW; DSOs: local network operators.",
+      "connectionProcedure": "Application to the DSO → technical assessment → applicable connection rules → metering and control arrangements → commissioning.",
+      "legalBasis": "EnWG, EEG, NAV, MsbG, §14a EnWG, VDE-AR-N 4105.",
+      "implementationExample": "Controllable EV chargers, heat pumps and batteries may be temporarily limited during grid congestion in exchange for reduced grid fees."
     }
-  ],
-      "latestUpdates": [
-        "Generation Infrastructure Contribution (ElWG §75a): From January 2027, electricity generators must pay an annual infrastructure contribution. Installations with grid-effective capacity up to 15 kW are exempt",
-        "Wind Power Curtailment (ElWG §101): From January 2027, network operators may apply peak curtailment to qualifying wind installations, subject to statutory limits of annual energy reduction and maximum capacity",
-        "Transition from ElWOG 2010: Remaining provisions on network charges under §§51–58a ElWOG 2010 expire on 31 December 2026 as the new ElWG framework takes effect"
-  
-],
-   "comparison": {
-      "regulatoryAuthority": "E-Control",
-      "gridOperators": "Austrian Power Grid (APG); regional DSOs (e.g. Netz NÖ, Netz OÖ, Wiener Netze)",
-      "connectionProcedure": "Connection request → grid capacity assessment → technical approval → installation according to TOR → commissioning, Smart-Meter-Rollout 96,9% (31.12.2024)",
-      "legalBasis": "Elektrizitätswirtschafts- und -organisationsgesetz (ElWG), Erneuerbaren-Ausbau-Gesetz (EAG), TOR Technical Rules",
-      "implementationExample": "Smart Grids Austria projects integrate PV, heat pumps and e-mobility through digital distribution networks and flexibility management."
-     }
-},
-
-"Turkey": {
-  "title": "Turkey",
-  "summary": "Türkiye",
-  "gridConnectionProcedure": [
-    "Applications for unlicensed renewable energy systems are submitted to the responsible distribution system operator. For solar and wind projects, the technical evaluation is carried out by EİGM and is generally completed within 30 days. In February 2026 TEİAŞ introduced procedures allowing project developers to jointly finance and construct transmission infrastructure required for connecting generation facilities, subject to defined agreements and obligations"
-  ],
-  "strategiesvolatility": [
-    "For unlicensed generation, the mechanical installed capacity may be up to twice the electrical installed capacity",
-    "Monthly settlement is used for eligible unlicensed renewable energy installations to determine electricity consumption and surplus generation",
-    "TEİAŞ updated technical criteria and testing procedures for battery storage participation in ancillary services, replacing the December 2024 version"
-  ],
-  "regulatoryFramework": [
-    "The central regulatory framework is the Regulation on Unlicensed Electricity Generation (Lisanssız Elektrik Üretimi)",
-    "Battery storage systems are subject to specific grid connection and technical requirements defined by TEİAŞ. Updated connection and compatibility criteria were published in 2026"
-  ],
-  "responsibleInstitutions": [
-    "The regulatory authority is the EPDK",
-    "The transmission grid is centrally operated by TEİAŞ",
-    "The distribution grid is divided into 21 regional monopoly areas (EDAŞ)"
-  ],
-  
-  "implementationExamples": [
-    "At DC fast-charging stations, some charging network operators may terminate the charging service once the battery reaches 85% state of charge, provided that users are informed in advance. This is intended to improve the efficient use of fast-charging infrastructure"
-  ],
-  "newconsumersandflexibleloads": [
-    "Battery storage is voluntarily permitted for private households",
-    "To prevent grey electricity arbitrage, electricity fed back into the grid from storage systems is unremunerated and flows into the state YEKDEM funding pool",
-    "EV charging infrastructure operators require a direct license from the EPDK",
-    "TEİAŞ published updated announcements and participation arrangements for demand-side services, supporting the involvement of flexible electricity consumers in system operation"
-  ],
-  "sources": [
-    {
-      "name": "EPDK (Energy Market Regulatory Authority)",
-      "url": "https://www.epdk.gov.tr/"
-      },
-    {
-      "name": "EİGM (Energy Authority)",
-      "url": "https://enerji.gov.tr/homepage"
-      },
-     {
-      "name": "TEİAŞ (Transmission Grid Operator)",
-      "url": "https://www.teias.gov.tr/en-US"
+  },
+  "Austria": {
+    "title": "Austria",
+    "summary": "Österreich",
+    "gridConnectionProcedure": "Renewable installations apply to the responsible network operator and must meet applicable technical connection requirements. The ElWG introduces connection-charge reforms in stages. Annex V includes EUR 13/kW for the 0–20 kW grid-effective capacity band, subject to the applicable commencement and charging provisions. Section 96 provides a separate connection exemption for qualifying PV installations up to 15 kW using an existing consumption connection. This must not be confused with the 20 kW exemption from the annual infrastructure contribution under Section 75a.",
+    "strategiesvolatility": [
+      "Austria combines hydropower, storage and demand-side flexibility.",
+      "Hydropower, pumped storage, batteries and demand-side management provide flexibility; smart meters and grid monitoring support their coordination.",
+      "Smart Grids Austria and APG particularly emphasize the importance of intelligent grids for integrating renewable energy.",
+      "Since 1 April 2026, the SNAP summer tariff reduces the eligible volumetric network charge by 20% between 10:00 and 16:00 from April to September, subject to the applicable metering and tariff conditions.",
+      "At the distribution network level, intelligent local substations, grid monitoring, and controllable consumers are important technical solutions."
+    ],
+    "regulatoryFramework": [
+      "Key legal foundations include the Renewable Expansion Act (EAG).",
+      "The Electricity Industry Act 2025 (Elektrizitätswirtschaftsgesetz, ElWG) replaces the ElWOG 2010 through staged commencement and repeal provisions in Section 188.",
+      "EU Directive 2018/2001 on renewable energy.",
+      "EU Directive 2019/944 on the internal electricity market.",
+      "The EAG provides renewable support and rules for renewable energy communities; citizen energy communities have a separate electricity-market-law basis, now within the ElWG framework.",
+      "ElWG regulates market organisation, grid operation, market roles, and security of supply."
+    ],
+    "responsibleInstitutions": [
+      "E-Control is the national regulatory authority supervising the electricity and gas markets.",
+      "Federal Ministry of Economy, Energy and Tourism (BMWET) is responsible for energy policy.",
+      "Austrian Power Grid (APG) is Austria’s main transmission system operator and control-area manager.",
+      "Distribution system operators are responsible for local grid connections.",
+      "The Austrian Coordination Office for Energy Communities supports practical implementation."
+    ],
+    "implementationExamples": [
+      "E-Control’s 2025 monitoring report records a smart-meter rollout of 96.9% as at 31 December 2024.",
+      "Energy communities play a particularly important role in Austria.",
+      "Renewable energy communities and citizen energy communities allow eligible participants to share generation and consumption under their respective legal frameworks; membership, geographical and operational conditions differ.",
+      "Local energy sharing can increase self-consumption and enable community business models. Reductions in losses or congestion depend on the location and timing of generation and demand; they are not automatic outcomes."
+    ],
+    "newconsumersandflexibleloads": [
+      "New consumers mainly include heat pumps, EV charging stations (wallboxes), battery storage systems, and prosumer households. These increase the local grid load but can also support the grid through intelligent control.",
+      "Heat pumps can use thermal storage, electric vehicles can shift charging times, and battery storage systems can reduce PV feed-in peaks.",
+      "As a result, flexibility in distribution grids has become a key component of Austria’s energy transition.",
+      "Section 68 ElWG provides for peer-to-peer electricity arrangements within the active-customer framework, with the relevant provisions effective from 1 October 2026 and subject to their contractual and market conditions.",
+      "Section 188 brings specified active-customer and sharing provisions into effect on 1 October 2026; this date must not be attributed indiscriminately to every right in Section 65 ElWG."
+    ],
+    "sources": [
+      {
+        "name": "E-Control: Energy Communities",
+        "url": "https://www.e-control.at/energiegemeinschaften"
       },
       {
-      "name": "National Energy Plan of Turkey",
-      "url": "https://enerji.gov.tr/Media/Dizin/EIGM/tr/Raporlar/TUEP/T%C3%BCrkiye_National_Energy_Plan.pdf"
+        "name": "Federal Ministry of Economy, Energy and Tourism (BMWET)",
+        "url": "https://www.bmwet.gv.at/en.html"
       },
-    
-     {
-      "name": "ACER (Agency for the Cooperation of Energy Regulators)",
-      "url": "https://www.acer.europa.eu/"
+      {
+        "name": "RIS: Renewable Expansion Act, English translation of 2021 (historical; check amendments)",
+        "url": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_2021_1_150/ERV_2021_1_150.pdf"
+      },
+      {
+        "name": "RIS: Electricity Industry Act 2025 (ElWG), BGBl. I 91/2025",
+        "url": "https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2025_I_91/BGBLA_2025_I_91.html"
+      },
+      {
+        "name": "Austrian Power Grid (APG)",
+        "url": "https://www.apg.at/en/power-grid/power-grid-austria/"
+      },
+      {
+        "name": "Energy System Overview (IEA Austria)",
+        "url": "https://www.iea.org/countries/austria"
+      },
+      {
+        "name": "RIS – ElWG § 188, gestaffeltes Inkrafttreten",
+        "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20013066&Paragraf=188"
+      },
+      {
+        "name": "RIS – ElWG § 75a, Infrastrukturbeitrag",
+        "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20013066&Paragraf=75a"
+      },
+      {
+        "name": "RIS – ElWG § 101, Spitzenkappung",
+        "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20013066&Paragraf=101"
+      },
+      {
+        "name": "E-Control – Sommer-Nieder-Arbeitspreis",
+        "url": "https://www.e-control.at/de/sommer-nieder-arbeitspreis"
+      },
+      {
+        "name": "E-Control – Smart-Meter-Monitoringbericht 2025, Stichtag 31.12.2024",
+        "url": "https://www.e-control.at/documents/1785851/1811582/20251020-Monitoringbericht-SM-2025.pdf/4ce4b22f-8149-5162-770a-83f132511199?t=1763621630772"
+      },
+      {
+        "name": "RIS – ElWG konsolidiert",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20013066&ShowPrintPreview=True"
+      },
+      {
+        "name": "RIS – ElWG Anlage V",
+        "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=5&Artikel=&Gesetzesnummer=20013066&Paragraf=&Uebergangsrecht="
       }
-    
-  ],
-      "latestUpdates": [
-      "Balancing Market Reform (January 2027): Amendments to ancillary-service regulations enter into force on 1 January 2027, with TEİAŞ required to complete the necessary infrastructure preparations by 31 December 2026",
-      "2027 Capacity Mechanism: TEİAŞ published the application announcement for participation in the 2027 capacity mechanism in August 2026"
-],
-   "comparison": {
-      "regulatoryAuthority": "Energy Market Regulatory Authority (EMRA/EPDK)",
-      "gridOperators": "TEİAŞ; regional distribution companies (e.g. Başkent EDAŞ, AYEDAŞ, Toroslar EDAŞ)",
-      "connectionProcedure": "Connection application → capacity evaluation → technical compliance → connection agreement → commissioning",
-      "legalBasis": "Electricity Market Law No. 6446, Electricity Market Connection and System Use Regulation, Distributed Generation Regulation",
-      "implementationExample": "Rapid expansion of rooftop PV and distributed generation supported by simplified licensing and connection procedures for renewable installations"
-     }
-},
+    ],
+    "latestUpdates": [
+      "From 1 January 2027, Section 75a ElWG provides for a generation infrastructure contribution, subject to the implementing rate and statutory conditions. Installations with grid-effective capacity up to and including 20 kW are exempt.",
+      "From 1 January 2027, Section 101 ElWG permits qualifying wind-generation peak curtailment, subject to statutory exceptions and limits of 1% of the reference annual energy and 15% of capacity.",
+      "Transition from ElWOG 2010: Remaining provisions on network charges under §§51–58a ElWOG 2010 expire on 31 December 2026 as the new ElWG framework takes effect."
+    ],
+    "comparison": {
+      "regulatoryAuthority": "E-Control.",
+      "gridOperators": "Austrian Power Grid (APG); regional DSOs (e.g. Netz NÖ, Netz OÖ, Wiener Netze).",
+      "connectionProcedure": "Connection request → capacity assessment → technical approval → applicable TOR requirements → commissioning. E-Control reported 96.9% smart-meter deployment as at 31 December 2024.",
+      "legalBasis": "Elektrizitätswirtschaftsgesetz (ElWG), Erneuerbaren-Ausbau-Gesetz (EAG), and applicable TOR technical rules.",
+      "implementationExample": "Smart-grid approaches can coordinate PV, heat pumps and EV charging using monitoring and flexibility management; the original text does not identify a specific project for verification."
+    }
+  },
+  "Turkey": {
+    "title": "Turkey",
+    "summary": "Türkiye",
+    "gridConnectionProcedure": [
+      "Applications for unlicensed generation are submitted to the relevant distribution or organised industrial zone network operator. For applicable solar and wind projects, the EİGM roadmap specifies a 30-day technical evaluation stage; this is not a deadline for the entire connection process. TEİAŞ published procedures for jointly financed transmission investments in February 2026."
+    ],
+    "strategiesvolatility": [
+      "Permitted mechanical and electrical capacity must be checked against the applicable unlicensed-generation category and project approval date. A universal two-to-one ratio has not been verified for all installations.",
+      "Verification note: the blanket description of monthly netting is outdated. Reports on the 2026 reform describe hourly netting for relevant unlicensed installations; the applicable exceptions and transition rules require confirmation against the official EPDK text.",
+      "TEİAŞ publishes technical criteria and testing requirements for storage participation in ancillary services. The applicable version must be checked for the particular service and connection."
+    ],
+    "regulatoryFramework": [
+      "The central regulatory framework is the Regulation on Unlicensed Electricity Generation (Lisanssız Elektrik Üretimi).",
+      "Storage installations are subject to applicable connection, compatibility and operational requirements. TEİAŞ technical documents must be distinguished from EPDK licensing and market regulations."
+    ],
+    "responsibleInstitutions": [
+      "The regulatory authority is the EPDK.",
+      "The transmission grid is centrally operated by TEİAŞ.",
+      "Regional distribution companies and organised industrial zone network operators handle relevant distribution connections; the operator responsible for the site must be identified."
+    ],
+    "implementationExamples": [
+      "At DC fast-charging stations, some charging network operators may terminate the charging service once the battery reaches 85% state of charge, provided that users are informed in advance. This is intended to improve the efficient use of fast-charging infrastructure."
+    ],
+    "newconsumersandflexibleloads": [
+      "Household battery installations must comply with the applicable storage, connection, metering and safety rules; permission cannot be inferred solely from the voluntary nature of installation.",
+      "Storage remuneration depends on the generation and storage category, metering and applicable settlement rules. The assertion that every storage export is unpaid and transferred to a state fund is not established; YEKDEM is a renewable support mechanism, not a general state purchaser of all storage exports.",
+      "Charging network operators require an EPDK licence. Individual charging-station operators may operate under a certificate issued by a licensed network operator; private charging is not automatically subject to the same licensing requirement.",
+      "TEİAŞ published updated announcements and participation arrangements for demand-side services, supporting the involvement of flexible electricity consumers in system operation."
+    ],
+    "sources": [
+      {
+        "name": "EPDK (Energy Market Regulatory Authority)",
+        "url": "https://www.epdk.gov.tr/"
+      },
+      {
+        "name": "Ministry of Energy and Natural Resources; EİGM is its Directorate General of Energy Affairs",
+        "url": "https://enerji.gov.tr/homepage"
+      },
+      {
+        "name": "TEİAŞ (Transmission Grid Operator)",
+        "url": "https://www.teias.gov.tr/en-US"
+      },
+      {
+        "name": "National Energy Plan of Turkey",
+        "url": "https://enerji.gov.tr/Media/Dizin/EIGM/tr/Raporlar/TUEP/T%C3%BCrkiye_National_Energy_Plan.pdf"
+      },
+      {
+        "name": "Energieministerium/EİGM – Verfahrensweg lizenzfreier Erzeugung, 07.03.2025",
+        "url": "https://www.enerji.gov.tr/Media/Dizin/EIGM/tr/Lisansiz_Elektrik_Uretimi/Lisanss%C4%B1z_Elektrik_%C3%9Cretim_Tesisi_Yat%C4%B1r%C4%B1m_S%C3%BCreci_Yol_Haritas%C4%B1-07_03_2025.pdf"
+      },
+      {
+        "name": "TEİAŞ – gemeinsame Übertragungsnetzinvestitionen",
+        "url": "https://www.teias.gov.tr/duyurular/mustereken-yapilacak-iletim-tesisleri-yatirimlarina-iliskin-usul-ve-esaslar-ve-on-anlasma"
+      },
+      {
+        "name": "EPDK – FAQ Energieumwandlung und Ladeinfrastruktur",
+        "url": "https://www.epdk.gov.tr/Detay/Icerik/12-1040/enerji-donusumu"
+      },
+      {
+        "name": "EPDK – Erklärung Nr. 1 zur lizenzfreien Erzeugung [document contents not fully accessible]",
+        "url": "https://www.epdk.gov.tr/Detay/Icerik/3-35361/lisanssiz-elektrik-uretimine-iliskin-1-nolu-acikl"
+      },
+      {
+        "name": "Anadolu Ajansı – stündliche Verrechnung, 05.05.2026 [secondary reporting]",
+        "url": "https://www.aa.com.tr/tr/enerjiterminali/elektrik/epdk-lisanssiz-elektrik-uretiminde-mahsuplasma-kurallarini-yeniden-belirledi/56806?amp=1"
+      },
+      {
+        "name": "TEİAŞ – Bewertung der Kapazitätsmechanismus-Anträge 2027",
+        "url": "https://www.teias.gov.tr/duyurular/2027-yili-kapasite-mekanizmasi-basvurularinin-degerlendirilmesi-hakkinda-hakkinda"
+      },
+      {
+        "name": "TEİAŞ – Demand-side participation",
+        "url": "https://www.teias.gov.tr/duyurular/talep-tarafi-katilimi-hizmeti-hakkinda-ptrc"
+      }
+    ],
+    "latestUpdates": [
+      "Verification note: the claimed universal commencement of ancillary-service amendments on 1 January 2027 and infrastructure deadline of 31 December 2026 were not sufficiently verified in the official legal text. They are not presented as confirmed obligations.",
+      "TEİAŞ published the 2027 capacity-mechanism application announcement in August 2026 and a subsequent application-assessment announcement in October 2026."
+    ],
+    "comparison": {
+      "regulatoryAuthority": "Energy Market Regulatory Authority (EMRA/EPDK).",
+      "gridOperators": "TEİAŞ; regional distribution companies (e.g. Başkent EDAŞ, AYEDAŞ, Toroslar EDAŞ).",
+      "connectionProcedure": "Connection application → capacity evaluation → technical compliance → connection agreement → commissioning.",
+      "legalBasis": "Electricity Market Law No. 6446, connection and system-use rules, and the Regulation on Unlicensed Electricity Generation.",
+      "implementationExample": "Unlicensed-generation procedures provide a framework for eligible rooftop PV and other qualifying projects, subject to capacity and connection requirements."
+    }
+  },
   "Portugal": {
-  "title": "Portugal",
-  "summary": "Portugal",
-  "gridConnectionProcedure": [
-  "Portugal’s electricity system is governed by Decree-Law No. 15/2022, amended in 2026 by Decree-Law No. 130/2026 to further modernise electricity market regulations. Self-consumption installations (UPAC) benefit from simplified licensing procedures under Law No. 29/2026, including tacit approval when statutory deadlines expire. Connection to the public electricity grid (RESP) requires technical verification by the relevant network operator and compliance with ERSE regulations. Decree-Law No. 100/2026 introduces dynamic grid connection capacity management, while Decree-Law No. 130/2026 strengthens digital application procedures"
-  ],
-  "strategiesvolatility": [
-   "Portugal strongly relies on self-consumption, collective self-consumption and renewable energy communities to balance generation and demand closer to the point of use",
-   "The self-consumption regulation defines 15-minute energy balancing intervals, which is relevant for allocating consumption and injection in decentralised systems",
-   "Smart grid services and digital metering are used to improve data availability, transparency and network operation"
-  ],
-  "regulatoryFramework": [
-   "Decree-Law No. 100/2026: establishes a complementary regime for the dynamic management of connection capacity to the Public Service Electricity Network (RESP)(22/05/2026)",
-   "Law No. 29/2026 simplifies the licensing of renewable self-consumption installations (UPAC). Production and operating licences must generally be issued within 90 days, otherwise tacit approval may apply (23/06/2026)",
-   "Decree-Law No. 15/2022: general electricity system law (was enhanced by 100/2026 and 29/2026, and others)",
-    "Decree-Law No. 130/2026 amends Decree-Law No. 15/2022, implementing additional European renewable energy and electricity market requirements (08/26)",
-   "Regulamento n.º 827/2023, Commercial Relations Regulations for the Electricity and Gas Sectors",
-   "(ERSE Regulation No. 2/2023): Self-Consumption Regulation",
-   "Updated Self-Consumtion: ERSE Regulation No. 8/2026",
-    "ERSE Regulation No. 1218/2025 establishes the electricity tariff framework, with regulatory parameters covering 2026–2029",
-   "ERSE rules on smart grids, metering and electric mobility"
-  ],
-  "responsibleInstitutions": [
-    "ERSE: national regulatory authority for energy services",
-    "DGEG: Directorate-General for Energy and Geology, responsible for energy policy, strategic framework and legislation",
-    "E-REDES: main distribution system operator"
-  ],
- 
-  "implementationExamples": [
-    "Collective self-consumption allows several consumers to share locally produced renewable electricity",
-    "Renewable energy communities can use UPAC generation and distribute benefits among members",
-    "E-REDES provides operational information for production licensing and connection to the RESP"
-  ],
-  "newconsumersandflexibleloads": [
-    "UPAC installations, battery storage, renewable energy communities, EV charging infrastructure and collective self-consumption schemes",
-    "Electric mobility is regulated through ERSE’s Electric Mobility Regulation, covering charging point operators, service providers, measurement, data provision and price supervision",
-    "Law No. 29/2026 introduces CAER contracts, allowing property owners to grant renewable energy utilisation rights for self-consumption installations up to 1 MW (06/26)"
-  ],
-  "sources": [
+    "title": "Portugal",
+    "summary": "Portugal",
+    "gridConnectionProcedure": [
+      "Decree-Law 15/2022 governs Portugal’s electricity system, as amended, including by Decree-Law 130/2026 of 29 June 2026. Law 29/2026 simplifies applicable renewable self-consumption procedures; licence deadlines and tacit approval apply only where their statutory conditions are met. Network connection also requires the relevant operator’s technical assessment. Decree-Law 100/2026 addresses dynamic management of already allocated connection capacity."
+    ],
+    "strategiesvolatility": [
+      "Portugal strongly relies on self-consumption, collective self-consumption and renewable energy communities to balance generation and demand closer to the point of use.",
+      "The self-consumption regulation defines 15-minute energy balancing intervals, which is relevant for allocating consumption and injection in decentralised systems.",
+      "Smart grid services and digital metering are used to improve data availability, transparency and network operation."
+    ],
+    "regulatoryFramework": [
+      "Decree-Law 100/2026 of 22 May 2026 establishes a complementary regime for the dynamic management of allocated connection capacity to the public electricity network (RESP).",
+      "Law 29/2026 of 23 June 2026 includes 90-day deadlines for the production and operating licences covered by its provisions, with tacit approval subject to statutory conditions. This does not mean every small self-consumption installation requires both licences.",
+      "Decree-Law 15/2022, as amended, is the principal legal framework for the national electricity system.",
+      "Decree-Law 130/2026 of 29 June 2026 amends Decree-Law 15/2022 in relation to renewable energy and electricity-market requirements.",
+      "Regulamento n.º 827/2023, Commercial Relations Regulations for the Electricity and Gas Sectors.",
+      "Self-consumption: Regulation 815/2023, as amended, including by Regulation 8/2026; the ERSE approval document is also identified internally as Regulation 2/2023.",
+      "Regulation 8/2026 amends several ERSE regulations, including the self-consumption framework.",
+      "ERSE Regulation No. 1218/2025 establishes the electricity tariff framework, with regulatory parameters covering 2026–2029.",
+      "ERSE rules on smart grids, metering and electric mobility."
+    ],
+    "responsibleInstitutions": [
+      "ERSE: national regulatory authority for energy services.",
+      "DGEG: Directorate-General for Energy and Geology, responsible for energy policy, strategic framework and legislation.",
+      "E-REDES is the main distribution system operator in mainland Portugal."
+    ],
+    "implementationExamples": [
+      "Collective self-consumption allows several consumers to share locally produced renewable electricity.",
+      "Renewable energy communities can use UPAC generation and distribute benefits among members.",
+      "E-REDES provides operational information for production licensing and connection to the RESP."
+    ],
+    "newconsumersandflexibleloads": [
+      "Relevant resources include self-consumption generation (UPAC), storage, EV charging and collective self-consumption arrangements. Generation and community arrangements are not themselves simply additional electricity loads.",
+      "Electric mobility is regulated through ERSE’s Electric Mobility Regulation, covering charging point operators, service providers, measurement, data provision and price supervision.",
+      "Law No. 29/2026 introduces CAER contracts, allowing property owners to grant renewable energy utilisation rights for self-consumption installations up to 1 MW (06/26)."
+    ],
+    "sources": [
       {
-      "name": "Energy Services Regulatory Authority (ERSE)",
-      "url": "https://www.erse.pt/en/home/"
+        "name": "Energy Services Regulatory Authority (ERSE)",
+        "url": "https://www.erse.pt/en/home/"
       },
       {
-      "name": "Directorate-General for Energy and Geology (DGEG)",
-      "url": "https://www.dgeg.gov.pt/en/"
+        "name": "Directorate-General for Energy and Geology (DGEG)",
+        "url": "https://www.dgeg.gov.pt/en/"
       },
       {
-      "name": "Distribution System Operator (E-REDES)",
-      "url": "https://www.e-redes.pt/en"
+        "name": "Distribution System Operator (E-REDES)",
+        "url": "https://www.e-redes.pt/en"
       },
       {
-      "name": "Transmission System Operator (REN)",
-      "url": "https://www.ren.pt/en-gb"
+        "name": "Transmission System Operator (REN)",
+        "url": "https://www.ren.pt/en-gb"
       },
       {
-      "name": "Regulatory Framework - Decree-Law No. 15/2022",
-      "url": "https://files.dre.pt/1s/2022/01/01000/0000300185.pdf"
+        "name": "Regulatory Framework - Decree-Law No. 15/2022",
+        "url": "https://files.dre.pt/1s/2022/01/01000/0000300185.pdf"
       },
       {
-      "name": "ERSE Self-consumption Regulation",
-      "url": "https://www.erse.pt/en/activities/regulations-electricity/self-consumption/"
+        "name": "ERSE Self-consumption Regulation",
+        "url": "https://www.erse.pt/en/activities/regulations-electricity/self-consumption/"
       },
       {
-      "name": "Regulation No. 2/2023 (Autoconsumo)",
-      "url": "https://www.erse.pt/media/evihzamf/regulamento-2_2023-regulamento-do-autoconsumo.pdf"
+        "name": "Regulation No. 2/2023 (Autoconsumo)",
+        "url": "https://www.erse.pt/media/evihzamf/regulamento-2_2023-regulamento-do-autoconsumo.pdf"
       },
       {
-      "name": "Electric Mobility Regulation",
-      "url": "https://www.erse.pt/en/activities/regulation-electric-mobility/"
+        "name": "Electric Mobility Regulation",
+        "url": "https://www.erse.pt/en/activities/regulation-electric-mobility/"
+      },
+      {
+        "name": "Diário da República – Decreto-Lei 100/2026, 22.05.2026",
+        "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/100-2026-1125313599"
+      },
+      {
+        "name": "Diário da República – Lei 29/2026, 23.06.2026",
+        "url": "https://diariodarepublica.pt/dr/detalhe/lei/29-2026-1135578391"
+      },
+      {
+        "name": "Diário da República – Decreto-Lei 130/2026, 29.06.2026",
+        "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/130-2026-1139897687"
+      },
+      {
+        "name": "Diário da República – Regulamento 8/2026",
+        "url": "https://files.diariodarepublica.pt/2s/2026/01/003000000/0035800364.pdf"
+      },
+      {
+        "name": "ERSE – Tarifzyklen, Aktualisierung 22.10.2026",
+        "url": "https://www.erse.pt/atividade/regulacao/tarifas-e-precos-eletricidade/?filtro=ciclo+tarif%C3%A1rio"
+      },
+      {
+        "name": "ERSE – Tarife und Preise 2026",
+        "url": "https://www.erse.pt/media/irglmtt3/tarifas-e-pre%C3%A7os-se-2026.pdf"
+      },
+      {
+        "name": "ERSE – intelligente Netze, Bericht 2025",
+        "url": "https://www.erse.pt/media/o0yaryjc/relat%C3%B3rio-redes-inteligentes-2025.pdf"
       }
-  ],
-        "latestUpdates": [
-          "ERSE introduces revised electricity tariff periods for mainland Portugal, starting April 2027 for higher-voltage customers and July–December 2027 for low-voltage residential customers",
-          "Portugal's regulated electricity tariff regime is currently scheduled to remain available until the end of 2027, with annual tariff reviews by ERSE"
-],
-     "comparison": {
-      "regulatoryAuthority": "ERSE; DGEG (energy policy)",
-      "gridOperators": "REN; E-REDES",
-      "connectionProcedure": "Registration/licensing → technical verification → connection to RESP → metering and settlement, Smart-Meter-Rollout 99% (01.07.2025)",
-      "legalBasis": "Decree-Law No. 15/2022, ERSE Regulation No. 2/2023 (Self-Consumption), Electric Mobility Regulation",
+    ],
+    "latestUpdates": [
+      "Revised mainland tariff periods are scheduled from 1 April 2027 for BTE, MT, AT and MAT customers, and progressively from July to December 2027 for BTN customers with two- or three-period tariffs.",
+      "Verification note: the asserted end-2027 availability of the regulated electricity tariff has not been sufficiently established here against the applicable extension legislation. Eligibility and the current transition timetable require separate confirmation."
+    ],
+    "comparison": {
+      "regulatoryAuthority": "ERSE is the energy regulator; DGEG is the administrative authority for energy and geology.",
+      "gridOperators": "Mainland Portugal: REN for transmission; E-REDES as the main distribution operator. Island systems have separate arrangements.",
+      "connectionProcedure": "Applicable registration or licensing → network assessment → connection arrangements → metering and settlement. ERSE’s 2025 smart-grid report is the relevant source for deployment statistics; the unverified 1 July 2025 snapshot is omitted.",
+      "legalBasis": "Decree-Law 15/2022 as amended; self-consumption Regulation 815/2023 as amended; applicable ERSE tariff, metering and electric-mobility regulations.",
       "implementationExample": "Collective self-consumption (UPAC) and Renewable Energy Communities (CER) share locally generated renewable electricity."
-     }
-  
-},
+    }
+  },
   "France": {
     "title": "France",
     "summary": "France",
     "gridConnectionProcedure": [
-      "The process runs digitally via the Enedis Connect portal, which has updated prices and simplified cost calculations that take effect on 28 October 2026. After the application is submitted, a connection offer is provided within 6 weeks. Before commissioning and activating the Linky smart meter, a safety certificate from the independent authority CONSUEL must be presented."
+      "In Enedis areas, applications can be submitted online. A revised connection-cost schedule takes effect on 28 October 2026. Offer deadlines depend on the connection category and a complete application; six weeks is not a universal deadline. Required conformity documentation, including CONSUEL certification where applicable, must be obtained before commissioning. CONSUEL is a conformity-assessment organisation, not the energy regulator, and a Linky meter may already be installed."
     ],
     "strategiesvolatility": [
-      "France uses a nationally standardized tariff signal control system (Heures Pleines / Heures Creuses or Tempo tariff)",
-      "The smart meters receive price signals and fully automatically activate or block large thermal consumers depending on grid utilization",
-      "Distribution and Transmission Network Tariffs were updated for low-, medium-, and high-voltage users in August 2026"
+      "Time-of-use options such as heures pleines/heures creuses and EDF’s Tempo tariff provide different price signals. They are not a single nationally uniform load-control scheme.",
+      "Compatible controls can schedule appliances, such as water heaters, around tariff periods. A smart meter alone does not automatically control every thermal load in response to network utilisation.",
+      "The annual TURPE adjustment took effect on 1 August 2026 for the relevant transmission and distribution network tariffs."
     ],
     "regulatoryFramework": [
-      "The system is based on surplus feed-in with state-guaranteed purchase tariffs (Obligation d'achat) by EDF",
-      "Collective Self-Consumption (Decree No. 2026-561)",
-      "Pure net metering does not exist"
+      "Eligible renewable installations may receive support through purchase obligations or other applicable schemes. Self-consumption with surplus export is one configuration; EDF is not the only possible obligated purchaser and eligibility depends on the scheme.",
+      "Collective Self-Consumption (Decree No. 2026-561).",
+      "The standard French self-consumption framework accounts for imports and surplus exports separately rather than using retail net metering."
     ],
     "responsibleInstitutions": [
-      "The Commission de Régulation de l'Énergie (CRE) acts as the NRA",
-      "RTE controls the transmission grid, while Enedis holds a de facto monopoly in the distribution grid with a market share of around 95%"
+      "The Commission de Régulation de l'Énergie (CRE) acts as the NRA.",
+      "RTE is the transmission system operator. Enedis is the main distribution operator in metropolitan France; local distribution companies and island arrangements also exist."
     ],
-  
     "implementationExamples": [
-      "The concept of Autoconsommation collective allows several households within a 2-kilometer radius in the low-voltage grid to balance their generation and consumption data in 15-minute strokes without having to lay direct physical cables"
+      "Collective self-consumption allows eligible participants to allocate locally generated electricity through metering and settlement arrangements. The standard extended scheme uses a maximum distance of 2 km between the most distant participants, subject to exceptions; this is not a 2 km radius. Allocations use the applicable settlement intervals."
     ],
     "newconsumersandflexibleloads": [
-      "Battery storage plays a minor role in the residential sector due to stable feed-in tariffs",
-      "Vehicle-to-Grid (V2G) technologies are being introduced commercially",
-      "France amended its photovoltaic purchase framework for installations up to 500 kW, updating eligibility conditions and technical definitions under the October 2021 tariff order",
-      "Decree No. 2026-561 revises electricity allocation rules for collective self-consumption, promoting maximum local consumption and restricting changes to allocation after day-ahead market opening"
+      "Residential storage can increase self-consumption or provide flexibility. Its adoption and profitability depend on equipment costs, tariff arrangements and operating conditions; no causal claim about a minor national role is established here.",
+      "Bidirectional EV charging can provide flexibility where compatible vehicles, chargers, contracts and network arrangements are available. No claim of nationwide commercial availability is made.",
+      "PV support eligibility must be checked against the current tariff orders and tender rules for the relevant installation size and application date. A general entitlement for all installations up to 500 kW is not established by this review.",
+      "Decree 2026-561 of 26 June 2026 changes collective self-consumption allocation rules. Its provisions have different commencement dates; Article 1(1) applies from 1 July 2027 under Article 2."
     ],
     "sources": [
-       {
-    "name": "CRE (Commission de Régulation de l'Énergie)",
-    "url": "https://www.cre.fr/"
-  },
-       {
-    "name": "RTE (Transmission Grid Control",
-    "url": "https://www.rte-france.com/"
-  },
-       {
-    "name": "Enedis network codes",
-    "url": "https://www.enedis.fr/new-electric-france-2027-and-2032-enedis-publishes-preliminary-document-its-future-network"
-  },
-       {
-    "name": "French Energy and Climate Plan",
-    "url": "https://climate-laws.org/document/france-s-integrated-energy-and-climate-plan_6f6b"
-  }
+      {
+        "name": "CRE (Commission de Régulation de l'Énergie)",
+        "url": "https://www.cre.fr/"
+      },
+      {
+        "name": "RTE (transmission system operator)",
+        "url": "https://www.rte-france.com/"
+      },
+      {
+        "name": "Enedis: preliminary network development planning document for 2027 and 2032",
+        "url": "https://www.enedis.fr/new-electric-france-2027-and-2032-enedis-publishes-preliminary-document-its-future-network"
+      },
+      {
+        "name": "Enedis – Anschlussverfahren bis 36 kVA",
+        "url": "https://www.enedis.fr/media/4493/download"
+      },
+      {
+        "name": "CRE – neuer Enedis-Anschlusskostenkatalog",
+        "url": "https://www.cre.fr/actualites/nos-lettres-dinformation/la-cre-approuve-le-nouveau-bareme-de-raccordement-denedis-pour-la-facturation-des-operations-de-raccordement-des-utilisateurs-aux-reseaux-publics-de-distribution-delectricite-quil-exploite.html"
+      },
+      {
+        "name": "CRE – TURPE-Anpassung zum 01.08.2026",
+        "url": "https://www.cre.fr/actualites/nos-lettres-dinformation/la-cre-publie-levolution-annuelle-des-tarifs-dutilisation-des-reseaux-publics-delectricite-au-1er-aout-2026.html"
+      },
+      {
+        "name": "Enedis – Strom erzeugen und verbrauchen",
+        "url": "https://www.enedis.fr/produire-consommer-son-electricite"
+      },
+      {
+        "name": "Légifrance – Décret 2026-561, Artikel 2",
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054341107"
+      },
+      {
+        "name": "Légifrance – Übersicht zukünftiger Inkrafttretensdaten, 13.10.2026",
+        "url": "https://www.legifrance.gouv.fr/contenu/menu/autour-de-la-loi/entreprises/tableaux-et-chronologies-des-dates-communes-d-entree-en-vigueur"
+      },
+      {
+        "name": "Légifrance – Arrêté du 21 novembre 2019, proximité géographique",
+        "url": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000039417566&dateTexte=20191129"
+      }
     ],
-        "latestUpdates": [
-  "From 1 July 2027, additional provisions of Decree No. 2026-561 take effect, modifying electricity allocation arrangements within collective self-consumption projects"
-]
+    "latestUpdates": [
+      "From 1 July 2027, additional provisions of Decree No. 2026-561 take effect, modifying electricity allocation arrangements within collective self-consumption projects."
+    ]
   },
   "Spain": {
     "title": "Spain",
     "summary": "España",
     "gridConnectionProcedure": "National and regional approval procedures, technical connection requirements, and grid capacity assessments shape the connection of renewable energy installations. Large PV and wind projects are often connected to Red Eléctrica's transmission network, while self-consumption systems and community PV projects are mainly connected to distribution grids. The key challenge is balancing very high solar generation peaks with regional demand, available grid capacity, and storage.",
     "strategiesvolatility": [
-      "Spain relies on grid expansion, energy storage, self-consumption, collective self-consumption, flexibility, and improved market integration of renewable energy",
-      "PV self-consumption can reduce electricity fed into the public grid when generation and consumption coincide locally",
-      "Battery storage and flexible loads are becoming increasingly important for absorbing midday PV peaks and shifting demand into the evening"
+      "Spain relies on grid expansion, energy storage, self-consumption, collective self-consumption, flexibility, and improved market integration of renewable energy.",
+      "PV self-consumption can reduce electricity fed into the public grid when generation and consumption coincide locally.",
+      "Batteries can absorb midday PV generation and discharge later. Flexible consumption can be shifted into periods of high PV output, rather than from midday into the evening."
     ],
     "regulatoryFramework": [
-      "The main legal foundations are Royal Decree 244/2019 on self-consumption",
-      "Royal Decree-Law 23/2020",
-      "and other implementations of European rules concerning Renewable Energy Communities and Citizen Energy Communities",
-      "The EU Renewable Energy Directive and the EU Electricity Market Directive are also relevant",
-      "Regulatory priorities focus on simplifying self-consumption, collective use, metering, billing, and grid access"
+      "The main legal foundations are Royal Decree 244/2019 on self-consumption.",
+      "Royal Decree-Law 23/2020.",
+      "Additional national and EU provisions govern renewable energy communities and citizen energy communities; their legal definitions and requirements differ.",
+      "The EU Renewable Energy Directive and the EU Electricity Market Directive are also relevant.",
+      "Regulatory priorities focus on simplifying self-consumption, collective use, metering, billing, and grid access."
     ],
     "responsibleInstitutions": [
-      "MITECO is the ministry responsible for ecological transition and energy policy",
-      "IDAE supports programs, advisory services, and implementation of self-consumption and energy communities",
-      "CNMC is the national regulatory authority for competition and markets",
-      "Red Eléctrica (REE) is the transmission system operator and system manager",
-      "Regional authorities and distribution system operators play a key role in approval and grid connection processes",
-      "CNMC Resolution (July 2026): Four flexible demand connection permit types were approved, covering time-dependent consumption, conditional disconnection and actively controlled demand. The framework took effect on 1 September 2026"
+      "MITECO is the ministry responsible for ecological transition and energy policy.",
+      "IDAE supports programmes, advisory services, and implementation of self-consumption and energy communities.",
+      "CNMC is the national regulatory authority for competition and markets.",
+      "Red Eléctrica (REE) is the transmission system operator and system manager.",
+      "Regional authorities and distribution system operators play a key role in approval and grid connection processes.",
+      "The CNMC resolution of 31 July 2026 establishes four flexible demand access-permit types, effective from 1 September 2026. Eligibility depends on voltage level, capacity and control arrangements; these are not universal household connection options."
     ],
-   
     "implementationExamples": [
-      "Spain’s best practice lies in expanding PV self-consumption, collective self-consumption, and local energy communities",
-      "For Germany, neighborhood models, shared PV use, storage integration, and simplified billing models are particularly relevant",
-      "Spain demonstrates that regulatory simplification is a key success factor for prosumers, apartment buildings, and municipal energy communities"
+      "Collective self-consumption and energy communities provide examples of shared renewable generation; this is an illustrative assessment, not a verified international best-practice ranking.",
+      "Possible lessons for Germany include shared PV arrangements, storage integration and billing design; transferability depends on German law and network conditions.",
+      "Clear procedures for metering, allocation and billing can facilitate collective self-consumption. The reviewed material does not establish regulatory simplification as a quantified causal success factor."
     ],
     "newconsumersandflexibleloads": [
-      "New consumers in Spain primarily include electric vehicles, heat pumps in certain building segments, battery storage systems, prosumers, and commercial self-consumption systems",
-      "Collective self-consumption is especially important: multiple consumers can jointly use a single generation facility, for example in apartment buildings, neighborhoods, or municipal projects",
-      "This transforms consumers into active market participants"
+      "New consumers in Spain primarily include electric vehicles, heat pumps in certain building segments, battery storage systems, prosumers, and commercial self-consumption systems.",
+      "Collective self-consumption is especially important: multiple consumers can jointly use a single generation facility, for example in apartment buildings, neighbourhoods, or municipal projects.",
+      "This transforms consumers into active market participants."
     ],
     "sources": [
-               {
-    "name": "IDAE: Self-consumption regulations",
-    "url": "https://www.idae.es/en/technologies/renewable-energies/self-consumption-office/self-consumption-regulations"
-  },
-                  {
-    "name": "Spain renewable energy communities (IEA Policies)",
-    "url": "https://www.iea.org/policies/17795-spain-renewable-energy-communities"
-  },
-                  {
-    "name": "Red Eléctrica: Self-consumption",
-    "url": "https://www.ree.es/en/ecological-transition/self-consumption"
-  },
-                  {
-    "name": "Climate Change Laws of the World / BOE reference: Royal Decree 244/2019",
-    "url": "https://climate-laws.org/document/royal-decree-244-2019-regulating-the-administrative-technical-and-economic-conditions-of-the-self-consumption-of-electric-energy_8775"
-  }
+      {
+        "name": "IDAE: Self-consumption regulations",
+        "url": "https://www.idae.es/en/technologies/renewable-energies/self-consumption-office/self-consumption-regulations"
+      },
+      {
+        "name": "Spain renewable energy communities (IEA Policies)",
+        "url": "https://www.iea.org/policies/17795-spain-renewable-energy-communities"
+      },
+      {
+        "name": "Red Eléctrica: Self-consumption",
+        "url": "https://www.ree.es/en/ecological-transition/self-consumption"
+      },
+      {
+        "name": "BOE – Real Decreto 244/2019",
+        "url": "https://www.boe.es/eli/es/rd/2019/04/05/244"
+      },
+      {
+        "name": "BOE – CNMC-Beschluss vom 31.07.2026",
+        "url": "https://www.boe.es/eli/es/res/2026/07/31/%282%29/dof/spa/pdf"
+      },
+      {
+        "name": "CNMC – flexible Netzanschlussgenehmigungen, 11.08.2026",
+        "url": "https://www.cnmc.es/prensa/permisos-acceso-flexibles-20260811?trk=article-ssr-frontend-pulse_little-text-block"
+      }
     ],
-        "latestUpdates": [
-    "Flexible Connection Applications (March 2027): Applications for flexible access permits Types 0, 1 and 3 must become available within six months of 1 September 2026",
-    "Distribution Grid Flexibility (2028): Type 2 flexible access permits must become available by 1 January 2028, requiring network operators to establish appropriate monitoring and control capabilities"
-]
-    
+    "latestUpdates": [
+      "Applications for flexible access-permit Types 0, 1 and 3 must become available within six months of 1 September 2026. This is a future implementation deadline, not evidence that all types were already available at the review date.",
+      "Type 2 flexible demand access permits must become available no later than 1 January 2028, subject to the framework’s eligibility and monitoring requirements."
+    ]
   },
   "Italy": {
     "title": "Italy",
     "summary": "Italia",
-    "gridConnectionProcedure": "Renewable energy installations are connected through the responsible grid operators. Large installations are often connected to Terna's transmission network, while rooftop PV systems, prosumers, and battery storage systems are primarily connected to the distribution grid. The key challenge lies in the geographical distribution: renewable generation is often located where grid capacity is limited, whereas major consumption centers are situated in other regions. Terna addresses this development in its National Grid Development Plan, which outlines the expansion of the national transmission infrastructure and the integration of renewable energy.",
+    "gridConnectionProcedure": "Renewable energy installations are connected through the responsible grid operators. Large installations are often connected to Terna's transmission network, while rooftop PV systems, prosumers, and battery storage systems are primarily connected to the distribution grid. The key challenge lies in the geographical distribution: renewable generation is often located where grid capacity is limited, whereas major consumption centres are situated in other regions. Terna addresses this development in its National Grid Development Plan, which outlines the expansion of the national transmission infrastructure and the integration of renewable energy.",
     "strategiesvolatility": [
-      "Italy places a strong emphasis on digitalization",
-      "Second-generation smart meters not only provide more accurate consumption data but also serve as sensors for grid quality monitoring, fault detection, and decentralized generation",
-      "ARERA considers the further development of smart metering and flexibility services for distribution networks to be a strategic priority",
-      "In addition, battery storage, demand response, aggregators, and grid expansion are important instruments for limiting volatility"
-],
+      "Italy places a strong emphasis on digitalisation.",
+      "Second-generation smart meters provide interval data and can support network-quality monitoring and consumer feedback. Available functions depend on the meter and communications system.",
+      "ARERA considers the further development of smart metering and flexibility services for distribution networks to be a strategic priority.",
+      "In addition, battery storage, demand response, aggregators, and grid expansion are important instruments for limiting volatility."
+    ],
     "regulatoryFramework": [
-      "Key legal foundations include Legislative Decree 199/2021 implementing the Renewable Energy Directive",
-      "Legislative Decree 210/2021 implementing the EU Electricity Market Directive",
-      "ARERA regulations on smart metering, tariff regulation, and flexibility services, as well as the technical grid connection rules established by network operators",
-      "The Italian system is strongly regulation-driven because smart meters, consumer protection, grid services, and flexibility are closely interconnected."
+      "Key legal foundations include Legislative Decree 199/2021 implementing the Renewable Energy Directive.",
+      "Legislative Decree 210/2021 implementing the EU Electricity Market Directive.",
+      "The framework also includes ARERA’s TICA connection rules, smart-metering and tariff decisions, and applicable technical standards, including CEI 0-21 for low-voltage and CEI 0-16 for medium-voltage connections.",
+      "Smart metering, consumer protection and flexibility services are governed by related regulatory and technical requirements."
     ],
     "responsibleInstitutions": [
-      "ARERA is the national regulatory authority for energy, networks, and consumer protection",
-      "Terna is the transmission system operator and system manager",
-      "GSE is responsible for renewable energy support and settlement mechanisms",
-      "MASE is the responsible Ministry of Energy",
-      "Distribution system operators such as e-distribuzione and Areti implement smart metering and local grid connections in practice"
-],
-
+      "ARERA is the national regulatory authority for energy, networks, and consumer protection.",
+      "Terna is the transmission system operator and system manager.",
+      "GSE is responsible for renewable energy support and settlement mechanisms.",
+      "MASE is the Ministry of the Environment and Energy Security.",
+      "Distribution system operators such as e-distribuzione and Areti implement smart metering and local grid connections in practice."
+    ],
     "implementationExamples": [
-      "Italy's most significant best practice is its large-scale smart meter rollout",
-      "For Germany, the most relevant aspect is how smart meters can be used not only for billing purposes but also to provide grid status data, demand management, flexibility services, and prosumer integration",
-      "Italy demonstrates that digitalization of the distribution grid is a prerequisite for integrating high shares of photovoltaics and flexible electricity consumers"
+      "Italy’s extensive smart-meter deployment is a relevant implementation example; this is not a quantified ranking of national best practices.",
+      "Possible lessons for Germany include using metering data to support network monitoring and flexibility, subject to suitable communications, control equipment and market rules.",
+      "Digital distribution-network monitoring can facilitate PV integration and flexible demand, alongside adequate network capacity, protection and operational arrangements."
     ],
     "newconsumersandflexibleloads": [
-      "New electricity consumers mainly include electric vehicles, heat pumps, prosumer households, battery storage systems, and flexible commercial and industrial processes",
-      "Italy's smart meter infrastructure represents a major advantage: electricity consumption and feed-in can be monitored in greater detail, enabling flexible tariffs, consumer feedback, grid monitoring, and, in the future, enhanced flexibility services"
+      "New electricity consumers mainly include electric vehicles, heat pumps, prosumer households, battery storage systems, and flexible commercial and industrial processes.",
+      "Italy's smart meter infrastructure represents a major advantage: electricity consumption and feed-in can be monitored in greater detail, enabling flexible tariffs, consumer feedback, grid monitoring, and, in the future, enhanced flexibility services."
     ],
     "sources": [
-         {
-    "name": "ARERA (2024): Annual Report Summary 2024",
-    "url": "https://www.arera.it/fileadmin/EN/publications/acer_and_ec/AR_2024_Summary_EN.pdf"
-  },
-            {
-    "name": "ARERA (2021): Strategic Framework 2022–2025",
-    "url": "https://www.arera.it/fileadmin/EN/publications/other_documents/strategicFramework22_25.pdf"
-  },
-            {
-    "name": "National Electricity Transmission Grid Development Plan (Terna)",
-    "url": "https://www.terna.it/en/electric-system/efficient-territorial-planning/national-electricity-transmission-grid-development-plan"
-  },
-            {
-    "name": "MASE (2023): Italian Implementation Plan",
-    "url": "https://www.mase.gov.it/portale/documents/d/guest/monitor_2023_piano_implementazione-pdf"
-  },
-            {
-    "name": "IEA Policies: Approval of rollout of second-generation smart meters by DSOs",
-    "url": "https://www.iea.org/policies/13729-approval-the-rollout-of-2nd-generation-smart-meters-by-dsos"
-  }
+      {
+        "name": "ARERA: Annual Report Summary 2024 (historical reporting period)",
+        "url": "https://www.arera.it/fileadmin/EN/publications/acer_and_ec/AR_2024_Summary_EN.pdf"
+      },
+      {
+        "name": "ARERA: Strategic Framework 2022–2025 (historical strategy)",
+        "url": "https://www.arera.it/fileadmin/EN/publications/other_documents/strategicFramework22_25.pdf"
+      },
+      {
+        "name": "National Electricity Transmission Grid Development Plan (Terna)",
+        "url": "https://www.terna.it/en/electric-system/efficient-territorial-planning/national-electricity-transmission-grid-development-plan"
+      },
+      {
+        "name": "MASE: Italian Implementation Plan 2023 (historical document)",
+        "url": "https://www.mase.gov.it/portale/documents/d/guest/monitor_2023_piano_implementazione-pdf"
+      },
+      {
+        "name": "IEA Policies: Approval of rollout of second-generation smart meters by DSOs",
+        "url": "https://www.iea.org/policies/13729-approval-the-rollout-of-2nd-generation-smart-meters-by-dsos"
+      },
+      {
+        "name": "ARERA – Jahresbericht 2025, Band 1",
+        "url": "https://www.arera.it/fileadmin/allegati/relaz_ann/25/VOLUME_1_definitivo.pdf"
+      },
+      {
+        "name": "ARERA – TIDE, Dispatching-Regelwerk",
+        "url": "https://www.arera.it/en/area-operatori/produzione-tide"
+      },
+      {
+        "name": "ARERA – Datenerhebung zu 2G-Messsystemen, 21.10.2026",
+        "url": "https://www.arera.it/comunicati-operatore/dettaglio/raccolta-dati-smart-metering-2g-richiesta-dati"
+      },
+      {
+        "name": "Gazzetta Ufficiale – Decreto legislativo 199/2021",
+        "url": "https://www.gazzettaufficiale.it/do/atto/vediListaRettifica?codiceRedazionale=21G00214&dataPubblicazione=2021-11-30&tipoSerie=serie_generale&tiporettifica=rettificato&tipovigenza=originario"
+      },
+      {
+        "name": "Gazzetta Ufficiale – Decreto legislativo 210/2021",
+        "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=21G00233&atto.dataPubblicazioneGazzetta=2021-12-11&tipoSerie=serie_generale&tipoVigenza=originario"
+      }
     ],
-        "latestUpdates": [
-  "No important changes at the start of 2027"
-],
-     "comparison": {
-      "regulatoryAuthority": "ARERA",
-      "gridOperators": "Terna; e-distribuzione and other DSOs",
-      "connectionProcedure": "Connection application → network study → compliance with CEI standards → metering → grid connection, Smart-Meter-Rollout 100%",
-      "legalBasis": "Legislative Decree 199/2021, ARERA resolutions, CEI 0-21 (LV), CEI 0-16 (MV)",
-      "implementationExample": "Nationwide deployment of second-generation smart meters (Open Meter) and extensive PV integration into low-voltage networks"
-     }
+    "latestUpdates": [
+      "ARERA’s TIDE dispatching framework has applied since 2025 and supports the participation of qualifying resources in system services. This review does not establish that there will be no important changes at the beginning of 2027."
+    ],
+    "comparison": {
+      "regulatoryAuthority": "ARERA.",
+      "gridOperators": "Terna; e-distribuzione and other DSOs.",
+      "connectionProcedure": "Connection application → network study → applicable CEI standards → metering → commissioning.",
+      "legalBasis": "Legislative Decree 199/2021, ARERA resolutions, CEI 0-21 (LV), CEI 0-16 (MV).",
+      "implementationExample": "The ongoing deployment of second-generation meters includes e-distribuzione’s Open Meter programme; other DSOs use their own metering programmes."
+    }
   },
   "Netherlands": {
     "title": "Netherlands",
     "summary": "Nederland",
     "gridConnectionProcedure": [
-      "The Dutch electricity system is regulated through the Netcode Elektriciteit, which sets rules for network operation, grid connection and electricity transport. Due to severe grid congestion, grid connection is no longer only a technical procedure but increasingly a capacity allocation problem. In congested areas, new renewable generation, batteries, heat pumps, charging stations and industrial loads may face waiting lists or conditional connection arrangements"
+      "The Dutch electricity system is regulated through the Netcode Elektriciteit, which sets rules for network operation, grid connection and electricity transport. Due to severe grid congestion, grid connection is no longer only a technical procedure but increasingly a capacity allocation problem. In congested areas, new renewable generation, batteries, heat pumps, charging stations and industrial loads may face waiting lists or conditional connection arrangements."
     ],
     "strategiesvolatility": [
-      "The Netherlands is one of Europe’s most important case studies for grid congestion management. ACM has introduced measures to incentivise large users to reduce or avoid grid use during peak hours",
-      "Congestion management rules allow system operators and large users to free up capacity for renewable projects, EV charging infrastructure, heat pumps and other electrified loads",
-      "Flexible grid use, off-peak contracts and congestion steering contracts are increasingly used to make better use of existing capacity"
+      "The Netherlands provides examples of congestion management and incentives for large users to adapt network use during constrained periods.",
+      "Congestion management rules allow system operators and large users to free up capacity for renewable projects, EV charging infrastructure, heat pumps and other electrified loads.",
+      "Flexible grid use, off-peak contracts and congestion steering contracts are increasingly used to make better use of existing capacity."
     ],
     "regulatoryFramework": [
-      "Electricity Act",
-      "Netcode Elektriciteit",
-      "ACM code decisions on congestion management and flexible use of the grid"
+      "Energiewet, largely effective from 1 January 2026, together with applicable implementing rules and transitional provisions.",
+      "Netcode Elektriciteit.",
+      "ACM code decisions on congestion management and flexible use of the grid."
     ],
     "responsibleInstitutions": [
-      "ACM: Netherlands Authority for Consumers and Markets, national regulatory authority",
-      "TenneT: transmission system operator",
-      "Regional DSOs: Liander, Enexis, Stedin"
+      "ACM: Netherlands Authority for Consumers and Markets, national regulatory authority.",
+      "TenneT: transmission system operator.",
+      "Regional DSOs: Liander, Enexis, Stedin."
     ],
-  
     "implementationExamples": [
-      "ACM has approved measures that financially reward large users for reducing consumption during peak periods",
-      "TenneT has made more than 9 GW of capacity available through off-peak flexibility (TenneT 2025)",
-      "The Netherlands is therefore a strong reference country for flexibility before reinforcement"
+      "ACM has approved measures that financially reward large users for reducing consumption during peak periods.",
+      "TenneT’s 2025 reporting identified potential to unlock up to 9 GW through off-peak access arrangements. This is potential use of existing network capacity, not proof that more than 9 GW of firm physical capacity has already been delivered.",
+      "Flexible access can make better use of existing networks and complement reinforcement; it does not eliminate the need for grid expansion."
     ],
     "newconsumersandflexibleloads": [
-      "EV charging stations, heat pumps, electric boilers, battery systems, data centres and industrial electrification projects",
-      "These loads are relevant because they intensify peak demand and contribute to congestion in both transmission and distribution grids"
+      "EV charging stations, heat pumps, electric boilers, battery systems, data centres and industrial electrification projects.",
+      "Unmanaged new demand can increase coincident peaks. Storage and controllable demand can also relieve congestion when operated at suitable times and locations."
     ],
     "sources": [
-       {
-    "name": "(TenneT 2025) TenneT Netherlands",
-    "url": "https://www.tennet.eu/nl-en/news/tennet-provides-9-gigawatts-capacity-high-voltage-grid-customers-waiting-list"
-  },
-     {
-    "name": "Authority for Consumers and Markets (ACM)",
-    "url": "https://www.acm.nl/en"
-  },
-  {
-    "name": "ACM – Electricity and Energy",
-    "url": "https://www.acm.nl/en/topics/energy"
-  },
-  {
-    "name": "ACM – Grid Congestion",
-    "url": "https://www.acm.nl/en/topics/energy/electricity/grid-congestion"
-  },
-  {
-    "name": "Netcode Elektriciteit",
-    "url": "https://www.acm.nl/en/publications/netcode-electricity"
-  },
-  {
-    "name": "Dutch Electricity Act (Elektriciteitswet)",
-    "url": "https://wetten.overheid.nl/BWBR0009755/"
-  },
-  {
-    "name": "Ministry of Climate Policy and Green Growth",
-    "url": "https://www.government.nl/ministries/ministry-of-climate-policy-and-green-growth"
-  },
-  {
-    "name": "TenneT Netherlands",
-    "url": "https://www.tennet.eu"
-  },
-  {
-    "name": "Liander",
-    "url": "https://www.liander.nl"
-  },
-  {
-    "name": "Enexis",
-    "url": "https://www.enexis.nl"
-  },
-  {
-    "name": "Stedin",
-    "url": "https://www.stedin.net"
-  }
+      {
+        "name": "Authority for Consumers and Markets (ACM)",
+        "url": "https://www.acm.nl/en"
+      },
+      {
+        "name": "ACM – Electricity and Energy",
+        "url": "https://www.acm.nl/en/topics/energy"
+      },
+      {
+        "name": "ACM – Grid Congestion",
+        "url": "https://www.acm.nl/en/topics/energy/electricity/grid-congestion"
+      },
+      {
+        "name": "Netcode Elektriciteit",
+        "url": "https://www.acm.nl/en/publications/netcode-electricity"
+      },
+      {
+        "name": "TenneT Netherlands",
+        "url": "https://www.tennet.eu"
+      },
+      {
+        "name": "Liander",
+        "url": "https://www.liander.nl"
+      },
+      {
+        "name": "Enexis",
+        "url": "https://www.enexis.nl"
+      },
+      {
+        "name": "Stedin",
+        "url": "https://www.stedin.net"
+      },
+      {
+        "name": "Staatsblad 2025, 40 – Inkrafttreten Energiewet",
+        "url": "https://zoek.officielebekendmakingen.nl/stb-2025-40.html"
+      },
+      {
+        "name": "TenneT – Integrated Annual Report 2025",
+        "url": "https://a.storyblok.com/f/329380/x/d9eb158375/integrated-annual-report-tennet-holding-b-v-2025.pdf"
+      },
+      {
+        "name": "Staatscourant 2026, 3776 – Methodenentscheidungen 2027–2031",
+        "url": "https://zoek.officielebekendmakingen.nl/stcrt-2026-3776.pdf"
+      },
+      {
+        "name": "Rijksoverheid – Ende der Salderingsregeling",
+        "url": "https://www.rijksoverheid.nl/themas/klimaat-milieu-en-natuur/energie-thuis/salderingsregeling"
+      }
     ],
-        "latestUpdates": [
-      "ACM, network operators and consumer representatives agreed on a new regulatory methodology for network operators’ allowed revenues, intended to apply from 2027 through 2031"
-]
-    
+    "latestUpdates": [
+      "ACM adopted regulatory methodologies for 2027–2031 in February 2026. Separately, household PV net metering under the salderingsregeling is scheduled to end on 1 January 2027; exported electricity will instead be remunerated under the applicable rules."
+    ]
   },
   "Denmark": {
     "title": "Denmark",
     "summary": "Danmark",
     "gridConnectionProcedure": [
-      "Danish grid connection is coordinated through Energinet, distribution companies and technical rules for production and demand installations. Energinet publishes rules, conditions and methods for grid connection and system operation. Renewable generators must comply with national requirements and European network codes, including requirements for wind turbines, photovoltaic plants and other renewable technologies. Low-voltage demand installations are covered by technical guidance for connection to the low-voltage grid."
+      "Applicants contact the network operator responsible for the proposed connection. DSOs handle distribution connections, while Energinet handles transmission connections and relevant system requirements. Applicable Danish technical rules and European network codes depend on the installation and voltage level."
     ],
     "strategiesvolatility": [
-      "Denmark uses market-based flexibility, dynamic price signals and short-term electricity markets to integrate large shares of wind and solar power",
-      "Energinet highlights that the need for flexibility increases with renewable energy expansion and that 15-minute trading supports better balancing of forecast errors and variable generation",
-      "Danish regulators emphasise cost-reflective tariffs, transparency and non-discrimination when designing flexibility-oriented tariff structures"
+      "Denmark uses market-based flexibility, dynamic price signals and short-term electricity markets to integrate large shares of wind and solar power.",
+      "Energinet highlights that the need for flexibility increases with renewable energy expansion and that 15-minute trading supports better balancing of forecast errors and variable generation.",
+      "Danish regulators emphasise cost-reflective tariffs, transparency and non-discrimination when designing flexibility-oriented tariff structures."
     ],
     "regulatoryFramework": [
-      "Danish Electricity Supply Act",
-      "Danish Renewable Energy Act",
-      "Executive orders on grid connection of wind turbines, photovoltaic power stations, wave farms and hydropower plants",
-      "Energinet technical rules and market rules"
+      "Danish Electricity Supply Act (Elforsyningsloven), consolidated as LBK 544 of 16 June 2026, with applicable subsequent amendments.",
+      "Danish Renewable Energy Act (Lov om fremme af vedvarende energi), including applicable amendments.",
+      "Applicable implementing orders and technical connection requirements must be identified for the installation type; the original text does not specify their numbers or versions.",
+      "Energinet technical rules and market rules."
     ],
     "responsibleInstitutions": [
-      "Danish Utility Regulator: national regulatory authority",
-      "Energinet: transmission system operator",
-      "Distribution system operators such as N1 and Radius/Andel"
+      "Danish Utility Regulator: national regulatory authority.",
+      "Energinet: transmission system operator.",
+      "Distribution system operators include N1 and Radius Elnet."
     ],
-  
     "implementationExamples": [
-      "15-minute intraday trading and balancing market reforms allow market participants to adjust production and consumption closer to real time",
-      "Tariff reform and digitalisation are being used to activate demand-side flexibility"
+      "15-minute intraday trading and balancing market reforms allow market participants to adjust production and consumption closer to real time.",
+      "Tariff reform and digitalisation are being used to activate demand-side flexibility."
     ],
     "newconsumersandflexibleloads": [
-      "Electric vehicles, heat pumps, data centres, Power-to-X, electrolysers and industrial electrification are considered important future flexibility resources",
-      "Denmark is especially relevant because demand-side flexibility is linked to wind power integration and sector coupling"
+      "Electric vehicles, heat pumps, data centres, Power-to-X, electrolysers and industrial electrification are considered important future flexibility resources.",
+      "Denmark is especially relevant because demand-side flexibility is linked to wind power integration and sector coupling."
     ],
     "sources": [
-        {
-    "name": "Danish Utility Regulator (Forsyningstilsynet)",
-    "url": "https://forsyningstilsynet.dk"
-  },
-  {
-    "name": "Danish Energy Agency",
-    "url": "https://ens.dk/en"
-  },
-  {
-    "name": "Energinet",
-    "url": "https://en.energinet.dk"
-  },
-  {
-    "name": "Energinet – Rules, Regulations, Conditions and Methods",
-    "url": "https://en.energinet.dk/rules-regulations-conditions-and-methods/"
-  },
-  {
-    "name": "Green Power Denmark",
-    "url": "https://greenpowerdenmark.dk"
-  },
-  {
-    "name": "Guide for Grid Connection of Demand Installations to the Low Voltage Grid",
-    "url": "https://greenpowerdenmark.dk/files/media/document/Guide-for-grid-connection-of-demand-installations-to-the-low-voltage-grid.pdf"
-  },
-  {
-    "name": "Danish Electricity Supply Act (Elforsyningsloven)",
-    "url": "https://www.retsinformation.dk"
-  },
-  {
-    "name": "Renewable Energy Act (Lov om fremme af vedvarende energi)",
-    "url": "https://www.retsinformation.dk"
-  }
+      {
+        "name": "Danish Utility Regulator (Forsyningstilsynet)",
+        "url": "https://forsyningstilsynet.dk"
+      },
+      {
+        "name": "Danish Energy Agency",
+        "url": "https://ens.dk/en"
+      },
+      {
+        "name": "Energinet",
+        "url": "https://en.energinet.dk"
+      },
+      {
+        "name": "Energinet – Rules, Regulations, Conditions and Methods",
+        "url": "https://en.energinet.dk/rules-regulations-conditions-and-methods/"
+      },
+      {
+        "name": "Green Power Denmark",
+        "url": "https://greenpowerdenmark.dk"
+      },
+      {
+        "name": "Guide for Grid Connection of Demand Installations to the Low Voltage Grid",
+        "url": "https://greenpowerdenmark.dk/files/media/document/Guide-for-grid-connection-of-demand-installations-to-the-low-voltage-grid.pdf"
+      },
+      {
+        "name": "Energinet – Electricity Market Report 2025",
+        "url": "https://en.energinet.dk/media/v2fhaaxv/250226-electricity-market-report-2025.pdf"
+      },
+      {
+        "name": "Retsinformation – Elforsyningsloven, LBK 544 vom 16.06.2026",
+        "url": "https://www.retsinformation.dk/eli/lta/2026/544/dan/html"
+      },
+      {
+        "name": "Retsinformation – VE-loven, LBK 1031/2024 mit Änderungsverweisen",
+        "url": "https://www.retsinformation.dk/api/pdf/244800"
+      }
     ],
-        "latestUpdates": [
-  "No important changes at the start of 2027"
-]
+    "latestUpdates": [
+      "Verification note: this review does not establish the absence of important changes at the beginning of 2027. Current legislation, tariff decisions and operator requirements must be checked for the relevant connection."
+    ]
   },
   "Norway": {
     "title": "Norway",
     "summary": "Norge",
     "gridConnectionProcedure": [
-      "Norway applies grid connection codes for generators, demand connections and HVDC systems as part of Norwegian energy regulation. The Norwegian energy system is regulated by NVE/RME, with the Energy Act forming the main legal framework for electricity market regulation. Norway is not an EU Member State, but it is closely integrated into the Nordic and European electricity system through EEA-related regulation and Nordic market cooperation"
+      "Norway applies grid connection codes for generators, demand connections and HVDC systems as part of Norwegian energy regulation. The Norwegian energy system is regulated by NVE/RME, with the Energy Act forming the main legal framework for electricity market regulation. Norway is not an EU Member State, but it is closely integrated into the Nordic and European electricity system through EEA-related regulation and Nordic market cooperation."
     ],
     "strategiesvolatility": [
-      "Norway is highly relevant because of its very high EV penetration and strong reliance on electric heating",
-      "Capacity-based grid tariffs for low-voltage customers were introduced to incentivise consumers to reduce peak loads and shift flexible consumption",
-      "Non-firm connection agreements allow grid companies to curtail consumption under agreed conditions, reducing the need for immediate grid reinforcement"
+      "Norway is highly relevant because of its very high EV penetration and strong reliance on electric heating.",
+      "Capacity-based grid tariffs for low-voltage customers were introduced to incentivise consumers to reduce peak loads and shift flexible consumption.",
+      "Voluntary conditional connection agreements can allow curtailment under agreed conditions and enable connections before reinforcement. They require agreement and are not an unconditional entitlement to network access."
     ],
     "regulatoryFramework": [
-      "Norwegian Energy Act",
-      "NVE/RME regulations on grid tariffs",
-      "Norwegian implementation of grid connection codes: RfG, DCC and HVDC"
+      "Norwegian Energy Act.",
+      "NVE/RME regulations on grid tariffs.",
+      "Norwegian implementation of grid connection codes: RfG, DCC and HVDC."
     ],
     "responsibleInstitutions": [
-      "NVE: Norwegian Water Resources and Energy Directorate",
-      "RME: Norwegian Energy Regulatory Authority",
-      "Statnett: transmission system operator",
-      "Regional distribution system operators"
+      "NVE: Norwegian Water Resources and Energy Directorate.",
+      "RME: Norwegian Energy Regulatory Authority.",
+      "Statnett: transmission system operator.",
+      "Regional distribution system operators."
     ],
- 
     "implementationExamples": [
-      "Capacity-based network tariffs encourage households to avoid simultaneous high-power consumption",
-      "Smart EV charging is used as a practical instrument to reduce local peak loads",
-      "Non-firm connection agreements provide a regulatory tool for connecting flexible demand without immediately expanding the grid"
+      "Capacity-based network tariffs encourage households to avoid simultaneous high-power consumption.",
+      "Smart EV charging is used as a practical instrument to reduce local peak loads.",
+      "Non-firm connection agreements provide a regulatory tool for connecting flexible demand without immediately expanding the grid."
     ],
     "newconsumersandflexibleloads": [
-      "Electric vehicles, electric heating, heat pumps, household batteries, distributed solar PV and flexible industrial demand",
-      "EV charging is particularly important because unmanaged charging can create local peak-load problems, while smart charging can defer or reduce network reinforcement needs"
+      "Electric vehicles, electric heating, heat pumps, household batteries, distributed solar PV and flexible industrial demand.",
+      "EV charging is particularly important because unmanaged charging can create local peak-load problems, while smart charging can defer or reduce network reinforcement needs."
     ],
     "sources": [
       {
-    "name": "Norwegian Water Resources and Energy Directorate (NVE)",
-    "url": "https://www.nve.no/english/"
-  },
-  {
-    "name": "Regulatory Authority for Energy (RME)",
-    "url": "https://www.nve.no/reguleringsmyndigheten/"
-  },
-  {
-    "name": "Statnett",
-    "url": "https://www.statnett.no/en/"
-  },
-  {
-    "name": "Elhub",
-    "url": "https://elhub.no/en/"
-  },
-  {
-    "name": "Norwegian Energy Act (Energiloven)",
-    "url": "https://lovdata.no/dokument/NL/lov/1990-06-29-50"
-  },
-  {
-    "name": "Grid Connection Codes (RfG, DCC, HVDC)",
-    "url": "https://www.nve.no/norwegian-energy-regulatory-authority/regulatory-cooperation/grid-connection-codes-rfg-dcc-hvdc/"
-  },
-  {
-    "name": "RME – Network Tariffs",
-    "url": "https://www.nve.no/reguleringsmyndigheten/nettvirksomhet/nettleie/"
-  }
+        "name": "Norwegian Water Resources and Energy Directorate (NVE)",
+        "url": "https://www.nve.no/english/"
+      },
+      {
+        "name": "Regulatory Authority for Energy (RME)",
+        "url": "https://www.nve.no/reguleringsmyndigheten/"
+      },
+      {
+        "name": "Statnett",
+        "url": "https://www.statnett.no/en/"
+      },
+      {
+        "name": "Elhub",
+        "url": "https://elhub.no/en/"
+      },
+      {
+        "name": "Norwegian Energy Act (Energiloven)",
+        "url": "https://lovdata.no/dokument/NL/lov/1990-06-29-50"
+      },
+      {
+        "name": "Grid Connection Codes (RfG, DCC, HVDC)",
+        "url": "https://www.nve.no/norwegian-energy-regulatory-authority/regulatory-cooperation/grid-connection-codes-rfg-dcc-hvdc/"
+      },
+      {
+        "name": "RME – Network Tariffs",
+        "url": "https://www.nve.no/reguleringsmyndigheten/nettvirksomhet/nettleie/"
+      },
+      {
+        "name": "RME – Netzanschlusspflicht und bedingter Anschluss",
+        "url": "https://www.nve.no/reguleringsmyndigheten/regulering/nettvirksomhet/nettilknytning/dette-er-tilknytningsplikten/"
+      }
     ],
-        "latestUpdates": [
-  "No important changes at the start of 2027"
-]
+    "latestUpdates": [
+      "Verification note: the reviewed material does not establish that no important changes will occur at the beginning of 2027. The relevant tariff and connection provisions require a project-specific update."
+    ]
   },
   "Sweden": {
     "title": "Sweden",
     "summary": "Sverige",
-    "gridConnectionProcedure": "New generation facilities are connected through local and regional grid operators. Svenska kraftnät states that project developers must first contact the local distribution system operator, which determines the appropriate voltage level and technical connection possibilities. This is particularly relevant because renewable generation is not always located where electricity demand exists. Northern Sweden hosts many hydropower and wind resources, while much of the demand is concentrated in the south. This creates bottlenecks that require both transmission grid expansion and more efficient use of existing networks.",
+    "gridConnectionProcedure": "Generation developers should contact the relevant local or regional network operator to determine the appropriate connection level and technical requirements. Large projects may involve the transmission network. Differences between generation locations and demand centres create a need for network development and operational flexibility.",
     "strategiesvolatility": [
-      "Sweden’s most important natural source of flexibility is hydropower, which can offset fluctuations from wind and solar generation",
-      "In addition, smart meters, dynamic electricity tariffs, demand response, local flexibility solutions, and smart grids are becoming increasingly important",
-      "The regulator views smart grids as a tool for better integrating renewable energy, improving energy efficiency, and increasing grid reliability"
+      "Hydropower is an important source of dispatchable flexibility that can help balance variable wind and solar generation.",
+      "In addition, smart meters, dynamic electricity tariffs, demand response, local flexibility solutions, and smart grids are becoming increasingly important.",
+      "The regulator views smart grids as a tool for better integrating renewable energy, improving energy efficiency, and increasing grid reliability."
     ],
     "regulatoryFramework": [
-      "The legal framework is based on Swedish electricity legislation, the EU Clean Energy Package, and the EU Electricity Market Directive 2019/944",
-      "Relevant aspects include grid connection requirements, network tariff regulation, requirements for smart metering systems, and rules governing the integration of flexibility",
-      "Smart meters and demand-side flexibility are regarded not as isolated technologies but as integral components of a more efficient electricity market",
-      "Network Tariff Regulation (2026): The Energy Markets Inspectorate repealed regulation EIFS 2022:1, removing the mandatory nationwide introduction of capacity-based network charges"
+      "The framework includes the Electricity Act (Ellag 1997:857), applicable EU electricity-market rules and national implementing provisions. New legislation, including Elmarknadslag 2026:1281, has been adopted for the subsequent framework; commencement and transitional provisions must be distinguished from the rules applicable on 28 October 2026.",
+      "Relevant aspects include grid connection requirements, network tariff regulation, requirements for smart metering systems, and rules governing the integration of flexibility.",
+      "Smart meters and demand-side flexibility are regarded not as isolated technologies but as integral components of a more efficient electricity market.",
+      "Network Tariff Regulation (2026): The Energy Markets Inspectorate repealed regulation EIFS 2022:1, removing the mandatory nationwide introduction of capacity-based network charges."
     ],
-      "responsibleInstitutions": [
-      "The main institutions are the Swedish Energy Markets Inspectorate (Ei) as the national regulatory authority",
-        "Svenska kraftnät as the transmission system operator and system manager",
-        "local and regional distribution system operators responsible for grid connections",
-        "and the Swedish Energy Agency (Energimyndigheten) for energy policy programs and research",
-        "At the European level, ACER and ENTSO-E are also relevant"
+    "responsibleInstitutions": [
+      "The Swedish Energy Markets Inspectorate (Ei) is the national energy regulator.",
+      "Svenska kraftnät is the transmission system operator.",
+      "Local and regional distribution system operators handle connections within their networks.",
+      "The Swedish Energy Agency (Energimyndigheten) administers energy programmes and supports research.",
+      "At the European level, ACER and ENTSO-E are also relevant."
     ],
-  
     "implementationExamples": [
-      "Sweden demonstrates how an electricity system with a high share of renewable generation can be stabilized through controllable hydropower and digital flexibility",
-      "For Germany, smart meters, dynamic tariffs, demand response, and local flexibility markets are particularly transferable",
-      "The high availability of hydropower cannot be transferred directly, but Germany can learn from Sweden’s digital and regulatory approaches, particularly regarding controllable consumers under Section 14a of the German Energy Industry Act (EnWG)"
+      "Sweden demonstrates how an electricity system with a high share of renewable generation can be stabilised through controllable hydropower and digital flexibility.",
+      "Smart meters, dynamic tariffs and demand response offer possible lessons for Germany, subject to differences in market rules and network conditions.",
+      "Germany can compare Swedish approaches to digitalisation and flexibility with its own framework. Section 14a EnWG is German law and must not be presented as a Swedish mechanism."
     ],
     "newconsumersandflexibleloads": [
-      "In Sweden, new consumers are not only additional loads but also potential sources of flexibility",
-      "Electric vehicles can shift charging times, heat pumps can be combined with thermal storage, and industrial processes can partially respond to electricity prices or grid conditions",
-      "The Swedish Energy Markets Inspectorate (Ei) has identified demand-side flexibility as an important tool for an electricity system with a high share of variable generation",
-      "For low-voltage grids, this means controllable consumers must increasingly become part of grid planning"
+      "In Sweden, new consumers are not only additional loads but also potential sources of flexibility.",
+      "Electric vehicles can shift charging times, heat pumps can be combined with thermal storage, and industrial processes can partially respond to electricity prices or grid conditions.",
+      "The Swedish Energy Markets Inspectorate (Ei) has identified demand-side flexibility as an important tool for an electricity system with a high share of variable generation.",
+      "For low-voltage grids, this means controllable consumers must increasingly become part of grid planning."
     ],
     "sources": [
-        {
-    "name": "Swedish Energy Markets Inspectorate (Ei)",
-    "url": "https://ei.se/ei-in-english"
-  },
-             {
-    "name": "Transmission System Operator (Svenska kraftnät)",
-    "url": "https://www.svk.se/en/"
-  },
-             {
-    "name": "Swedish Energy Agency (Energimyndigheten)",
-    "url": "https://www.energimyndigheten.se/en/"
-  },
-             {
-    "name": "Metering as an Enabler for Consumer-Focused Flexibility in Sweden",
-    "url": "https://www.iea-isgan.org/wp-content/uploads/2022/06/WG9-Metering-as-Enabler-for-Flexibility.pdf"
-  }
+      {
+        "name": "Swedish Energy Markets Inspectorate (Ei)",
+        "url": "https://ei.se/ei-in-english"
+      },
+      {
+        "name": "Transmission System Operator (Svenska kraftnät)",
+        "url": "https://www.svk.se/en/"
+      },
+      {
+        "name": "Swedish Energy Agency (Energimyndigheten)",
+        "url": "https://www.energimyndigheten.se/en/"
+      },
+      {
+        "name": "IEA ISGAN: Metering as an Enabler for Consumer-Focused Flexibility in Sweden (2022; background)",
+        "url": "https://www.iea-isgan.org/wp-content/uploads/2022/06/WG9-Metering-as-Enabler-for-Flexibility.pdf"
+      },
+      {
+        "name": "Ei – Aufhebung EIFS 2022:1, 17.06.2026",
+        "url": "https://ei.se/om-oss/nyheter/2026/2026-06-17-ei-upphaver-foreskrifterna-om-utformning-av-nattariffer"
+      },
+      {
+        "name": "Ei – Informationen zu Leistungsentgelten",
+        "url": "https://ei.se/konsument/el/elnatsavgiften-och-elnatsreglering/effektavgifter"
+      },
+      {
+        "name": "Ei – Informationspflichten EIFS 2026:8",
+        "url": "https://ei.se/om-oss/nyheter/2026/2026-06-08-nya-foreskrifter-ska-forbattra-elnatsforetags-information-till-elanvandare"
+      },
+      {
+        "name": "Riksdagen – Ellag 1997:857",
+        "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/ellag-1997857_sfs-1997-857/"
+      },
+      {
+        "name": "Riksdagen – Elmarknadslag 2026:1281",
+        "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/elmarknadslag-20261281_sfs-2026-1281/"
+      },
+      {
+        "name": "Regeringskansliet – Ellag, Aufhebung zum 01.01.2027",
+        "url": "https://rkrattsbaser.gov.se/sfsr?bet=1997%3A857"
+      }
     ],
-        "latestUpdates": [
-     "Sweden abolished the requirement for all network operators to introduce capacity-based tariffs by January 2027. Operators may still apply compliant capacity charges",
-     "New regulations require electricity network operators to provide clearer information about network agreements, tariff structures and customer rights from 1 January 2027"
-]
+    "latestUpdates": [
+      "Ei repealed EIFS 2022:1 in June 2026, removing the planned obligation to introduce capacity-based tariffs by 1 January 2027. Compliant capacity charges remain possible.",
+      "EIFS 2026:8 introduces clearer customer-information requirements for electricity network operators from 1 January 2027.",
+      "Sweden has adopted new electricity legislation, including Elmarknadslag 2026:1281. The existing Ellag is scheduled for repeal on 1 January 2027; the new framework has its own commencement and transitional provisions."
+    ]
   },
   "Finland": {
     "title": "Finland",
@@ -776,212 +951,282 @@
       "The expansion of wind power has significantly transformed Finland’s electricity system in recent years. Fingrid defines technical connection requirements through its Grid Code Specifications. These specify the technical and operational requirements that power plants must meet to reliably withstand voltage fluctuations, frequency deviations, and system disturbances. This is particularly important for renewable energy installations, as a high share of weather-dependent generation can only be integrated reliably if installations respond in a grid-supportive manner and exchange data with grid operators."
     ],
     "strategiesvolatility": [
-      "Smart meters enable near real-time recording of electricity consumption and generation",
-      "variable tariffs, balancing and load management"
+      "Smart meters record consumption and generation at defined intervals. Data transmission, customer access and real-time control are separate capabilities and may have different delays.",
+      "Variable tariffs, demand response and balancing services can encourage flexibility where suitable controls and market arrangements are available."
     ],
     "regulatoryFramework": [
-      "legal basis includes:",
-      "the Finnish Electricity Market Act,",
-      "EU internal electricity market legislation,",
-      "national grid connection rules,",
-      "and Fingrid’s technical connection requirements",
-      "",
-      "Energiavirasto supervises the market and the network operators",
-      "Fingrid defines the technical requirements for connection to the transmission grid",
-      "They introduced immediate technical requirements for large demand facilities directly connected to its transmission grid, supplementing the existing KJV2018 specifications (06/26)"
+      "The legal framework includes the following legislation and technical requirements.",
+      "Finnish Electricity Market Act.",
+      "Applicable EU electricity-market legislation.",
+      "National grid connection rules.",
+      "Fingrid’s applicable technical connection requirements.",
+      "Requirements differ between generation, storage and demand connections.",
+      "Energiavirasto supervises the market and the network operators.",
+      "Fingrid specifies transmission-connection requirements. Separately, Section 65b of the Electricity Market Act requires DSOs to enable authorised market-based access to eligible meter load-control relays by 1 June 2027, subject to technical conditions.",
+      "On 12 June 2026, Fingrid introduced immediate supplementary technical requirements for relevant new or modified large demand facilities directly connected to the transmission grid, alongside KJV2018."
     ],
     "responsibleInstitutions": [
-      "Energy and market regulatory authority (Energiavirasto)",
-      "Transmission system operator and system operator (Fingrid)",
-      "Finnish Energy and VTT provide industry expertise and research contributions",
-      "ACER and ENTSO-E provide European reference frameworks for comparison"
+      "Energy and market regulatory authority (Energiavirasto).",
+      "Transmission system operator and system operator (Fingrid).",
+      "Finnish Energy and VTT provide industry expertise and research contributions.",
+      "ACER and ENTSO-E provide European reference frameworks for comparison."
     ],
- 
     "implementationExamples": [
-      "Finland demonstrates that digital metering infrastructure is not only used for billing but also serves as a key instrument for grid integration, flexibility, and overall system operation. This can be used to operate all flexible loads"
+      "Digital metering supports billing, data exchange and flexibility services. Controlling a load also requires compatible equipment, communications, authorisation and, where relevant, market prequalification; a meter cannot operate every flexible load by itself."
     ],
     "newconsumersandflexibleloads": [
-      "Primarily created through the electrification of heating, transport, and industry",
-      "Heat pumps are most important because of the cold climate",
-      "Electric vehicles and industrial loads can be used as flexible consumers",
-      "Demand-side flexibility as an element of the Finnish reserve and balancing markets",
-      "Fingrid reported approximately 1,050 MW of connected grid-scale energy storage in February 2026, supporting electricity system flexibility and balancing"
+      "Electrification of heating, transport and industry creates additional electricity demand and potential flexibility.",
+      "Heat pumps can provide flexibility through thermal storage and controlled operation, subject to comfort and operating constraints.",
+      "Electric vehicles and industrial loads can be used as flexible consumers.",
+      "Qualifying demand-side resources can participate in reserve and balancing markets under the applicable technical and market requirements.",
+      "Fingrid reported approximately 1,050 MW of connected electricity storage in February 2026, including large systems and an estimate for small installations. MW measures power, not stored energy."
     ],
     "sources": [
-             {
-    "name": "National Report on electricity and gas markets in Finland in 2024 (Energiavirasto 2025)",
-    "url": "https://energiavirasto.fi/documents/11120570/13026619/National%20Report%20on%20electricity%20and%20gas%20markets%20in%202024%20in%20Finland.pdf"
-  },
-                {
-    "name": "Grid Code Specifications (Fingrid)",
-    "url": "https://www.fingrid.fi/en/grid/grid-connection-agreement-phases/grid-code-specifications/"
-  },
-                {
-    "name": "Demand-side flexibility (Fingrid)",
-    "url": "https://www.fingrid.fi/en/electricity-market/market-integration/electricity-market-development-projects/demand-side-management/"
-  },
-                {
-    "name": "Electricity system of Finland (Fingrid)",
-    "url": "https://www.fingrid.fi/en/grid/development/electricity-system-of-finland/"
-  },
-                {
-    "name": "Smart metering based demand response in Finland (VTT)",
-    "url": "https://cris.vtt.fi/en/publications/smart-metering-based-demand-response-in-finland/"
-  }
+      {
+        "name": "National Report on electricity and gas markets in Finland in 2024 (Energiavirasto 2025)",
+        "url": "https://energiavirasto.fi/documents/11120570/13026619/National%20Report%20on%20electricity%20and%20gas%20markets%20in%202024%20in%20Finland.pdf"
+      },
+      {
+        "name": "Grid Code Specifications (Fingrid)",
+        "url": "https://www.fingrid.fi/en/grid/grid-connection-agreement-phases/grid-code-specifications/"
+      },
+      {
+        "name": "Demand-side flexibility (Fingrid)",
+        "url": "https://www.fingrid.fi/en/electricity-market/market-integration/electricity-market-development-projects/demand-side-management/"
+      },
+      {
+        "name": "Electricity system of Finland (Fingrid)",
+        "url": "https://www.fingrid.fi/en/grid/development/electricity-system-of-finland/"
+      },
+      {
+        "name": "VTT: Smart metering based demand response in Finland (research background)",
+        "url": "https://cris.vtt.fi/en/publications/smart-metering-based-demand-response-in-finland/"
+      },
+      {
+        "name": "Fingrid – Grid specifications for demand connections",
+        "url": "https://www.fingrid.fi/en/grid/grid-connection-agreement-phases/grid-code-specifications/grid-specifications-for-demand-connections/"
+      },
+      {
+        "name": "Fingrid – Stromspeicher über 1.000 MW, 24.02.2026",
+        "url": "https://www.fingrid.fi/en/news/news/2026/the-combined-capacity-of-electricity-storages-in-finland-now-exceeds-1000-mw/"
+      },
+      {
+        "name": "Fingrid – KJV2026, Entwurf zur Konsultation",
+        "url": "https://www.fingrid.fi/en/grid/grid-connection-agreement-phases/grid-code-specifications/draft-for-comments-kjv2026-grid-code-specifications-for-demand-connections/"
+      },
+      {
+        "name": "Fingrid – Netzentgelte +4 % ab 2027",
+        "url": "https://www.fingrid.fi/en/news/news/2026/growth-in-the-power-system-increases-costs--main-grid-service-fees-will-rise-by-4-per-cent-at-the-beginning-of-the-year"
+      },
+      {
+        "name": "Fingrid – Geschäftsbericht Januar–September 2025",
+        "url": "https://www.fingrid.fi/globalassets/dokumentit/en/investors/financial-reports/2025/fingrid-group--managements-review-1.1.30.9.2025.pdf"
+      },
+      {
+        "name": "Finlex – Sähkömarkkinalaki 588/2013, einschließlich Änderung 548/2026",
+        "url": "https://www.finlex.fi/fi/lainsaadanto/2013/588"
+      }
     ],
-        "latestUpdates": [
-    "Fingrid continues restricting new grid-scale battery connections in southern Finland until 2029, prioritising available capacity for growing electricity demand and industrial projects",
-    "KJV2026 Grid Code (Planned March 2027): Fingrid proposes new technical requirements for large demand facilities, including disturbance tolerance and power limitation capabilities. Regulatory confirmation is targeted for March 2027",
-    "Transmission Network Fees (January 2027): Fingrid will increase main grid service fees by 4% from the beginning of 2027 to finance grid expansion and growing system costs"
-]
+    "latestUpdates": [
+      "Fingrid has reported restrictions on new large battery connections in southern Finland until 2029 because of network constraints. This is a regional connection limitation, not a nationwide ban on storage.",
+      "KJV2026 remains a proposed demand-connection code at the review date. Fingrid targets regulatory confirmation in March 2027; the target date is not an already effective legal obligation.",
+      "Fingrid has announced a 4% increase in main grid service fees from 1 January 2027. This is not a 4% increase in every consumer’s total electricity bill."
+    ]
   },
   "United Kingdom": {
-    "title": "United Kingdom",
+    "title": "United Kingdom (Great Britain focus)",
     "summary": "United Kingdom",
     "gridConnectionProcedure": [
-      "This year Ofgem is developing reforms to remove non-viable projects from connection queues, accelerate viable applications and potentially prioritise strategically important electricity demand projects. The registration depends on the system capacity. Under 16 amps per phase (Form G98), the Fit & Inform principle applies (installation and subsequent notification within 28 days). Larger systems (G99) require a 45-day prior assessment by the grid operator."
+      "In Great Britain, qualifying type-tested small generators with a rating up to and including 16 A per phase can use the G98 install-and-notify procedure, normally notifying the DNO within 28 days. G99 generally requires prior application for installations outside G98. Assessment times depend on the connection category; 45 days is not a universal deadline. Ofgem’s connection reforms have separate implementation and consultation stages."
     ],
     "strategiesvolatility": [
-      "The introduction of Market-wide Half-Hourly Settlement (MHHS) forces the entire market into a strict 30-minute billing grid, which incentivizes end customers to significantly shift their load via highly dynamic tariffs"
+      "Market-wide Half-Hourly Settlement (MHHS) changes electricity-market settlement using half-hourly data. It does not require every household to receive half-hourly bills or take a dynamic tariff. Migration remains in progress at the review date."
     ],
     "regulatoryFramework": [
-      "The Smart Export Guarantee (SEG) system obliges large suppliers to offer feed-in tariffs",
-      "These tariffs are not fixed by the state but are subject to free market competition",
-      "Ofgem launched consultations on improved connection transparency, customer protections, communication and delivery standards. These remain proposals rather than binding requirements (09/26)",
-      "It was proposed that new demand capacity registers, improved network reinforcement information, and consistent data standards to increase grid connection transparency"
+      "In Great Britain, the Smart Export Guarantee requires qualifying large suppliers to offer eligible small generators an export tariff under the scheme’s conditions.",
+      "SEG suppliers set their tariff rates, which must be greater than zero; there is no single government-set SEG rate.",
+      "Ofgem’s September 2026 connection review includes decisions and further consultations on transparency and customer service. The legal status and implementation date must be checked separately for each measure.",
+      "Proposed measures include demand-capacity registers, improved network-reinforcement information and consistent data standards. Consultation proposals are not binding merely because they have been published."
     ],
     "responsibleInstitutions": [
-      "The market is regulated by Ofgem",
-      "The transmission grid is managed by the National Energy System Operator (NESO)",
-      "The distribution grid is divided into 14 regions controlled by 6 large DNO (Distribution Network Operator) conglomerates"
+      "Ofgem regulates energy markets in Great Britain; Northern Ireland has a separate Utility Regulator.",
+      "NESO is Great Britain’s electricity system operator. Transmission network ownership and asset operation are undertaken by the relevant transmission owners.",
+      "Great Britain has 14 regional distribution licence areas, alongside independent distribution networks. Corporate ownership groups must be distinguished from licensed network areas."
     ],
-
     "implementationExamples": [
-      "The Electric Vehicles Smart Charge Points Regulations mandate by law that new private wallboxes must be configured by default to block charging processes during peak grid hours (8-11 AM and 4-10 PM). Up to a limit this blocking can be by-passed by users if nescessary."
+      "In Great Britain, covered private charge points must provide smart functionality and default settings avoiding charging from 08:00 to 11:00 and 16:00 to 22:00 on weekdays. Users can override the default schedule. The requirements apply to charge points within the regulations’ scope, not every private charger without exception."
     ],
     "newconsumersandflexibleloads": [
-      "The UK is a leader in local flexibility markets",
-      "DNOs regularly tender Flexibility Services, where aggregators bundle the capacity of private storage systems and heat pumps and use them for local grid stabilization in exchange for remuneration"
+      "Great Britain has local flexibility procurement arrangements through which eligible resources can offer services to network operators.",
+      "DNOs regularly tender Flexibility Services, where aggregators bundle the capacity of private storage systems and heat pumps and use them for local grid stabilisation in exchange for remuneration."
     ],
     "sources": [
-         {
-    "name": "Market Regulation (Ofgem)",
-    "url": "https://www.ofgem.gov.uk/"
-  },
-         {
-    "name": "National Energy System Operator (NESO)",
-    "url": "https://www.neso.energy/"
-  },
-         {
-    "name": "Energy Networks Association (ENA) Guidelines G98/ G99",
-    "url": "https://www.energynetworks.org/publications/all-g98-g99-forms"
-  },
-         {
-    "name": "UK Department for Energy Security and Net Zero",
-    "url": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero"
-  }
-    
+      {
+        "name": "Market Regulation (Ofgem)",
+        "url": "https://www.ofgem.gov.uk/"
+      },
+      {
+        "name": "National Energy System Operator (NESO)",
+        "url": "https://www.neso.energy/"
+      },
+      {
+        "name": "Energy Networks Association: G98/G99 forms (not the complete engineering recommendations)",
+        "url": "https://www.energynetworks.org/publications/all-g98-g99-forms"
+      },
+      {
+        "name": "UK Department for Energy Security and Net Zero",
+        "url": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero"
+      },
+      {
+        "name": "Energy Networks Association – Distributed Generation Guides 2024",
+        "url": "https://www.energynetworks.org/assets/images/Publications/2024/240815-2024-dg-guides-combined-document.pdf?1743005532="
+      },
+      {
+        "name": "Elexon – Market-wide Half-Hourly Settlement",
+        "url": "https://www.elexon.co.uk/bsc/operational/market-wide-half-hourly-settlement/"
+      },
+      {
+        "name": "Ofgem – Connections End-to-End Review 2026",
+        "url": "https://www.ofgem.gov.uk/consultation/connections-end-end-review-updated-proposals-and-next-steps?trk=article-ssr-frontend-pulse_little-text-block"
+      },
+      {
+        "name": "UK Government – Smart Charge Points guidance",
+        "url": "https://www.gov.uk/guidance/regulations-electric-vehicle-smart-charge-points?gad=1"
+      },
+      {
+        "name": "Ofgem – Smart Export Guarantee, guidance for generators",
+        "url": "https://www.ofgem.gov.uk/sites/default/files/docs/2020/02/seg_generator_guidance_-_final_for_publication.pdf"
+      }
     ],
-        "latestUpdates": [
-  "Connection Regulation Reform (Early 2027): Ofgem plans to develop new regulatory requirements for connection data and customer service following consultations closing on 6 November 2026. Final implementation remains subject to decisions"
-]
+    "latestUpdates": [
+      "Ofgem’s 2026 connection review includes consultations closing on 6 November 2026 and further work planned for 2027. Final obligations and commencement dates depend on the relevant decisions and legal instruments."
+    ]
   },
   "Belgium": {
     "title": "Belgium (Flanders)",
-    "summary": "Belgique/ België / Belgien",
-    "gridConnectionProcedure": "The process strictly requires hardware conformity with the Belgian Synergrid list (C10/11). After installation, a physical safety inspection (AREI) by a control body must take place. Upon approval, a digital meter is installed as a priority",
+    "summary": "Belgique / België / Belgien",
+    "gridConnectionProcedure": "For Flanders, generation equipment must meet applicable Synergrid technical requirements: C10/11 is the technical prescription, while C10/26 is the relevant homologation list. Fixed installations generally require AREI conformity inspection and notification to the network operator. Specific plug-and-play arrangements and existing metering must be considered separately.",
     "strategiesvolatility": [
-      "Flanders has completely abolished net metering and primarily combats volatility via grid fees",
-      "Instead of billed kilowatt-hours, a large part of the grid costs is calculated based on the highest measured 15-minute power peak (kW) of the month"
+      "With digital meters in Flanders, electricity imports and exports are recorded separately. The replacement of legacy reversing meters and associated transitional arrangements mean that a blanket statement of complete abolition for every installation is too broad.",
+      "For relevant Flemish customers with digital meters, part of the network tariff is based on monthly maximum quarter-hour average import power, using the applicable averaging and billing rules. A minimum of 2.5 kW applies. Other tariff components remain energy-based, and different arrangements apply to analogue meters and protected categories."
     ],
     "regulatoryFramework": [
-      "The regulatory environment is highly fragmented and dictated regionally",
-      "While Wallonia and Brussels partly still rely on classic systems, Flanders forces extreme local load smoothing through the pure surplus model"
+      "Belgium divides electricity responsibilities between federal and regional authorities. The Flemish network and tariff rules described here must not be applied automatically to Wallonia or Brussels.",
+      "Wallonia and Brussels have their own regulatory and tariff arrangements. The Flemish capacity tariff creates an incentive to manage import peaks but does not require a universal operating pattern for every household."
     ],
     "responsibleInstitutions": [
-      "Alongside the federal CREG",
-      "the regionals VREG (Flanders)",
-      "CWaPE (Wallonia)",
-      "BRUGEL (Brussels)",
-      "In Flanders, the large corporation Fluvius dominates the distribution grid as a monopolist"
+      "CREG is the federal electricity and gas regulator.",
+      "The Vlaamse Nutsregulator, formerly VREG, is the Flemish regulator.",
+      "CWaPE is the regional energy regulator for Wallonia.",
+      "BRUGEL is the regional energy regulator for the Brussels-Capital Region.",
+      "Fluvius operates distribution infrastructure on behalf of the relevant intermunicipal network entities in Flanders."
     ],
-
     "implementationExamples": [
-      "Intelligent Home Energy Management Systems (HEMS) actively throttle the wallbox to a minimum in Flanders as soon as the heat pump or stove is activated in the household, so that the power peak does not rise above the minimum capacity tariff threshold of 2.5 kW"
+      "A home energy management system can reduce coincident EV charging and other demand peaks. The 2.5 kW figure is a minimum billing basis, not a statutory household power limit or a guarantee that all loads can be kept below it."
     ],
     "newconsumersandflexibleloads": [
-      "Battery storage systems record extremely high installation rates due to the capacity tariff, as they function as the primary peak-shaving unit in the home"
+      "Home batteries can reduce import peaks when appropriately sized and controlled. Their economic value depends on tariffs, cycling, losses and investment costs; exceptionally high adoption caused by the capacity tariff has not been demonstrated here."
     ],
     "sources": [
-                {
-    "name": "Flemish Utilities Regulator (VREG)",
-    "url": "https://www.vlaamsenutsregulator.be/"
-  },
-                {
-    "name": "Belgian Federal Commission for Electricity and Gas Regulation (CREG)",
-    "url": "https://www.creg.be/en"
-  },
-                {
-    "name": "Walloon Commission of Energy",
-    "url": "https://www.cwape.be/de"
-  },
-                {
-    "name": "Brussels regulatory authority for electricity, gas and water price control",
-    "url": "https://brugel.brussels/"
-  },
-                {
-    "name": "Synergrid (Network codes C10/11)",
-    "url": "https://www.synergrid.be/images/downloads/technical-prescription-c10-11-ed2-2-20210315-tekst-en.pdf"
-  }
-    
+      {
+        "name": "Vlaamse Nutsregulator (formerly VREG)",
+        "url": "https://www.vlaamsenutsregulator.be/"
+      },
+      {
+        "name": "Belgian Federal Commission for Electricity and Gas Regulation (CREG)",
+        "url": "https://www.creg.be/en"
+      },
+      {
+        "name": "Walloon Commission of Energy",
+        "url": "https://www.cwape.be/de"
+      },
+      {
+        "name": "Brussels regulatory authority for electricity, gas and water price control",
+        "url": "https://brugel.brussels/"
+      },
+      {
+        "name": "Synergrid – technische Homologationsunterlagen",
+        "url": "https://www.synergrid.be/nl/component/content/article/documentencentrum-homologatie-elektriciteit"
+      },
+      {
+        "name": "Fluvius – PV und digitale Zähler",
+        "url": "https://www.fluvius.be/nl/groene-energie/zonnepanelen/voordelen/digitale-meter"
+      },
+      {
+        "name": "Vlaamse Nutsregulator – Kapazitätstarif",
+        "url": "https://www.vlaamsenutsregulator.be/elektriciteit-en-aardgas/nettarieven/capaciteitstarief"
+      },
+      {
+        "name": "Fluvius – Kapazitätstarif auf der Rechnung",
+        "url": "https://www.fluvius.be/nl/factuur-en-tarieven/capaciteitstarief/gezinnen-en-kleine-ondernemingen/op-mijn-factuur"
+      },
+      {
+        "name": "Synergrid – Plug-and-play seit 17.04.2025",
+        "url": "https://www.synergrid.be/nl/homologatie/elektriciteit/plug-play"
+      }
     ],
-        "latestUpdates": [
-  "No important changes at the start of 2027"
-]
+    "latestUpdates": [
+      "Verification note: the review does not establish that no important Flemish electricity-rule or tariff changes will occur at the beginning of 2027."
+    ]
   },
   "Switzerland": {
     "title": "Switzerland",
     "summary": "Schweiz / Suisse / Svizzera / Svizra",
-    "gridConnectionProcedure": "A standardized Technical Connection Request (TAG) is submitted. Following approval and installation by a licensed company, a safety certificate (SiNa) must be provided before the grid operator installs the smart meter and approves the system.",
+    "gridConnectionProcedure": "Applicants follow the responsible DSO’s connection procedure and applicable installation-safety rules, including a technical connection request and safety documentation where required. Metering and commissioning arrangements depend on the installation and network operator; a single mandatory sequence cannot be assumed for every project.",
     "strategiesvolatility": [
-      "Switzerland promotes self-consumption communities (ZEV) to bundle locally generated energy directly behind the connection point and relieve the public grid",
-      "Furthermore, a mandatory smart meter rollout of 80% by the end of 2027 applies"
+      "Self-consumption communities (ZEV) and, under their respective conditions, virtual arrangements enable shared self-consumption. Local electricity communities (LEG), available from 2026, also allow eligible sharing through the public network; they differ from conventional behind-the-meter ZEV.",
+      "The smart-meter transition rule generally requires at least 80% coverage in each network area by the end of 2027, subject to the applicable provisions. This is not a requirement for universal 100% completion by that date."
     ],
     "regulatoryFramework": [
-      "A classic surplus feed-in system is in place",
-      "Feed-in system runs on reference market prices whiche are set quarterly by the Federal office of energy (BFE):",
-      "6 Rp./kWh up to 30 kW and 1,2 Rp./kWh 30-149 kW",
-      "change to hour system in 2027"
+      "Self-consumption and export remuneration operate alongside the applicable renewable support schemes; surplus feed-in is not the only possible commercial arrangement.",
+      "In 2026, the statutory fallback remuneration uses the relevant quarterly reference market price when the producer and network operator have not agreed a price, subject to applicable minimum remuneration.",
+      "For qualifying PV installations, minimum remuneration is 6 Swiss centimes/kWh below 30 kW. From 30 kW to below 150 kW, it is 180/P centimes/kWh with self-consumption, where P is the installation capacity in kW, and 6.2 centimes/kWh without self-consumption.",
+      "From 1 January 2027, the revised statutory fallback remuneration is linked to the market price at the time of feed-in. Minimum-remuneration protection remains, with quarterly settlement of the relevant difference."
     ],
     "responsibleInstitutions": [
-      "The Federal Electricity Commission (ElCom) is the national regulatory authority",
-      "Swissgrid operates the transmission grid",
-      "The distribution grid is fragmented into over 600 extremely small and independent distribution system operators (VNB)"
+      "The Federal Electricity Commission (ElCom) is the national regulatory authority.",
+      "Swissgrid operates the transmission grid.",
+      "Switzerland has many distribution network operators of different sizes; they are not uniformly small or legally independent in the same sense."
     ],
-
     "implementationExamples": [
-      "Since digitalization is partly still being implemented, many local grid operators continue to use hard ripple control",
-      "Private heat pumps and electric boilers are physically disconnected from the grid via signal for up to two hours during the midday peak."
+      "Some DSOs use ripple control or other load-management systems under the applicable technical and contractual arrangements.",
+      "Control or interruption of heat pumps and electric water heaters depends on the relevant DSO and contract. A nationwide rule requiring disconnection for up to two hours at midday has not been established."
     ],
     "newconsumersandflexibleloads": [
-       "Due to the sometimes very low feed-in tariffs locally, homeowners strongly drive the installation of heat pumps and home storage systems to maximize self-consumption"
+      "The relationship between import prices, export remuneration and equipment costs can encourage self-consumption, heat-pump scheduling and storage. Actual adoption and savings are site-specific."
     ],
     "sources": [
-                   {
-    "name": "Federal Electricity Commission (ElCom)",
-    "url": "https://www.elcom.admin.ch/de"
-  },
-                       {
-    "name": "Technical Rules NA-EEA",
-    "url": "https://www.energieuri.ch/wp-content/uploads/2021/02/NA_EEA-NE7-%E2%80%93-CH-2020_neu.pdf"
-  },
-                       {
-    "name": "Swiss Electricity Supply Act (StromVG)",
-    "url": "https://www.bfe.admin.ch/bfe/en/home/supply/electricity-supply/federal-electricity-supply-act.html"
-  }
+      {
+        "name": "Federal Electricity Commission (ElCom)",
+        "url": "https://www.elcom.admin.ch/de"
+      },
+      {
+        "name": "NA/EEA-NE7 – CH 2020 (historical technical guidance; check current DSO requirements)",
+        "url": "https://www.energieuri.ch/wp-content/uploads/2021/02/NA_EEA-NE7-%E2%80%93-CH-2020_neu.pdf"
+      },
+      {
+        "name": "ElCom – FAQ Energiestrategie 2050, Stand 10.02.2026",
+        "url": "https://www.elcom.admin.ch/dam/de/sd-web/weRgj22ICsTE/FAQ%20ES2050%20ab%20Mantelerlass_Update%20vom%2010.02.2026.pdf"
+      },
+      {
+        "name": "BFE – Referenz-Marktpreise",
+        "url": "https://www.bfe.admin.ch/de/referenz-marktpreise"
+      },
+      {
+        "name": "Bundesrat – Verordnungsänderungen, 27.05.2026",
+        "url": "https://www.eda.admin.ch/de/newnsb/dG_O0Uyp3C3luCjhuCUpR"
+      },
+      {
+        "name": "ElCom – Wegleitung Kostenrechnung, Smart-Meter-Vorgaben",
+        "url": "https://www.elcom.admin.ch/de/wegleitung-kore"
+      },
+      {
+        "name": "Bundesrat – zweites Umsetzungspaket, 19.02.2025",
+        "url": "https://www.ebgb.admin.ch/de/nsb?id=104172"
+      }
     ],
-        "latestUpdates": [
-  "No important changes at the start of 2027"
-]
+    "latestUpdates": [
+      "A material change is already scheduled for 1 January 2027: the revised statutory fallback export-remuneration method links remuneration to the market price at the time of feed-in while retaining minimum-remuneration protection."
+    ]
   }
 }
